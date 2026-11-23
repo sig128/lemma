@@ -1,0 +1,51 @@
+{
+ "generated_at": "2026-11-23T18:33:22+00:00",
+ "pari_version": "2.19.1",
+ "files": [
+  {
+   "id": "11a1",
+   "lmfdb": "11.a2",
+   "tex": "y^2 + y = x^3 - x^2 - 10x - 20",
+   "conductor": 11,
+   "rank": 0,
+   "sha256": "19833351f616688cf0d58fd5b505a636d96a6e14fb70959035e3dc1c1bec3759"
+  },
+  {
+   "id": "37a1",
+   "lmfdb": "37.a1",
+   "tex": "y^2 + y = x^3 - x",
+   "conductor": 37,
+   "rank": 1,
+   "sha256": "45d7b94d5adb94a5f899a30952db7afe05aff162695d6a99decfd62fae8c074f"
+  },
+  {
+   "id": "389a1",
+   "lmfdb": "389.a1",
+   "tex": "y^2 + y = x^3 + x^2 - 2x",
+   "conductor": 389,
+   "rank": 2,
+   "sha256": "d31cc78ee660359a1b13db888d8aaa1e6e983ac83d0d65526cf49bff5692daf2"
+  },
+  {
+   "id": "5077a1",
+   "lmfdb": "5077.a1",
+   "tex": "y^2 + y = x^3 - 7x + 6",
+   "conductor": 5077,
+   "rank": 3,
+   "sha256": "975f9bf2a0e09a1959e4dfe582c9455c36e652f5454ea44f5fdb3e9e74987b06"
+  },
+  {
+   "id": "234446a1",
+   "lmfdb": "234446.a1",
+   "tex": "y^2 + xy = x^3 - x^2 - 79x + 289",
+   "conductor": 234446,
+   "rank": 4,
+   "sha256": "5315aabe2c850420ee9b243dc4937d612f900462090951c81466257dbd29f46c"
+  },
+  {
+   "id": "twists-11a1",
+   "sha256": "31d046b24897d177a896cb1b41998de1540ad9f337787e986bcde6e9b863da92",
+   "count": 1116
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+# Always-on stack: PostgreSQL, two research workers, and the web app in live mode.
+# Untested here (the build environment had no container runtime); the bare-metal steps in
+# docs/RUNBOOK.md are the path that was exercised. Copy .env.example to .env first.
+services:
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: noether
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change-me}
+      POSTGRES_DB: noether
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U noether"]
+      interval: 5s
+      retries: 20
+    restart: unless-stopped
+
+  worker-1: &worker
+    build: { context: ., dockerfile: research/Dockerfile }
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql://noether:${POSTGRES_PASSWORD:-change-me}@db:5432/noether
+      WORKER_ID: worker-1
+    volumes:
+      - state:/var/lib/noether        # artifacts/ and arxiv-cache/ (shared by the workers)
+    depends_on:
+      db: { condition: service_healthy }
+    restart: unless-stopped
+    read_only: true
+    tmpfs: [/tmp]
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: [ALL]
+    mem_limit: 6g
+
+  worker-2:
+    <<: *worker
+    environment:
+      DATABASE_URL: postgresql://noether:${POSTGRES_PASSWORD:-change-me}@db:5432/noether
+      WORKER_ID: worker-2
+
+  web:
+    build: { context: web }
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql://noether:${POSTGRES_PASSWORD:-change-me}@db:5432/noether
+    ports: ["3000:3000"]
+    depends_on:
+      db: { condition: service_healthy }
+    restart: unless-stopped
+
+volumes:
+  pgdata:
+  state:

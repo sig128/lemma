@@ -1,0 +1,388 @@
+{
+ "id": "37a1",
+ "cremona_label": "37a1",
+ "lmfdb_label": "37.a1",
+ "ainvs": [
+  0,
+  0,
+  1,
+  -1,
+  0
+ ],
+ "equation_tex": "y^2 + y = x^3 - x",
+ "note": "Smallest conductor with positive rank. Rank 1.",
+ "conductor": 37,
+ "discriminant": "37",
+ "j_invariant": "110592/37",
+ "torsion": {
+  "order": 1,
+  "structure": [],
+  "generators": [],
+  "exactness": "exact"
+ },
+ "root_number": -1,
+ "local_data": [
+  {
+   "p": 37,
+   "conductor_exponent": 1,
+   "kodaira": "I1",
+   "c_p": 1
+  }
+ ],
+ "tamagawa_product": 1,
+ "rank_bounds": {
+  "lower": 1,
+  "upper": 1,
+  "sha_2_info_s": 0,
+  "exactness": "exact",
+  "method": "PARI ellrank: 2-descent. Lower bound from exhibited independent points; upper bound from the 2-Selmer rank minus torsion and the even quantity s (documented by PARI as computed unconditionally)."
+ },
+ "generators": [
+  [
+   "0",
+   "-1"
+  ]
+ ],
+ "saturation": {
+  "bound": 200,
+  "meaning": "Index of the subgroup generated is not divisible by any prime < 200 (PARI ellsaturation)."
+ },
+ "canonical_heights": [
+  "0.051111408239968840236"
+ ],
+ "regulator": "0.051111408239968840236",
+ "analytic": {
+  "order_numerical": 1,
+  "leading_derivative": "0.30599977383405230182",
+  "leading_over_factorial": "0.30599977383405230182",
+  "threshold_eps": "1.026e-19",
+  "status": "established",
+  "summary": "ord_(s=1) L(E,s) = 1: lower derivatives vanish by theorem; L^(1)(E,1) is numerically nonzero.",
+  "method": "PARI ellanalyticrank and lfun. PARI documents that values below eps are assumed to be zero; the order it reports is numerical.",
+  "derivatives_at_1": [
+   {
+    "k": 0,
+    "value": "0.e-58",
+    "status": "zero-theorem",
+    "reason": "Root number w = -1: the functional equation forces every derivative of order k with (-1)^k = -w to vanish."
+   },
+   {
+    "k": 1,
+    "value": "0.30599977383405230182",
+    "status": "nonzero-numerical",
+    "reason": "Numerically nonzero with a margin far above the working precision (PARI floating point, not interval arithmetic)."
+   }
+  ]
+ },
+ "rank_equality": {
+  "status": "theorem",
+  "text": "Rank equality holds: analytic rank <= 1, so Gross-Zagier + Kolyvagin apply (with modularity)."
+ },
+ "bsd_refinement": {
+  "ellbsd_constant": "5.9869172924639192597",
+  "sha_analytic": "1.00000000000000",
+  "meaning": "sha_analytic = (L^(r)(E,1)/r!) / (ellbsd(E) * Regulator). The full BSD formula predicts this equals #Sha(E/Q). This is a numerical consistency check of the leading-coefficient refinement, separate from rank equality.",
+  "exactness": "numerical"
+ },
+ "L_real_samples": {
+  "s": [
+   0.4,
+   0.42,
+   0.44,
+   0.46,
+   0.48,
+   0.5,
+   0.52,
+   0.54,
+   0.56,
+   0.58,
+   0.6,
+   0.62,
+   0.64,
+   0.66,
+   0.68,
+   0.7,
+   0.72,
+   0.74,
+   0.76,
+   0.78,
+   0.8,
+   0.82,
+   0.84,
+   0.86,
+   0.88,
+   0.9,
+   0.92,
+   0.94,
+   0.96,
+   0.98,
+   1.0,
+   1.02,
+   1.04,
+   1.06,
+   1.08,
+   1.1,
+   1.12,
+   1.14,
+   1.16,
+   1.18,
+   1.2,
+   1.22,
+   1.24,
+   1.26,
+   1.28,
+   1.3,
+   1.32,
+   1.34,
+   1.36,
+   1.38,
+   1.4,
+   1.42,
+   1.44,
+   1.46,
+   1.48,
+   1.5,
+   1.52,
+   1.54,
+   1.56,
+   1.58,
+   1.6
+  ],
+  "L": [
+   -0.08689655000419094,
+   -0.0879550662151401,
+   -0.08869655760373997,
+   -0.08912379197162847,
+   -0.08923996009868376,
+   -0.08904864690933181,
+   -0.088553803528689,
+   -0.0877597202395772,
+   -0.08667100034793002,
+   -0.08529253496086082,
+   -0.083629478678674,
+   -0.08168722619935548,
+   -0.07947138983156869,
+   -0.07698777790989125,
+   -0.07424237410394736,
+   -0.07124131761120885,
+   -0.06799088422154145,
+   -0.06449746824005466,
+   -0.06076756525345919,
+   -0.05680775572393966,
+   -0.052624689393498146,
+   -0.04822507048081075,
+   -0.0436156436518531,
+   -0.03880318074488439,
+   -0.033794468229824404,
+   -0.028596295381606837,
+   -0.02321544314673656,
+   -0.017658673682012353,
+   -0.011932720544192421,
+   -0.006044279509271545,
+   0.0,
+   0.006193522899700658,
+   0.012529755864686491,
+   0.019002234204029914,
+   0.02560456821288883,
+   0.032330449021518534,
+   0.039173653961871516,
+   0.046128051471927826,
+   0.05318760555756511,
+   0.060346379831416115,
+   0.06759854114777629,
+   0.07493836285221728,
+   0.08236022766413781,
+   0.08985863021004364,
+   0.09742817922489508,
+   0.10506359943839798,
+   0.11275973316264264,
+   0.12051154159701719,
+   0.1283141058658408,
+   0.13616262780367708,
+   0.14405243050280292,
+   0.15197895863682304,
+   0.1599377785739371,
+   0.16792457829288632,
+   0.17593516711412974,
+   0.18396547525832985,
+   0.19201155324376168,
+   0.2000695711338005,
+   0.20813581764519307,
+   0.2162066991273734,
+   0.22427873842265003
+  ],
+  "exactness": "numerical"
+ },
+ "point_search": {
+  "height_bound": 400,
+  "points": [
+   [
+    "-1",
+    "0"
+   ],
+   [
+    "-1",
+    "-1"
+   ],
+   [
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "-1"
+   ],
+   [
+    "1",
+    "0"
+   ],
+   [
+    "1",
+    "-1"
+   ],
+   [
+    "2",
+    "2"
+   ],
+   [
+    "2",
+    "-3"
+   ],
+   [
+    "6",
+    "14"
+   ],
+   [
+    "6",
+    "-15"
+   ],
+   [
+    "1/4",
+    "-3/8"
+   ],
+   [
+    "1/4",
+    "-5/8"
+   ],
+   [
+    "-5/9",
+    "8/27"
+   ],
+   [
+    "-5/9",
+    "-35/27"
+   ],
+   [
+    "161/16",
+    "2001/64"
+   ],
+   [
+    "161/16",
+    "-2065/64"
+   ],
+   [
+    "21/25",
+    "-56/125"
+   ],
+   [
+    "21/25",
+    "-69/125"
+   ],
+   [
+    "-20/49",
+    "92/343"
+   ],
+   [
+    "-20/49",
+    "-435/343"
+   ]
+  ],
+  "count": 20,
+  "meaning": "Affine rational points with naive height below 400 returned by PARI ellratpoints. The point at infinity O is the identity and is not listed. For rank > 0, E(Q) is infinite, so any finite search is incomplete.",
+  "exactness": "exact"
+ },
+ "generator_combinations": [
+  {
+   "coeffs": [
+    1
+   ],
+   "x": "0",
+   "y": "-1"
+  },
+  {
+   "coeffs": [
+    2
+   ],
+   "x": "1",
+   "y": "-1"
+  },
+  {
+   "coeffs": [
+    3
+   ],
+   "x": "-1",
+   "y": "0"
+  },
+  {
+   "coeffs": [
+    4
+   ],
+   "x": "2",
+   "y": "2"
+  },
+  {
+   "coeffs": [
+    5
+   ],
+   "x": "1/4",
+   "y": "-3/8"
+  },
+  {
+   "coeffs": [
+    6
+   ],
+   "x": "6",
+   "y": "-15"
+  },
+  {
+   "coeffs": [
+    7
+   ],
+   "x": "-5/9",
+   "y": "-35/27"
+  },
+  {
+   "coeffs": [
+    8
+   ],
+   "x": "21/25",
+   "y": "-56/125"
+  }
+ ],
+ "provenance": {
+  "tool": "PARI/GP via cypari2",
+  "pari_version": "2.19.1",
+  "cypari2_version": "2.2.9",
+  "python": "3.13.18",
+  "realprecision_digits": 38,
+  "functions": [
+   "ellinit",
+   "ellglobalred",
+   "elltors",
+   "ellrootno",
+   "ellrank",
+   "ellsaturation",
+   "ellheightmatrix",
+   "ellheight",
+   "ellanalyticrank",
+   "lfun",
+   "ellbsd",
+   "ellratpoints",
+   "ellmul",
+   "elladd"
+  ],
+  "computed_at": "2026-11-23T18:33:22+00:00",
+  "script": "research/scripts/gen_bsd.py",
+  "wall_seconds": 0.056
+ }
+}

@@ -1,0 +1,22 @@
+# dependencies and builds
+node_modules/
+web/.next/
+web/out/
+web/next-env.d.ts
+web/tsconfig.tsbuildinfo
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# local runtime state (artifacts, logs, caches); recorded runs live in web/public/data/runs
+var/
+
+# secrets
+.env
+.env.*
+!.env.example
+
+# editor and OS
+.DS_Store
+.vscode/
+.idea/

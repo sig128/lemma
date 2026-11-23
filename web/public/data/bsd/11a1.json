@@ -1,0 +1,261 @@
+{
+ "id": "11a1",
+ "cremona_label": "11a1",
+ "lmfdb_label": "11.a2",
+ "ainvs": [
+  0,
+  -1,
+  1,
+  -10,
+  -20
+ ],
+ "equation_tex": "y^2 + y = x^3 - x^2 - 10x - 20",
+ "note": "Smallest conductor of any elliptic curve over Q. Rank 0, torsion of order 5.",
+ "conductor": 11,
+ "discriminant": "-161051",
+ "j_invariant": "-122023936/161051",
+ "torsion": {
+  "order": 5,
+  "structure": [
+   5
+  ],
+  "generators": [
+   [
+    "5",
+    "5"
+   ]
+  ],
+  "exactness": "exact"
+ },
+ "root_number": 1,
+ "local_data": [
+  {
+   "p": 11,
+   "conductor_exponent": 1,
+   "kodaira": "I5",
+   "c_p": 5
+  }
+ ],
+ "tamagawa_product": 5,
+ "rank_bounds": {
+  "lower": 0,
+  "upper": 0,
+  "sha_2_info_s": 0,
+  "exactness": "exact",
+  "method": "PARI ellrank: 2-descent. Lower bound from exhibited independent points; upper bound from the 2-Selmer rank minus torsion and the even quantity s (documented by PARI as computed unconditionally)."
+ },
+ "generators": [],
+ "saturation": {
+  "bound": 200,
+  "meaning": "Index of the subgroup generated is not divisible by any prime < 200 (PARI ellsaturation)."
+ },
+ "canonical_heights": [],
+ "regulator": "1.0000000000000000000",
+ "analytic": {
+  "order_numerical": 0,
+  "leading_derivative": "0.25384186085591068434",
+  "leading_over_factorial": "0.25384186085591068434",
+  "threshold_eps": "1.026e-19",
+  "status": "established",
+  "summary": "ord_(s=1) L(E,s) = 0: lower derivatives vanish by theorem; L^(0)(E,1) is numerically nonzero.",
+  "method": "PARI ellanalyticrank and lfun. PARI documents that values below eps are assumed to be zero; the order it reports is numerical.",
+  "derivatives_at_1": [
+   {
+    "k": 0,
+    "value": "0.25384186085591068434",
+    "status": "nonzero-numerical",
+    "reason": "Numerically nonzero with a margin far above the working precision (PARI floating point, not interval arithmetic)."
+   }
+  ]
+ },
+ "rank_equality": {
+  "status": "theorem",
+  "text": "Rank equality holds: analytic rank <= 1, so Gross-Zagier + Kolyvagin apply (with modularity)."
+ },
+ "bsd_refinement": {
+  "ellbsd_constant": "0.25384186085591068434",
+  "sha_analytic": "1.00000000000000",
+  "meaning": "sha_analytic = (L^(r)(E,1)/r!) / (ellbsd(E) * Regulator). The full BSD formula predicts this equals #Sha(E/Q). This is a numerical consistency check of the leading-coefficient refinement, separate from rank equality.",
+  "exactness": "numerical"
+ },
+ "L_real_samples": {
+  "s": [
+   0.4,
+   0.42,
+   0.44,
+   0.46,
+   0.48,
+   0.5,
+   0.52,
+   0.54,
+   0.56,
+   0.58,
+   0.6,
+   0.62,
+   0.64,
+   0.66,
+   0.68,
+   0.7,
+   0.72,
+   0.74,
+   0.76,
+   0.78,
+   0.8,
+   0.82,
+   0.84,
+   0.86,
+   0.88,
+   0.9,
+   0.92,
+   0.94,
+   0.96,
+   0.98,
+   1.0,
+   1.02,
+   1.04,
+   1.06,
+   1.08,
+   1.1,
+   1.12,
+   1.14,
+   1.16,
+   1.18,
+   1.2,
+   1.22,
+   1.24,
+   1.26,
+   1.28,
+   1.3,
+   1.32,
+   1.34,
+   1.36,
+   1.38,
+   1.4,
+   1.42,
+   1.44,
+   1.46,
+   1.48,
+   1.5,
+   1.52,
+   1.54,
+   1.56,
+   1.58,
+   1.6
+  ],
+  "L": [
+   0.08165799616014975,
+   0.08667192118557555,
+   0.0917574674893027,
+   0.09691224754257344,
+   0.10213387532162714,
+   0.10741996850953482,
+   0.11276815060782436,
+   0.11817605295906025,
+   0.12364131668162547,
+   0.129161594518031,
+   0.13473455259814898,
+   0.1403578721188289,
+   0.1460292509414152,
+   0.15174640510873433,
+   0.15750707028316768,
+   0.16330900310746463,
+   0.16914998248998744,
+   0.1750278108161083,
+   0.18094031508750508,
+   0.1868853479911234,
+   0.1928607888995891,
+   0.19886454480486748,
+   0.2048945511869762,
+   0.2109487728195618,
+   0.2170252045141537,
+   0.22312187180490722,
+   0.22923683157564348,
+   0.23536817263098633,
+   0.24151401621338817,
+   0.2476725164678228,
+   0.2538418608559107,
+   0.26002027052122445,
+   0.26620600060750454,
+   0.27239734053149545,
+   0.2785926142120892,
+   0.28479018025744246,
+   0.2909884321117053,
+   0.2971857981629776,
+   0.3033807418140783,
+   0.3095717615176879,
+   0.31575739077739257,
+   0.32193619811613117,
+   0.32810678701351453,
+   0.3342677958134547,
+   0.34041789760351243,
+   0.3465558000673359,
+   0.35268024531153547,
+   0.35879000966830216,
+   0.36488390347504784,
+   0.37096077083231105,
+   0.37701948934113905,
+   0.38305896982112403,
+   0.38907815601023815,
+   0.3950760242475797,
+   0.4010515831401085,
+   0.4070038732144184,
+   0.41293196655455916,
+   0.4188349664268919,
+   0.4247120068929263,
+   0.4305622524110602,
+   0.4363848974281076
+  ],
+  "exactness": "numerical"
+ },
+ "point_search": {
+  "height_bound": 400,
+  "points": [
+   [
+    "5",
+    "5"
+   ],
+   [
+    "5",
+    "-6"
+   ],
+   [
+    "16",
+    "60"
+   ],
+   [
+    "16",
+    "-61"
+   ]
+  ],
+  "count": 4,
+  "meaning": "Affine rational points with naive height below 400 returned by PARI ellratpoints. The point at infinity O is the identity and is not listed. For rank > 0, E(Q) is infinite, so any finite search is incomplete.",
+  "exactness": "exact"
+ },
+ "generator_combinations": [],
+ "provenance": {
+  "tool": "PARI/GP via cypari2",
+  "pari_version": "2.19.1",
+  "cypari2_version": "2.2.9",
+  "python": "3.13.18",
+  "realprecision_digits": 38,
+  "functions": [
+   "ellinit",
+   "ellglobalred",
+   "elltors",
+   "ellrootno",
+   "ellrank",
+   "ellsaturation",
+   "ellheightmatrix",
+   "ellheight",
+   "ellanalyticrank",
+   "lfun",
+   "ellbsd",
+   "ellratpoints",
+   "ellmul",
+   "elladd"
+  ],
+  "computed_at": "2026-11-23T18:33:22+00:00",
+  "script": "research/scripts/gen_bsd.py",
+  "wall_seconds": 0.051
+ }
+}

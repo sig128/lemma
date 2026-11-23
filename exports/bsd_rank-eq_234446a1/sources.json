@@ -1,0 +1,90 @@
+[
+ {
+  "id": "wiles-flt",
+  "title": "Modular elliptic curves and Fermat's Last Theorem",
+  "authors": [
+   "Andrew Wiles"
+  ],
+  "year": 1995,
+  "doi": "10.2307/2118559",
+  "arxiv_id": null,
+  "canonical_url": "https://doi.org/10.2307/2118559",
+  "retrieval_status": "metadata-only",
+  "retrieved_at": null,
+  "content_sha256": null
+ },
+ {
+  "id": "bcdt",
+  "title": "On the modularity of elliptic curves over Q: wild 3-adic exercises",
+  "authors": [
+   "C. Breuil",
+   "B. Conrad",
+   "F. Diamond",
+   "R. Taylor"
+  ],
+  "year": 2001,
+  "doi": "10.1090/S0894-0347-01-00370-8",
+  "arxiv_id": null,
+  "canonical_url": "https://doi.org/10.1090/S0894-0347-01-00370-8",
+  "retrieval_status": "metadata-only",
+  "retrieved_at": null,
+  "content_sha256": null
+ },
+ {
+  "id": "gross-zagier",
+  "title": "Heegner points and derivatives of L-series",
+  "authors": [
+   "Benedict H. Gross",
+   "Don B. Zagier"
+  ],
+  "year": 1986,
+  "doi": "10.1007/BF01388809",
+  "arxiv_id": null,
+  "canonical_url": "https://doi.org/10.1007/BF01388809",
+  "retrieval_status": "metadata-only",
+  "retrieved_at": null,
+  "content_sha256": null
+ },
+ {
+  "id": "kolyvagin-euler",
+  "title": "Euler systems",
+  "authors": [
+   "Victor A. Kolyvagin"
+  ],
+  "year": 1990,
+  "doi": null,
+  "arxiv_id": null,
+  "canonical_url": "https://doi.org/10.1007/978-0-8176-4575-5_11",
+  "retrieval_status": "metadata-only",
+  "retrieved_at": null,
+  "content_sha256": null
+ },
+ {
+  "id": "pari-elliptic",
+  "title": "PARI/GP reference: elliptic curves (ellrank, ellanalyticrank, ellsaturation, ellratpoints)",
+  "authors": [
+   "The PARI Group"
+  ],
+  "year": 2026,
+  "doi": null,
+  "arxiv_id": null,
+  "canonical_url": "https://pari.math.u-bordeaux.fr/dochtml/html/Elliptic_curves.html",
+  "retrieval_status": "retrieved",
+  "retrieved_at": "2026-11-23T00:00:00Z",
+  "content_sha256": null
+ },
+ {
+  "id": "wiles-bsd",
+  "title": "The Birch and Swinnerton-Dyer Conjecture (official problem description)",
+  "authors": [
+   "Andrew Wiles"
+  ],
+  "year": 2000,
+  "doi": null,
+  "arxiv_id": null,
+  "canonical_url": "https://www.claymath.org/wp-content/uploads/2022/05/birchswin.pdf",
+  "retrieval_status": "retrieved",
+  "retrieved_at": "2026-11-23T00:00:00Z",
+  "content_sha256": null
+ }
+]

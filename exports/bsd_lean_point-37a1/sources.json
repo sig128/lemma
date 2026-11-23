@@ -1,0 +1,16 @@
+[
+ {
+  "id": "wiles-bsd",
+  "title": "The Birch and Swinnerton-Dyer Conjecture (official problem description)",
+  "authors": [
+   "Andrew Wiles"
+  ],
+  "year": 2000,
+  "doi": null,
+  "arxiv_id": null,
+  "canonical_url": "https://www.claymath.org/wp-content/uploads/2022/05/birchswin.pdf",
+  "retrieval_status": "retrieved",
+  "retrieved_at": "2026-11-23T00:00:00Z",
+  "content_sha256": null
+ }
+]

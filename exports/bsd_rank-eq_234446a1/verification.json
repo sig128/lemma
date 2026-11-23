@@ -1,0 +1,33 @@
+[
+ {
+  "id": "ver-40c77d059460c031",
+  "statement_id": "bsd:rank-eq:234446a1",
+  "statement_sha256": "be2a437e29cb6d2b668fd1dc50412ffeebc4360a607a604ab392bb9af48346e6",
+  "kind": "computation",
+  "result": "passed",
+  "scope": "PARI invariants for 234446a1",
+  "toolchain": {
+   "pari": "2.19.1",
+   "functions": [
+    "ellinit",
+    "ellglobalred",
+    "elltors",
+    "ellrank",
+    "ellsaturation",
+    "ellheightmatrix",
+    "ellrootno",
+    "ellanalyticrank",
+    "lfun"
+   ],
+   "realprecision": 38
+  },
+  "axioms": null,
+  "findings": [
+   "result hash matches the original run"
+  ],
+  "reproducer": "PYTHONPATH=research python3 -m noether_engine.domains.bsd < request.json",
+  "log_artifact": null,
+  "reviewer": "Auditor (fresh process)",
+  "checked_at": "2026-11-23T20:13:29.033096Z"
+ }
+]

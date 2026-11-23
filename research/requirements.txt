@@ -1,0 +1,10 @@
+# Research engine and data scripts. Versions are the ones the recorded campaign ran with
+# (Python 3.13, PARI/GP 2.19.1 bundled with cypari2, PostgreSQL 17). Install with:
+#   python3 -m pip install -r research/requirements.txt
+cypari2==2.2.9
+psycopg[binary]==3.3.9
+mpmath==1.3.0
+sympy==1.14.0
+numpy==2.5.3        # research/scripts/gen_hodge.py only
+anthropic==2.12.0   # imported lazily; only needed when ANTHROPIC_API_KEY is set
+pytest==9.1.1       # tests

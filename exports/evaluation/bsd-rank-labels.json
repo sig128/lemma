@@ -1,0 +1,488 @@
+{
+ "suite": "bsd-rank-labels",
+ "digits": 38,
+ "strategies": {
+  "classify": {
+   "strategy": "ARITHMETIC-classify-f7f1e9b803ad",
+   "splits": {
+    "dev": {
+     "n": 5,
+     "correct": 5,
+     "false_positives": 0,
+     "false_negatives": 0,
+     "run": "eval-ARITHMETIC-classify-f7f1e9b803ad-dev-1795464829"
+    },
+    "heldout": {
+     "n": 6,
+     "correct": 6,
+     "false_positives": 0,
+     "false_negatives": 0,
+     "run": "eval-ARITHMETIC-classify-f7f1e9b803ad-heldout-1795464829"
+    }
+   },
+   "cases": [
+    {
+     "curve": "11a1",
+     "ainvs": [
+      0,
+      -1,
+      1,
+      -10,
+      -20
+     ],
+     "split": "dev",
+     "rank": 0,
+     "expected": "verified-instance",
+     "got": "verified-instance",
+     "rank_computed": [
+      0,
+      0
+     ],
+     "analytic_order_numerical": 0,
+     "seconds": 0.07
+    },
+    {
+     "curve": "37a1",
+     "ainvs": [
+      0,
+      0,
+      1,
+      -1,
+      0
+     ],
+     "split": "dev",
+     "rank": 1,
+     "expected": "verified-instance",
+     "got": "verified-instance",
+     "rank_computed": [
+      1,
+      1
+     ],
+     "analytic_order_numerical": 1,
+     "seconds": 0.08
+    },
+    {
+     "curve": "389a1",
+     "ainvs": [
+      0,
+      1,
+      1,
+      -2,
+      0
+     ],
+     "split": "dev",
+     "rank": 2,
+     "expected": "verified-instance",
+     "got": "verified-instance",
+     "rank_computed": [
+      2,
+      2
+     ],
+     "analytic_order_numerical": 2,
+     "seconds": 0.09
+    },
+    {
+     "curve": "5077a1",
+     "ainvs": [
+      0,
+      0,
+      1,
+      -7,
+      6
+     ],
+     "split": "dev",
+     "rank": 3,
+     "expected": "verified-instance",
+     "got": "verified-instance",
+     "rank_computed": [
+      3,
+      3
+     ],
+     "analytic_order_numerical": 3,
+     "seconds": 0.1
+    },
+    {
+     "curve": "234446a1",
+     "ainvs": [
+      1,
+      -1,
+      0,
+      -79,
+      289
+     ],
+     "split": "dev",
+     "rank": 4,
+     "expected": "open",
+     "got": "open",
+     "rank_computed": [
+      4,
+      4
+     ],
+     "analytic_order_numerical": 4,
+     "seconds": 0.16
+    },
+    {
+     "curve": "14a1",
+     "ainvs": [
+      1,
+      0,
+      1,
+      4,
+      -6
+     ],
+     "split": "heldout",
+     "rank": 0,
+     "expected": "verified-instance",
+     "got": "verified-instance",
+     "rank_computed": [
+      0,
+      0
+     ],
+     "analytic_order_numerical": 0,
+     "seconds": 0.06
+    },
+    {
+     "curve": "15a1",
+     "ainvs": [
+      1,
+      1,
+      1,
+      -10,
+      -10
+     ],
+     "split": "heldout",
+     "rank": 0,
+     "expected": "verified-instance",
+     "got": "verified-instance",
+     "rank_computed": [
+      0,
+      0
+     ],
+     "analytic_order_numerical": 0,
+     "seconds": 0.06
+    },
+    {
+     "curve": "43a1",
+     "ainvs": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "split": "heldout",
+     "rank": 1,
+     "expected": "verified-instance",
+     "got": "verified-instance",
+     "rank_computed": [
+      1,
+      1
+     ],
+     "analytic_order_numerical": 1,
+     "seconds": 0.1
+    },
+    {
+     "curve": "53a1",
+     "ainvs": [
+      1,
+      -1,
+      1,
+      0,
+      0
+     ],
+     "split": "heldout",
+     "rank": 1,
+     "expected": "verified-instance",
+     "got": "verified-instance",
+     "rank_computed": [
+      1,
+      1
+     ],
+     "analytic_order_numerical": 1,
+     "seconds": 0.08
+    },
+    {
+     "curve": "433a1",
+     "ainvs": [
+      1,
+      0,
+      0,
+      0,
+      1
+     ],
+     "split": "heldout",
+     "rank": 2,
+     "expected": "verified-instance",
+     "got": "verified-instance",
+     "rank_computed": [
+      2,
+      2
+     ],
+     "analytic_order_numerical": 2,
+     "seconds": 0.09
+    },
+    {
+     "curve": "19047851a1",
+     "ainvs": [
+      0,
+      0,
+      1,
+      -79,
+      342
+     ],
+     "split": "heldout",
+     "rank": 5,
+     "expected": "open",
+     "got": "open",
+     "rank_computed": [
+      5,
+      5
+     ],
+     "analytic_order_numerical": 5,
+     "seconds": 0.55
+    }
+   ]
+  },
+  "naive-baseline": {
+   "strategy": "ARITHMETIC-naive-baseline-4dae7d330e38",
+   "splits": {
+    "dev": {
+     "n": 5,
+     "correct": 4,
+     "false_positives": 1,
+     "false_negatives": 0,
+     "run": "eval-ARITHMETIC-naive-baseline-4dae7d330e38-dev-1795464829"
+    },
+    "heldout": {
+     "n": 6,
+     "correct": 5,
+     "false_positives": 1,
+     "false_negatives": 0,
+     "run": "eval-ARITHMETIC-naive-baseline-4dae7d330e38-heldout-1795464829"
+    }
+   },
+   "cases": [
+    {
+     "curve": "11a1",
+     "ainvs": [
+      0,
+      -1,
+      1,
+      -10,
+      -20
+     ],
+     "split": "dev",
+     "rank": 0,
+     "expected": "verified-instance",
+     "got": "verified-instance",
+     "rank_computed": [
+      0,
+      0
+     ],
+     "analytic_order_numerical": 0,
+     "seconds": 0.07
+    },
+    {
+     "curve": "37a1",
+     "ainvs": [
+      0,
+      0,
+      1,
+      -1,
+      0
+     ],
+     "split": "dev",
+     "rank": 1,
+     "expected": "verified-instance",
+     "got": "verified-instance",
+     "rank_computed": [
+      1,
+      1
+     ],
+     "analytic_order_numerical": 1,
+     "seconds": 0.08
+    },
+    {
+     "curve": "389a1",
+     "ainvs": [
+      0,
+      1,
+      1,
+      -2,
+      0
+     ],
+     "split": "dev",
+     "rank": 2,
+     "expected": "verified-instance",
+     "got": "verified-instance",
+     "rank_computed": [
+      2,
+      2
+     ],
+     "analytic_order_numerical": 2,
+     "seconds": 0.09
+    },
+    {
+     "curve": "5077a1",
+     "ainvs": [
+      0,
+      0,
+      1,
+      -7,
+      6
+     ],
+     "split": "dev",
+     "rank": 3,
+     "expected": "verified-instance",
+     "got": "verified-instance",
+     "rank_computed": [
+      3,
+      3
+     ],
+     "analytic_order_numerical": 3,
+     "seconds": 0.1
+    },
+    {
+     "curve": "234446a1",
+     "ainvs": [
+      1,
+      -1,
+      0,
+      -79,
+      289
+     ],
+     "split": "dev",
+     "rank": 4,
+     "expected": "open",
+     "got": "verified-instance",
+     "rank_computed": [
+      4,
+      4
+     ],
+     "analytic_order_numerical": 4,
+     "seconds": 0.16
+    },
+    {
+     "curve": "14a1",
+     "ainvs": [
+      1,
+      0,
+      1,
+      4,
+      -6
+     ],
+     "split": "heldout",
+     "rank": 0,
+     "expected": "verified-instance",
+     "got": "verified-instance",
+     "rank_computed": [
+      0,
+      0
+     ],
+     "analytic_order_numerical": 0,
+     "seconds": 0.06
+    },
+    {
+     "curve": "15a1",
+     "ainvs": [
+      1,
+      1,
+      1,
+      -10,
+      -10
+     ],
+     "split": "heldout",
+     "rank": 0,
+     "expected": "verified-instance",
+     "got": "verified-instance",
+     "rank_computed": [
+      0,
+      0
+     ],
+     "analytic_order_numerical": 0,
+     "seconds": 0.06
+    },
+    {
+     "curve": "43a1",
+     "ainvs": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "split": "heldout",
+     "rank": 1,
+     "expected": "verified-instance",
+     "got": "verified-instance",
+     "rank_computed": [
+      1,
+      1
+     ],
+     "analytic_order_numerical": 1,
+     "seconds": 0.1
+    },
+    {
+     "curve": "53a1",
+     "ainvs": [
+      1,
+      -1,
+      1,
+      0,
+      0
+     ],
+     "split": "heldout",
+     "rank": 1,
+     "expected": "verified-instance",
+     "got": "verified-instance",
+     "rank_computed": [
+      1,
+      1
+     ],
+     "analytic_order_numerical": 1,
+     "seconds": 0.08
+    },
+    {
+     "curve": "433a1",
+     "ainvs": [
+      1,
+      0,
+      0,
+      0,
+      1
+     ],
+     "split": "heldout",
+     "rank": 2,
+     "expected": "verified-instance",
+     "got": "verified-instance",
+     "rank_computed": [
+      2,
+      2
+     ],
+     "analytic_order_numerical": 2,
+     "seconds": 0.09
+    },
+    {
+     "curve": "19047851a1",
+     "ainvs": [
+      0,
+      0,
+      1,
+      -79,
+      342
+     ],
+     "split": "heldout",
+     "rank": 5,
+     "expected": "open",
+     "got": "verified-instance",
+     "rank_computed": [
+      5,
+      5
+     ],
+     "analytic_order_numerical": 5,
+     "seconds": 0.55
+    }
+   ]
+  }
+ }
+}

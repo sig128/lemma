@@ -1,0 +1,30 @@
+[
+ {
+  "id": "art-506cef63dd37f5c5",
+  "sha256": "506cef63dd37f5c56314648efb551d7de42eb3293157a3b3bde437a1107b4c39",
+  "kind": "bsd.invariants",
+  "title": "PARI invariants for 389a1",
+  "task_id": "T06",
+  "exactness": "mixed",
+  "conditional_flags": [],
+  "reproducer": "echo '{\"op\":\"invariants\",\"args\":{\"ainvs\":[0, 1, 1, -2, 0]}}' | PYTHONPATH=research python3 -m noether_engine.domains.bsd",
+  "bytes": 1004,
+  "created_at": "2026-11-23T20:13:28.439238Z",
+  "file": "artifacts/art-506cef63dd37f5c5",
+  "sha256_verified_on_export": true
+ },
+ {
+  "id": "art-df25be14e873858d",
+  "sha256": "df25be14e873858d27aaee498d860669b99550f64eb8365137173703968e3f29",
+  "kind": "audit.rerun",
+  "title": "Fresh-process re-run for 389a1",
+  "task_id": "T11",
+  "exactness": "text",
+  "conditional_flags": [],
+  "reproducer": null,
+  "bytes": 167,
+  "created_at": "2026-11-23T20:13:28.826688Z",
+  "file": "artifacts/art-df25be14e873858d",
+  "sha256_verified_on_export": true
+ }
+]

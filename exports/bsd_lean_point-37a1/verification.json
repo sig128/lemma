@@ -1,0 +1,20 @@
+[
+ {
+  "id": "ver-3d3dcbedf85beb9e-p_rational_on_37a1",
+  "statement_id": "bsd:lean:point-37a1",
+  "statement_sha256": "aef6ace210f0be7615e311bf7cca3acdf902d92e5dd9891c809e700aead5684b",
+  "kind": "lean",
+  "result": "passed",
+  "scope": "isolated lemma",
+  "toolchain": {
+   "toolchain": "leanprover/lean4:v4.36.0",
+   "lean --version": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+  },
+  "axioms": [],
+  "findings": [],
+  "reproducer": "lean Check.lean  # file = submitted source + '#print axioms p_rational_on_37a1' + statement-correspondence example",
+  "log_artifact": "art-3d3dcbedf85beb9e",
+  "reviewer": "Lean kernel + NOETHER axiom audit",
+  "checked_at": "2026-11-23T20:13:29.223757Z"
+ }
+]

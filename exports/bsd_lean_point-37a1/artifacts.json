@@ -1,0 +1,30 @@
+[
+ {
+  "id": "art-3d3dcbedf85beb9e",
+  "sha256": "3d3dcbedf85beb9e8b4261b241046fde163c28f3404b843229aaa07e21c26e4a",
+  "kind": "lean.log",
+  "title": "Lean log for p_rational_on_37a1",
+  "task_id": "T15",
+  "exactness": "text",
+  "conditional_flags": [],
+  "reproducer": null,
+  "bytes": 107,
+  "created_at": "2026-11-23T20:13:29.221828Z",
+  "file": "artifacts/art-3d3dcbedf85beb9e",
+  "sha256_verified_on_export": true
+ },
+ {
+  "id": "art-cd26d239b75ef280",
+  "sha256": "cd26d239b75ef280aab1458ac508896b69b9f8b7cf64a45e1857cd18c6249429",
+  "kind": "lean.source",
+  "title": "lean/NoetherLemmas/PointsOn37a1.lean",
+  "task_id": "T15",
+  "exactness": "exact",
+  "conditional_flags": [],
+  "reproducer": null,
+  "bytes": 474,
+  "created_at": "2026-11-23T20:13:29.223072Z",
+  "file": "artifacts/art-cd26d239b75ef280",
+  "sha256_verified_on_export": true
+ }
+]

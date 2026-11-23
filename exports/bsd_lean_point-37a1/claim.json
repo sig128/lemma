@@ -1,0 +1,30 @@
+{
+ "claim": {
+  "id": "bsd:lean:point-37a1",
+  "problem_id": "bsd",
+  "kind": "claim",
+  "title": "(−5/9, 8/27) lies on 37a1 (cleared denominators)",
+  "statement": "(8:Int)^2 + 8 * 27 = (-5)^3 - (-5) * 81",
+  "tex": null,
+  "scope": null,
+  "sha256": "aef6ace210f0be7615e311bf7cca3acdf902d92e5dd9891c809e700aead5684b",
+  "version": 1,
+  "status": "formally-checked",
+  "novelty": "unchecked",
+  "origin_run": "T15",
+  "stale": false,
+  "created_at": "2026-11-23T20:13:29.225317Z",
+  "updated_at": "2026-11-23T20:13:29.226222Z"
+ },
+ "label_history": [
+  {
+   "old_status": "candidate",
+   "new_status": "formally-checked",
+   "reason": "Lean check passed (standard axioms, statement correspondence)",
+   "event_seq": 132,
+   "changed_at": "2026-11-23T20:13:29.227230Z"
+  }
+ ],
+ "reviews": [],
+ "failed_approaches": []
+}
