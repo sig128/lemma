@@ -244,7 +244,7 @@ def h_lean(ctx: Ctx, t: dict) -> dict:
     src_art = artifacts.put(ctx.conn, "lean.source", inp["file"], raw=src.encode(), task_id=t["id"], exactness="exact")
     vid = f"ver-{log_art['id'][4:]}-{inp['target']}"
     ctx.conn.execute("""insert into verification_result(id, statement_id, statement_sha256, kind, result, scope, toolchain, axioms, findings, reproducer, log_artifact, reviewer)
-                        values (%s,%s,%s,'lean',%s,%s,%s,%s,%s,%s,%s,'Lean kernel + Lemma axiom audit') on conflict do nothing""",
+                        values (%s,%s,%s,'lean',%s,%s,%s,%s,%s,%s,%s,'Lean kernel + Zeta axiom audit') on conflict do nothing""",
                      (vid, inp["statement_id"], r.statement_sha256, r.result, inp.get("scope", ""), Jsonb(r.toolchain), r.axioms, r.findings, r.reproducer, log_art["id"]))
     passed = r.result == "passed"
     events.emit(ctx.conn, "proof.check.passed" if passed else "proof.check.failed", t["problem_id"],

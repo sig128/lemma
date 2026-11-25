@@ -13,8 +13,8 @@
   "novelty": "unchecked",
   "origin_run": "T06",
   "stale": false,
-  "created_at": "2026-11-25T21:07:43.311015Z",
-  "updated_at": "2026-11-25T21:07:47.502052Z"
+  "created_at": "2026-11-25T21:27:28.981824Z",
+  "updated_at": "2026-11-25T21:27:29.423914Z"
  },
  "label_history": [
   {
@@ -22,14 +22,14 @@
    "new_status": "verified-instance",
    "reason": "computation with exact components and no conditional flags; assumption recorded: numerical nonvanishing of L^(2)(E,1) at 38 digits (PARI floating point, not interval arithmetic)",
    "event_seq": 94,
-   "changed_at": "2026-11-25T21:07:43.581609Z"
+   "changed_at": "2026-11-25T21:27:28.987525Z"
   },
   {
    "old_status": "verified-instance",
    "new_status": "independently-reproduced",
    "reason": "fresh-process re-run matched",
-   "event_seq": 115,
-   "changed_at": "2026-11-25T21:07:47.646529Z"
+   "event_seq": 114,
+   "changed_at": "2026-11-25T21:27:29.425316Z"
   }
  ],
  "reviews": [],

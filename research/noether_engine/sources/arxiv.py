@@ -88,7 +88,7 @@ class ArxivClient:
         url = f"{API}?{params}"
         key = hashlib.sha256(url.encode()).hexdigest()
         meta_p, body_p = self.cache_dir / f"{key}.json", self.cache_dir / f"{key}.xml"
-        headers = {"User-Agent": f"Lemma mathematics observatory ({self.contact})"}
+        headers = {"User-Agent": f"Zeta mathematics observatory ({self.contact})"}
         if meta_p.exists():
             m = json.loads(meta_p.read_text())
             if m.get("etag"):

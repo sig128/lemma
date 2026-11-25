@@ -11,7 +11,7 @@
   ],
   "reproducer": "echo '{\"op\":\"invariants\",\"args\":{\"ainvs\":[1, -1, 0, -79, 289]}}' | PYTHONPATH=research python3 -m noether_engine.domains.bsd",
   "bytes": 1230,
-  "created_at": "2026-11-25T21:07:44.443393Z",
+  "created_at": "2026-11-25T21:27:29.326304Z",
   "file": "artifacts/art-2a8c531896436358",
   "sha256_verified_on_export": true
  },
@@ -25,7 +25,7 @@
   "conditional_flags": [],
   "reproducer": null,
   "bytes": 167,
-  "created_at": "2026-11-25T21:07:49.650586Z",
+  "created_at": "2026-11-25T21:27:29.713151Z",
   "file": "artifacts/art-40c77d059460c031",
   "sha256_verified_on_export": true
  },
@@ -41,7 +41,7 @@
   ],
   "reproducer": null,
   "bytes": 594,
-  "created_at": "2026-11-25T21:08:19.590681Z",
+  "created_at": "2026-11-25T21:27:50.411021Z",
   "file": "artifacts/art-6b67a05109ac398c",
   "sha256_verified_on_export": true
  }

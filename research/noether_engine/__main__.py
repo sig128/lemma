@@ -1,4 +1,4 @@
-"""Lemma research engine CLI.
+"""Zeta research engine CLI.
 
   python -m noether_engine migrate
   python -m noether_engine seed bsd-first

@@ -13,16 +13,16 @@
   "novelty": "unchecked",
   "origin_run": "T15",
   "stale": false,
-  "created_at": "2026-11-25T21:08:00.501472Z",
-  "updated_at": "2026-11-25T21:08:00.505777Z"
+  "created_at": "2026-11-25T21:27:31.653631Z",
+  "updated_at": "2026-11-25T21:27:31.655363Z"
  },
  "label_history": [
   {
    "old_status": "candidate",
    "new_status": "formally-checked",
    "reason": "Lean check passed (standard axioms, statement correspondence)",
-   "event_seq": 132,
-   "changed_at": "2026-11-25T21:08:00.508741Z"
+   "event_seq": 131,
+   "changed_at": "2026-11-25T21:27:31.656986Z"
   }
  ],
  "reviews": [],

@@ -34,7 +34,7 @@ Run each worker under systemd so it restarts after crashes and reboots:
 ```ini
 # /etc/systemd/system/noether-worker@.service
 [Unit]
-Description=Lemma research worker %i
+Description=Zeta research worker %i
 After=network-online.target postgresql.service
 
 [Service]

@@ -1,11 +1,11 @@
-# Lemma, the mathematics observatory
+# Zeta, the mathematics observatory
 
-Lemma is a research workspace for the seven Millennium Prize Problems. Six open problems each get an
+Zeta is a research workspace for the seven Millennium Prize Problems. Six open problems each get an
 interactive instrument that computes something real, a source-backed map of what is known, and a research
 board where bounded tasks are planned, run, checked and recorded. The Poincaré conjecture sits in a solved
 archive. Birch and Swinnerton-Dyer (BSD) is the flagship, with a complete recorded research campaign.
 
-Lemma does not claim to solve any Millennium problem, shows no progress percentages, and never labels a
+Zeta does not claim to solve any Millennium problem, shows no progress percentages, and never labels a
 result as solved. Official status (from the Clay Mathematics Institute), community status and this app's own
 campaign status are separate fields, each with a date.
 

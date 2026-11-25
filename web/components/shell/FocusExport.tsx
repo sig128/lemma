@@ -101,7 +101,7 @@ export async function exportStage(problem: string, format: "png" | "svg"): Promi
       const tx = document.createElementNS(ns, "text");
       tx.setAttribute("x", "16"); tx.setAttribute("y", String(H + dy)); tx.setAttribute("font-size", String(size)); tx.setAttribute("fill", fill); tx.setAttribute("font-family", fam); tx.textContent = t; root.appendChild(tx);
     }
-    download(new Blob([new XMLSerializer().serializeToString(root)], { type: "image/svg+xml" }), `lemma-${problem}.svg`);
+    download(new Blob([new XMLSerializer().serializeToString(root)], { type: "image/svg+xml" }), `zeta-${problem}.svg`);
     return "Exported SVG with caption and provenance";
   }
   const dpr = Math.min(2, window.devicePixelRatio || 1);
@@ -127,10 +127,10 @@ export async function exportStage(problem: string, format: "png" | "svg"): Promi
   ctx.fillStyle = "#A4AFBF"; ctx.font = "12px 'IBM Plex Mono', monospace"; ctx.fillText(cap.params, 16, H + 44, W - 32);
   ctx.font = "11.5px 'IBM Plex Sans Variable', sans-serif"; ctx.fillText(cap.at, 16, H + 60, W - 32);
   ctx.fillStyle = "#8794A8"; ctx.fillText(cap.prov, 16, H + 76, W - 32);
-  ctx.fillStyle = "#6B91FF"; ctx.font = "13px 'Newsreader Variable', Georgia, serif"; ctx.textAlign = "right"; ctx.fillText("LEMMA", W - 16, H + 24);
+  ctx.fillStyle = "#6B91FF"; ctx.font = "13px 'Newsreader Variable', Georgia, serif"; ctx.textAlign = "right"; ctx.fillText("ZETA", W - 16, H + 24);
   const blob = await new Promise<Blob | null>((res) => out.toBlob(res, "image/png"));
   if (!blob) return "Export failed: the image could not be encoded.";
-  download(blob, `lemma-${problem}.png`);
+  download(blob, `zeta-${problem}.png`);
   return skipped ? `Exported PNG (${skipped} layer${skipped > 1 ? "s" : ""} could not be drawn)` : "Exported PNG with caption and provenance";
 }
 

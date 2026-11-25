@@ -28,6 +28,6 @@
   "reproducer": "PYTHONPATH=research python3 -m noether_engine.domains.bsd < request.json",
   "log_artifact": null,
   "reviewer": "Auditor (fresh process)",
-  "checked_at": "2026-11-25T21:07:47.500470Z"
+  "checked_at": "2026-11-25T21:27:29.422892Z"
  }
 ]

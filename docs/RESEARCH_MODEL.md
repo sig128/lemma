@@ -1,6 +1,6 @@
 # Research model
 
-How Lemma turns research into records that can be checked. The code is the authority; file references
+How Zeta turns research into records that can be checked. The code is the authority; file references
 point to it.
 
 ## Units of work

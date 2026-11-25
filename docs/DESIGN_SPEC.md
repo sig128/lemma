@@ -1,6 +1,6 @@
 # Design spec
 
-Lemma is a dark observatory: a calm room where the instrument is the brightest thing, the record is
+Zeta is a dark observatory: a calm room where the instrument is the brightest thing, the record is
 always one glance away, and nothing pretends to be further along than it is.
 
 ## Tokens

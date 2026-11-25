@@ -11,8 +11,8 @@ This bundle is evidence about one statement. It is not a proof of any Millennium
 
 ## Label history
 
-- 2026-11-25T21:07:43.581609Z: candidate → verified-instance. computation with exact components and no conditional flags; assumption recorded: numerical nonvanishing of L^(2)(E,1) at 38 digits (PARI floating point, not interval arithmetic)
-- 2026-11-25T21:07:47.646529Z: verified-instance → independently-reproduced. fresh-process re-run matched
+- 2026-11-25T21:27:28.987525Z: candidate → verified-instance. computation with exact components and no conditional flags; assumption recorded: numerical nonvanishing of L^(2)(E,1) at 38 digits (PARI floating point, not interval arithmetic)
+- 2026-11-25T21:27:29.425316Z: verified-instance → independently-reproduced. fresh-process re-run matched
 
 ## Assumptions
 

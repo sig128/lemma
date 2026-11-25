@@ -12,9 +12,9 @@ export function TopBar({ status, onSearch, onEngine }: { status: EngineStatus; o
       : status.mode === "disconnected" ? "Engine disconnected" : status.mode === "loading" ? "Checking engine" : "Demonstration: recorded runs";
   return (
     <header className="topbar">
-      <a className="wordmark" href="/" aria-label="Lemma, the mathematics observatory">
+      <a className="wordmark" href="/" aria-label="Zeta, the mathematics observatory">
         <Aperture className="wordmark-glyph" />
-        <span className="wordmark-name">LEMMA</span>
+        <span className="wordmark-name">ZETA</span>
         <span className="wordmark-rule" aria-hidden />
         <span className="wordmark-desc">The Mathematics Observatory</span>
       </a>
