@@ -9,7 +9,7 @@
   "conditional_flags": [],
   "reproducer": "echo '{\"op\":\"invariants\",\"args\":{\"ainvs\":[0, 1, 1, -2, 0]}}' | PYTHONPATH=research python3 -m noether_engine.domains.bsd",
   "bytes": 1004,
-  "created_at": "2026-11-23T20:13:28.439238Z",
+  "created_at": "2026-11-25T21:07:43.085827Z",
   "file": "artifacts/art-506cef63dd37f5c5",
   "sha256_verified_on_export": true
  },
@@ -23,7 +23,7 @@
   "conditional_flags": [],
   "reproducer": null,
   "bytes": 167,
-  "created_at": "2026-11-23T20:13:28.826688Z",
+  "created_at": "2026-11-25T21:07:47.293816Z",
   "file": "artifacts/art-df25be14e873858d",
   "sha256_verified_on_export": true
  }

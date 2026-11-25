@@ -13,8 +13,8 @@
   "novelty": "unchecked",
   "origin_run": "T15",
   "stale": false,
-  "created_at": "2026-11-23T20:13:29.225317Z",
-  "updated_at": "2026-11-23T20:13:29.226222Z"
+  "created_at": "2026-11-25T21:08:00.501472Z",
+  "updated_at": "2026-11-25T21:08:00.505777Z"
  },
  "label_history": [
   {
@@ -22,7 +22,7 @@
    "new_status": "formally-checked",
    "reason": "Lean check passed (standard axioms, statement correspondence)",
    "event_seq": 132,
-   "changed_at": "2026-11-23T20:13:29.227230Z"
+   "changed_at": "2026-11-25T21:08:00.508741Z"
   }
  ],
  "reviews": [],

@@ -14,7 +14,7 @@
   "findings": [],
   "reproducer": "lean Check.lean  # file = submitted source + '#print axioms p_rational_on_37a1' + statement-correspondence example",
   "log_artifact": "art-3d3dcbedf85beb9e",
-  "reviewer": "Lean kernel + NOETHER axiom audit",
-  "checked_at": "2026-11-23T20:13:29.223757Z"
+  "reviewer": "Lean kernel + Lemma axiom audit",
+  "checked_at": "2026-11-25T21:08:00.495954Z"
  }
 ]

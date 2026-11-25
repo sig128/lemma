@@ -1,13 +1,16 @@
-# NOETHER, the mathematics observatory
+# Lemma, the mathematics observatory
 
-NOETHER is a research workspace for the seven Millennium Prize Problems. Six open problems each get an
+Lemma is a research workspace for the seven Millennium Prize Problems. Six open problems each get an
 interactive instrument that computes something real, a source-backed map of what is known, and a research
 board where bounded tasks are planned, run, checked and recorded. The Poincaré conjecture sits in a solved
 archive. Birch and Swinnerton-Dyer (BSD) is the flagship, with a complete recorded research campaign.
 
-NOETHER does not claim to solve any Millennium problem, shows no progress percentages, and never labels a
+Lemma does not claim to solve any Millennium problem, shows no progress percentages, and never labels a
 result as solved. Official status (from the Clay Mathematics Institute), community status and this app's own
 campaign status are separate fields, each with a date.
+
+The project began under the codename NOETHER, after Emmy Noether. Internal identifiers keep it: the Python
+package `noether_engine`, the `NOETHER_*` settings and the database name.
 
 ## Start it locally
 

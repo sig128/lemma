@@ -1,7 +1,7 @@
 {
  "bundle_version": 1,
  "kind": "recorded-run",
- "recorded_at": "2026-11-23T20:13:46.384898Z",
+ "recorded_at": "2026-11-25T21:08:19.732749Z",
  "environment": "build environment: Linux x86_64, PostgreSQL 17.12, PARI/GP 2.19.1, Lean 4.36.0; no network to arXiv; no model credentials",
  "campaign": {
   "id": "bsd-campaign-1",
@@ -28,8 +28,8 @@
    "success_criteria": "Exact symbolic verification passes",
    "failure_criteria": "Any line fails verification",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:31.023081Z",
-   "finished_at": "2026-11-23T20:13:35.234225Z",
+   "started_at": "2026-11-25T21:08:02.459801Z",
+   "finished_at": "2026-11-25T21:08:09.021062Z",
    "result_summary": "Arithmetic: Recompute the 27 lines of the Clebsch cubic exactly",
    "depends_on": []
   },
@@ -52,8 +52,8 @@
    "success_criteria": "Correspondence report",
    "failure_criteria": "Mismatch found",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:35.238953Z",
-   "finished_at": "2026-11-23T20:13:35.244239Z",
+   "started_at": "2026-11-25T21:08:09.024182Z",
+   "finished_at": "2026-11-25T21:08:09.035670Z",
    "result_summary": null,
    "depends_on": []
   },
@@ -76,8 +76,8 @@
    "success_criteria": "\u2014",
    "failure_criteria": "\u2014",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:35.246919Z",
-   "finished_at": "2026-11-23T20:13:35.254448Z",
+   "started_at": "2026-11-25T21:08:09.039464Z",
+   "finished_at": "2026-11-25T21:08:09.042377Z",
    "result_summary": null,
    "depends_on": []
   },
@@ -100,8 +100,8 @@
    "success_criteria": "Barrier classification with sources",
    "failure_criteria": "\u2014",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:35.258888Z",
-   "finished_at": "2026-11-23T20:13:35.264517Z",
+   "started_at": "2026-11-25T21:08:09.043456Z",
+   "finished_at": "2026-11-25T21:08:09.051766Z",
    "result_summary": null,
    "depends_on": []
   },
@@ -124,8 +124,8 @@
    "success_criteria": "All sign changes present",
    "failure_criteria": "A missing sign change",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:29.574585Z",
-   "finished_at": "2026-11-23T20:13:32.054968Z",
+   "started_at": "2026-11-25T21:08:01.037381Z",
+   "finished_at": "2026-11-25T21:08:05.283782Z",
    "result_summary": "Arithmetic: Recompute the first 60 zeros in a fresh process",
    "depends_on": []
   },
@@ -148,8 +148,8 @@
    "success_criteria": "Build, statement match, axiom list",
    "failure_criteria": "Any mismatch",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:31.000200Z",
-   "finished_at": "2026-11-23T20:13:31.014493Z",
+   "started_at": "2026-11-25T21:08:02.443746Z",
+   "finished_at": "2026-11-25T21:08:02.454928Z",
    "result_summary": null,
    "depends_on": []
   },
@@ -175,8 +175,8 @@
     "source_document rows",
     "source_passage rows"
    ],
-   "started_at": "2026-11-23T20:13:27.907365Z",
-   "finished_at": "2026-11-23T20:13:27.958393Z",
+   "started_at": "2026-11-25T21:07:38.752754Z",
+   "finished_at": "2026-11-25T21:07:38.811823Z",
    "result_summary": "38 sources recorded with retrieval status; access gaps marked",
    "depends_on": []
   },
@@ -199,8 +199,8 @@
    "success_criteria": "Candidates recorded with exact metadata",
    "failure_criteria": "API unreachable or rate-limited",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:27.962813Z",
-   "finished_at": "2026-11-23T20:13:28.242728Z",
+   "started_at": "2026-11-25T21:07:38.813522Z",
+   "finished_at": "2026-11-25T21:07:40.911156Z",
    "result_summary": null,
    "depends_on": [
     "T01"
@@ -225,8 +225,8 @@
    "success_criteria": "Statements with anchors",
    "failure_criteria": "Passages do not support a statement",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:28.193877Z",
-   "finished_at": "2026-11-23T20:13:28.196872Z",
+   "started_at": "2026-11-25T21:07:41.134996Z",
+   "finished_at": "2026-11-25T21:07:41.183363Z",
    "result_summary": null,
    "depends_on": [
     "T01"
@@ -253,8 +253,8 @@
    "expected_artifacts": [
     "bsd.invariants"
    ],
-   "started_at": "2026-11-23T20:13:28.198234Z",
-   "finished_at": "2026-11-23T20:13:28.290366Z",
+   "started_at": "2026-11-25T21:07:41.534774Z",
+   "finished_at": "2026-11-25T21:07:42.578056Z",
    "result_summary": "11a1: rank 0 by descent, numerical analytic order 0; rank-equality claim now 'verified-instance'",
    "depends_on": [
     "T01"
@@ -281,8 +281,8 @@
    "expected_artifacts": [
     "bsd.invariants"
    ],
-   "started_at": "2026-11-23T20:13:28.244333Z",
-   "finished_at": "2026-11-23T20:13:28.371792Z",
+   "started_at": "2026-11-25T21:07:42.579588Z",
+   "finished_at": "2026-11-25T21:07:42.938851Z",
    "result_summary": "37a1: rank 1 by descent, numerical analytic order 1; rank-equality claim now 'verified-instance'",
    "depends_on": [
     "T01"
@@ -309,8 +309,8 @@
    "expected_artifacts": [
     "bsd.invariants"
    ],
-   "started_at": "2026-11-23T20:13:28.291435Z",
-   "finished_at": "2026-11-23T20:13:28.455016Z",
+   "started_at": "2026-11-25T21:07:42.941595Z",
+   "finished_at": "2026-11-25T21:07:43.582381Z",
    "result_summary": "389a1: rank 2 by descent, numerical analytic order 2; rank-equality claim now 'verified-instance'",
    "depends_on": [
     "T01"
@@ -337,8 +337,8 @@
    "expected_artifacts": [
     "bsd.invariants"
    ],
-   "started_at": "2026-11-23T20:13:28.373070Z",
-   "finished_at": "2026-11-23T20:13:28.535098Z",
+   "started_at": "2026-11-25T21:07:43.584875Z",
+   "finished_at": "2026-11-25T21:07:44.039407Z",
    "result_summary": "5077a1: rank 3 by descent, numerical analytic order 3; rank-equality claim now 'verified-instance'",
    "depends_on": [
     "T01"
@@ -365,8 +365,8 @@
    "expected_artifacts": [
     "bsd.invariants"
    ],
-   "started_at": "2026-11-23T20:13:28.459369Z",
-   "finished_at": "2026-11-23T20:13:28.706063Z",
+   "started_at": "2026-11-25T21:07:44.043480Z",
+   "finished_at": "2026-11-25T21:07:44.575010Z",
    "result_summary": "234446a1: rank 4 by descent, numerical analytic order 4; rank-equality claim now 'candidate' (L'' undetermined)",
    "depends_on": [
     "T01"
@@ -391,8 +391,8 @@
    "success_criteria": "Result hash matches",
    "failure_criteria": "Hash mismatch",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:28.537366Z",
-   "finished_at": "2026-11-23T20:13:28.635033Z",
+   "started_at": "2026-11-25T21:07:44.577610Z",
+   "finished_at": "2026-11-25T21:07:45.722128Z",
    "result_summary": "11a1: fresh-process re-run reproduced the result hash exactly",
    "depends_on": [
     "T04"
@@ -417,8 +417,8 @@
    "success_criteria": "Result hash matches",
    "failure_criteria": "Hash mismatch",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:28.640237Z",
-   "finished_at": "2026-11-23T20:13:28.780788Z",
+   "started_at": "2026-11-25T21:07:45.909148Z",
+   "finished_at": "2026-11-25T21:07:46.590944Z",
    "result_summary": "37a1: fresh-process re-run reproduced the result hash exactly",
    "depends_on": [
     "T05"
@@ -443,8 +443,8 @@
    "success_criteria": "Result hash matches",
    "failure_criteria": "Hash mismatch",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:28.707309Z",
-   "finished_at": "2026-11-23T20:13:28.829890Z",
+   "started_at": "2026-11-25T21:07:46.746122Z",
+   "finished_at": "2026-11-25T21:07:47.886373Z",
    "result_summary": "389a1: fresh-process re-run reproduced the result hash exactly",
    "depends_on": [
     "T06"
@@ -469,8 +469,8 @@
    "success_criteria": "Result hash matches",
    "failure_criteria": "Hash mismatch",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:28.781828Z",
-   "finished_at": "2026-11-23T20:13:28.927084Z",
+   "started_at": "2026-11-25T21:07:47.953245Z",
+   "finished_at": "2026-11-25T21:07:48.757810Z",
    "result_summary": "5077a1: fresh-process re-run reproduced the result hash exactly",
    "depends_on": [
     "T07"
@@ -495,8 +495,8 @@
    "success_criteria": "Result hash matches",
    "failure_criteria": "Hash mismatch",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:28.834805Z",
-   "finished_at": "2026-11-23T20:13:29.033915Z",
+   "started_at": "2026-11-25T21:07:49.009529Z",
+   "finished_at": "2026-11-25T21:07:49.997586Z",
    "result_summary": "234446a1: fresh-process re-run reproduced the result hash exactly",
    "depends_on": [
     "T08"
@@ -521,8 +521,8 @@
    "success_criteria": "passed: builds, standard axioms only, statement correspondence",
    "failure_criteria": "any other outcome is recorded with findings",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:27.913898Z",
-   "finished_at": "2026-11-23T20:13:28.192229Z",
+   "started_at": "2026-11-25T21:07:38.799880Z",
+   "finished_at": "2026-11-25T21:08:00.416676Z",
    "result_summary": "center_zero: passed; axioms: propext, Quot.sound",
    "depends_on": []
   },
@@ -545,8 +545,8 @@
    "success_criteria": "passed: builds, standard axioms only, statement correspondence",
    "failure_criteria": "any other outcome is recorded with findings",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:28.932681Z",
-   "finished_at": "2026-11-23T20:13:29.227651Z",
+   "started_at": "2026-11-25T21:07:50.047441Z",
+   "finished_at": "2026-11-25T21:08:00.509430Z",
    "result_summary": "p_rational_on_37a1: passed; axioms: none",
    "depends_on": []
   },
@@ -569,8 +569,8 @@
    "success_criteria": "passed: builds, standard axioms only, statement correspondence",
    "failure_criteria": "any other outcome is recorded with findings",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:29.034922Z",
-   "finished_at": "2026-11-23T20:13:29.300436Z",
+   "started_at": "2026-11-25T21:08:00.418032Z",
+   "finished_at": "2026-11-25T21:08:00.712956Z",
    "result_summary": "rank_four_vanishing_placeholder: rejected (uses sorryAx: incomplete proof, cannot receive complete-proof status)",
    "depends_on": []
   },
@@ -593,8 +593,8 @@
    "success_criteria": "passed: builds, standard axioms only, statement correspondence",
    "failure_criteria": "any other outcome is recorded with findings",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:29.228530Z",
-   "finished_at": "2026-11-23T20:13:29.474922Z",
+   "started_at": "2026-11-25T21:08:00.512068Z",
+   "finished_at": "2026-11-25T21:08:00.854782Z",
    "result_summary": "target_by_assumption: failed (assumes its own conclusion: a hypothesis has the same type as the conclusion)",
    "depends_on": []
   },
@@ -617,8 +617,8 @@
    "success_criteria": "passed: builds, standard axioms only, statement correspondence",
    "failure_criteria": "any other outcome is recorded with findings",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:29.301844Z",
-   "finished_at": "2026-11-23T20:13:29.573436Z",
+   "started_at": "2026-11-25T21:08:00.714386Z",
+   "finished_at": "2026-11-25T21:08:01.031784Z",
    "result_summary": "uses_axiom: rejected (custom axiom declared: analytic_rank_four)",
    "depends_on": []
   },
@@ -641,8 +641,8 @@
    "success_criteria": "Every twist classified; failures recorded",
    "failure_criteria": "Timeouts above limit",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:29.482858Z",
-   "finished_at": "2026-11-23T20:13:46.223018Z",
+   "started_at": "2026-11-25T21:08:00.855911Z",
+   "finished_at": "2026-11-25T21:08:19.327760Z",
    "result_summary": "221 twists classified: w=+1,an=0 98, w=+1,an=2 10, w=-1,an=1 113",
    "depends_on": [
     "T04"
@@ -667,8 +667,8 @@
    "success_criteria": "Each candidate labelled found-in-literature or unchecked",
    "failure_criteria": "Registry unavailable",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:46.224263Z",
-   "finished_at": "2026-11-23T20:13:46.230886Z",
+   "started_at": "2026-11-25T21:08:19.328841Z",
+   "finished_at": "2026-11-25T21:08:19.334297Z",
    "result_summary": "rank3-instance: found-in-literature; rank4: unchecked; twist-share: found-in-literature",
    "depends_on": [
     "T08",
@@ -694,8 +694,8 @@
    "success_criteria": "A value clearly above the precision floor (would refute vanishing)",
    "failure_criteria": "Magnitude tracks the floor (no conclusion possible)",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:46.231938Z",
-   "finished_at": "2026-11-23T20:13:46.366810Z",
+   "started_at": "2026-11-25T21:08:19.335213Z",
+   "finished_at": "2026-11-25T21:08:19.592576Z",
    "result_summary": "L''(E,1) for 234446a1 stays at the precision floor at 38, 76 and 115 digits: no separation from zero, and no proof of vanishing",
    "depends_on": [
     "T20"
@@ -720,8 +720,8 @@
    "success_criteria": "Verdict with reasons recorded",
    "failure_criteria": "\u2014",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:46.368112Z",
-   "finished_at": "2026-11-23T20:13:46.373861Z",
+   "started_at": "2026-11-25T21:08:19.593718Z",
+   "finished_at": "2026-11-25T21:08:19.599204Z",
    "result_summary": "Rule-based review: reject (cannot label unconditional: evidence carries ['numerical-threshold'])",
    "depends_on": [
     "T21"
@@ -746,8 +746,8 @@
    "success_criteria": "Candidates with assumptions and testable consequences",
    "failure_criteria": "No candidate",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:46.375033Z",
-   "finished_at": "2026-11-23T20:13:46.376624Z",
+   "started_at": "2026-11-25T21:08:19.600259Z",
+   "finished_at": "2026-11-25T21:08:19.601711Z",
    "result_summary": null,
    "depends_on": [
     "T22"
@@ -772,8 +772,8 @@
    "success_criteria": "Report published",
    "failure_criteria": "\u2014",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:46.377494Z",
-   "finished_at": "2026-11-23T20:13:46.384001Z",
+   "started_at": "2026-11-25T21:08:19.602786Z",
+   "finished_at": "2026-11-25T21:08:19.607872Z",
    "result_summary": "Remaining-gap report published",
    "depends_on": [
     "T21",
@@ -805,8 +805,8 @@
    "success_criteria": "Table computed",
    "failure_criteria": "\u2014",
    "expected_artifacts": [],
-   "started_at": "2026-11-23T20:13:32.059027Z",
-   "finished_at": "2026-11-23T20:13:43.367877Z",
+   "started_at": "2026-11-25T21:08:05.287877Z",
+   "finished_at": "2026-11-25T21:08:19.732206Z",
    "result_summary": "Arithmetic: Exact 2D U(1) plaquette table for the browser checks",
    "depends_on": []
   }
@@ -814,8 +814,8 @@
  "events": [
   {
    "seq": 1,
-   "event_id": "011ce371-9690-4873-8ce8-560730292c2a",
-   "ts": "2026-11-23T20:13:27.654677Z",
+   "event_id": "7c29d6ba-4d19-4237-aab6-5bb843c655e7",
+   "ts": "2026-11-25T21:07:38.436030Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -844,8 +844,8 @@
   },
   {
    "seq": 2,
-   "event_id": "08e9e329-bd35-464f-bb41-8160edbd8165",
-   "ts": "2026-11-23T20:13:27.656541Z",
+   "event_id": "630df376-628d-40f1-bf49-52cf63085785",
+   "ts": "2026-11-25T21:07:38.438607Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -876,8 +876,8 @@
   },
   {
    "seq": 3,
-   "event_id": "7a3cc78b-7fbb-48d9-a2f8-6905b3e8df86",
-   "ts": "2026-11-23T20:13:27.657366Z",
+   "event_id": "a4dd8829-222c-4c4f-8628-9c4f60e57392",
+   "ts": "2026-11-25T21:07:38.441011Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -908,8 +908,8 @@
   },
   {
    "seq": 4,
-   "event_id": "9589a0bb-2e54-47bf-8980-899c710d4fa6",
-   "ts": "2026-11-23T20:13:27.658779Z",
+   "event_id": "62dd4f2a-860a-4d7f-8b06-c6c0053e6e47",
+   "ts": "2026-11-25T21:07:38.442465Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -940,8 +940,8 @@
   },
   {
    "seq": 5,
-   "event_id": "40c9b1d5-bf0f-43a1-8927-aa3071e767f1",
-   "ts": "2026-11-23T20:13:27.659543Z",
+   "event_id": "6e015593-e35b-451f-b54a-b8b00b82fee0",
+   "ts": "2026-11-25T21:07:38.443770Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -972,8 +972,8 @@
   },
   {
    "seq": 6,
-   "event_id": "9f550170-d4fa-4e29-93d7-c8b9b1ade22e",
-   "ts": "2026-11-23T20:13:27.660372Z",
+   "event_id": "851a0284-679d-4d60-ac62-8080f317f0f5",
+   "ts": "2026-11-25T21:07:38.445535Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1004,8 +1004,8 @@
   },
   {
    "seq": 7,
-   "event_id": "0d3e18eb-a724-406d-997a-68a25add3039",
-   "ts": "2026-11-23T20:13:27.661039Z",
+   "event_id": "6cd80c1b-4e07-4b4f-80ad-3ff0d181c215",
+   "ts": "2026-11-25T21:07:38.446849Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1036,8 +1036,8 @@
   },
   {
    "seq": 8,
-   "event_id": "3ad7d3db-94ef-44d1-8830-0201cfaf4a81",
-   "ts": "2026-11-23T20:13:27.662121Z",
+   "event_id": "c9a3810d-e91a-4b87-ba9b-650fcadd2617",
+   "ts": "2026-11-25T21:07:38.448296Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1068,8 +1068,8 @@
   },
   {
    "seq": 9,
-   "event_id": "0fb68c17-318c-45fb-bf0e-223f741373ef",
-   "ts": "2026-11-23T20:13:27.663178Z",
+   "event_id": "8c9e2893-146e-4706-a994-0b03f229460b",
+   "ts": "2026-11-25T21:07:38.449566Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1100,8 +1100,8 @@
   },
   {
    "seq": 10,
-   "event_id": "fb701d72-cca8-4d3d-b3d9-10826db0bc42",
-   "ts": "2026-11-23T20:13:27.663817Z",
+   "event_id": "6384cf6a-5998-4dec-97c4-2623aee9fed7",
+   "ts": "2026-11-25T21:07:38.450968Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1132,8 +1132,8 @@
   },
   {
    "seq": 11,
-   "event_id": "da969a26-7280-4c42-801a-0e82d9662574",
-   "ts": "2026-11-23T20:13:27.664414Z",
+   "event_id": "f7b769c7-ec43-4e29-b771-ede00d29d72a",
+   "ts": "2026-11-25T21:07:38.452373Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1164,8 +1164,8 @@
   },
   {
    "seq": 12,
-   "event_id": "82f9dc67-9497-4684-8458-6dc23f1a5d0b",
-   "ts": "2026-11-23T20:13:27.665407Z",
+   "event_id": "01221f47-e9ab-4428-b266-e474f3024157",
+   "ts": "2026-11-25T21:07:38.453587Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1196,8 +1196,8 @@
   },
   {
    "seq": 13,
-   "event_id": "ec29a73f-7c3f-441f-a49d-46e128a56014",
-   "ts": "2026-11-23T20:13:27.666109Z",
+   "event_id": "2e0a70b4-59ce-4f43-958b-6e5d377b859b",
+   "ts": "2026-11-25T21:07:38.454646Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1228,8 +1228,8 @@
   },
   {
    "seq": 14,
-   "event_id": "27e5ad42-7144-4cf2-b34f-475677815d22",
-   "ts": "2026-11-23T20:13:27.667534Z",
+   "event_id": "b1f2c9d6-d68d-4521-a19c-81183c2f8755",
+   "ts": "2026-11-25T21:07:38.455814Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1258,8 +1258,8 @@
   },
   {
    "seq": 15,
-   "event_id": "6c8ab0d7-6c24-4ac1-b3ce-db6e8175aa5e",
-   "ts": "2026-11-23T20:13:27.668767Z",
+   "event_id": "0fd0db05-f47e-43f0-acac-3b19aae4f8a5",
+   "ts": "2026-11-25T21:07:38.456935Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1288,8 +1288,8 @@
   },
   {
    "seq": 16,
-   "event_id": "4b358ec8-b4a4-40bd-8c92-c8c44718e599",
-   "ts": "2026-11-23T20:13:27.669799Z",
+   "event_id": "0fa8a85d-767c-47a7-a8c2-eea1daaa7b3f",
+   "ts": "2026-11-25T21:07:38.457994Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1318,8 +1318,8 @@
   },
   {
    "seq": 17,
-   "event_id": "f0fa212e-14ba-4984-aaa8-4a81d5611245",
-   "ts": "2026-11-23T20:13:27.670500Z",
+   "event_id": "35981235-c229-471b-9420-19393965ca21",
+   "ts": "2026-11-25T21:07:38.459064Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1348,8 +1348,8 @@
   },
   {
    "seq": 18,
-   "event_id": "2e92ab34-ef78-41c9-bb33-8eb0e2f8c296",
-   "ts": "2026-11-23T20:13:27.671178Z",
+   "event_id": "73df8166-c09b-411a-bf23-54d1c9a99a46",
+   "ts": "2026-11-25T21:07:38.460008Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1378,8 +1378,8 @@
   },
   {
    "seq": 19,
-   "event_id": "80bc0305-817c-4f33-9589-723c9f3e58de",
-   "ts": "2026-11-23T20:13:27.671787Z",
+   "event_id": "7b7b90a9-278a-4cc4-8381-ab1f2b1875e9",
+   "ts": "2026-11-25T21:07:38.460926Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1410,8 +1410,8 @@
   },
   {
    "seq": 20,
-   "event_id": "bfef8a49-6866-4a68-92aa-1ad882bc8365",
-   "ts": "2026-11-23T20:13:27.672354Z",
+   "event_id": "cac16e33-6b16-40e0-b1e9-709f016ace32",
+   "ts": "2026-11-25T21:07:38.462018Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1443,8 +1443,8 @@
   },
   {
    "seq": 21,
-   "event_id": "2b378692-755f-412f-a894-012402b5ac90",
-   "ts": "2026-11-23T20:13:27.673101Z",
+   "event_id": "0e9ca2f4-5ffa-47fc-a2dd-09d9010da243",
+   "ts": "2026-11-25T21:07:38.464148Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1475,8 +1475,8 @@
   },
   {
    "seq": 22,
-   "event_id": "fe2077b4-4b33-42e4-8f5d-147d94cd1ada",
-   "ts": "2026-11-23T20:13:27.673648Z",
+   "event_id": "70337cb5-a8cc-49b8-807f-b4a2f5a249fb",
+   "ts": "2026-11-25T21:07:38.465401Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1507,8 +1507,8 @@
   },
   {
    "seq": 23,
-   "event_id": "83cfb5b6-7e9c-4eca-bc2f-db2169ae4336",
-   "ts": "2026-11-23T20:13:27.674401Z",
+   "event_id": "b6b5bc65-6953-4df5-92b0-6ad8eeaf4926",
+   "ts": "2026-11-25T21:07:38.466457Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1539,8 +1539,8 @@
   },
   {
    "seq": 24,
-   "event_id": "e0ae35a1-1d7c-4f52-8992-ef20df88246d",
-   "ts": "2026-11-23T20:13:27.675835Z",
+   "event_id": "9d7053f2-ec69-47fe-9f08-ebbfe73c9bd2",
+   "ts": "2026-11-25T21:07:38.467859Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1578,8 +1578,8 @@
   },
   {
    "seq": 25,
-   "event_id": "01aaf981-7349-4b25-bb87-c734c83587ca",
-   "ts": "2026-11-23T20:13:27.676775Z",
+   "event_id": "955c9eee-a3eb-4f23-9cb9-f8dbbc86a878",
+   "ts": "2026-11-25T21:07:38.469044Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1608,8 +1608,8 @@
   },
   {
    "seq": 26,
-   "event_id": "23f7947f-db66-4563-993f-a219e82eb84b",
-   "ts": "2026-11-23T20:13:27.677647Z",
+   "event_id": "d5995488-6123-4daa-9c1b-fe2dfca119d2",
+   "ts": "2026-11-25T21:07:38.469899Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1638,8 +1638,8 @@
   },
   {
    "seq": 27,
-   "event_id": "22d14751-0655-47d0-9406-b06c1154a273",
-   "ts": "2026-11-23T20:13:27.678442Z",
+   "event_id": "1e089a48-73b5-45c5-b2d5-a7c11695e56f",
+   "ts": "2026-11-25T21:07:38.470876Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1668,8 +1668,8 @@
   },
   {
    "seq": 28,
-   "event_id": "8ce5a8b6-7181-40a7-8ca8-3b02b529146b",
-   "ts": "2026-11-23T20:13:27.679199Z",
+   "event_id": "bca083fb-8dfb-47ac-a082-5d016b75c8ef",
+   "ts": "2026-11-25T21:07:38.471992Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1698,8 +1698,8 @@
   },
   {
    "seq": 29,
-   "event_id": "c0e18a70-3941-4aef-b653-103d44dee2d7",
-   "ts": "2026-11-23T20:13:27.680028Z",
+   "event_id": "a7764b2f-f6df-45c6-a12b-36cc8aca777d",
+   "ts": "2026-11-25T21:07:38.473031Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1728,8 +1728,8 @@
   },
   {
    "seq": 30,
-   "event_id": "a093b5d8-04e5-4605-b35c-500f206ae810",
-   "ts": "2026-11-23T20:13:27.680630Z",
+   "event_id": "428fd0b1-e62f-47b2-9972-80d656ec853e",
+   "ts": "2026-11-25T21:07:38.473897Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1758,8 +1758,8 @@
   },
   {
    "seq": 31,
-   "event_id": "9ba2efac-c5f9-46d0-8c2c-28c253cc9115",
-   "ts": "2026-11-23T20:13:27.681216Z",
+   "event_id": "96c12f96-2fc7-4506-8636-dfa45d2ccc07",
+   "ts": "2026-11-25T21:07:38.474843Z",
    "schema_version": 1,
    "type": "task.queued",
    "project_id": "noether",
@@ -1788,8 +1788,8 @@
   },
   {
    "seq": 32,
-   "event_id": "d3aba5e4-4596-441a-8e09-8f4e75931dff",
-   "ts": "2026-11-23T20:13:27.911309Z",
+   "event_id": "6284ae2f-edd8-4a36-93e3-f29c7883e27f",
+   "ts": "2026-11-25T21:07:38.758996Z",
    "schema_version": 1,
    "type": "task.started",
    "project_id": "noether",
@@ -1811,8 +1811,8 @@
   },
   {
    "seq": 33,
-   "event_id": "75349641-91a8-45b1-8182-80b64fe740f1",
-   "ts": "2026-11-23T20:13:27.917608Z",
+   "event_id": "34de8d51-488f-4767-8697-27132aeaf24c",
+   "ts": "2026-11-25T21:07:38.767369Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -1843,31 +1843,8 @@
   },
   {
    "seq": 34,
-   "event_id": "a830c0fc-00c4-4f90-8a10-02708ea5f7e4",
-   "ts": "2026-11-23T20:13:27.919077Z",
-   "schema_version": 1,
-   "type": "task.started",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T14",
-   "run_id": null,
-   "actor": {
-    "role": "FORMALIZER",
-    "worker_id": "w-alpha"
-   },
-   "artifacts": [],
-   "summary": "Formalizer started: Lean check: Centre vanishing for odd functional equations (integer analogue)",
-   "provenance": {
-    "attempt": 1
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 35,
-   "event_id": "fbdf8b1a-1949-4025-9454-1910ac7e94c9",
-   "ts": "2026-11-23T20:13:27.919730Z",
+   "event_id": "2ed50c46-9612-4cfa-9d40-3f04c111c01c",
+   "ts": "2026-11-25T21:07:38.770148Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -1897,30 +1874,9 @@
    "view": null
   },
   {
-   "seq": 36,
-   "event_id": "ae3084d2-ecfc-4f69-a5ff-45522ad5d538",
-   "ts": "2026-11-23T20:13:27.921028Z",
-   "schema_version": 1,
-   "type": "proof.check.started",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T14",
-   "run_id": null,
-   "actor": {
-    "role": "FORMALIZER",
-    "worker_id": "w-alpha"
-   },
-   "artifacts": [],
-   "summary": "Lean check of center_zero (lean/NoetherLemmas/CenterZero.lean)",
-   "provenance": {},
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 37,
-   "event_id": "4969e4b4-a383-4202-9ce9-b6e1263169bb",
-   "ts": "2026-11-23T20:13:27.924000Z",
+   "seq": 35,
+   "event_id": "9c9662a5-c52c-405d-a5f6-beea184146e0",
+   "ts": "2026-11-25T21:07:38.773132Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -1949,9 +1905,9 @@
    "view": null
   },
   {
-   "seq": 38,
-   "event_id": "0df1f7a1-786b-4976-9fe0-603a6403adc3",
-   "ts": "2026-11-23T20:13:27.925951Z",
+   "seq": 36,
+   "event_id": "d98d55a7-9a77-46eb-a8f3-190e70274cc2",
+   "ts": "2026-11-25T21:07:38.775744Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -1981,9 +1937,9 @@
    "view": null
   },
   {
-   "seq": 39,
-   "event_id": "1ffa6d5c-7fad-42e0-a08b-4e32d9ab129c",
-   "ts": "2026-11-23T20:13:27.927361Z",
+   "seq": 37,
+   "event_id": "402ae08f-93d4-4e81-a126-e05dbd3085d6",
+   "ts": "2026-11-25T21:07:38.777332Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2013,9 +1969,9 @@
    "view": null
   },
   {
-   "seq": 40,
-   "event_id": "9f2d26c4-53e3-4776-a492-19b9df7cc37d",
-   "ts": "2026-11-23T20:13:27.928685Z",
+   "seq": 38,
+   "event_id": "e4094976-0bc1-46b3-9b25-f8d7b7456c25",
+   "ts": "2026-11-25T21:07:38.778635Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2045,9 +2001,9 @@
    "view": null
   },
   {
-   "seq": 41,
-   "event_id": "0622ac12-22b9-4a36-b703-f73aec769949",
-   "ts": "2026-11-23T20:13:27.930833Z",
+   "seq": 39,
+   "event_id": "6c00e502-9605-46f7-9fe1-529d338588aa",
+   "ts": "2026-11-25T21:07:38.780248Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2077,9 +2033,9 @@
    "view": null
   },
   {
-   "seq": 42,
-   "event_id": "db5ceae5-e88f-47ef-8bc8-ce2005f61133",
-   "ts": "2026-11-23T20:13:27.932097Z",
+   "seq": 40,
+   "event_id": "1b767799-9a1e-422d-b017-f49a08a4fcd7",
+   "ts": "2026-11-25T21:07:38.781379Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2109,9 +2065,9 @@
    "view": null
   },
   {
-   "seq": 43,
-   "event_id": "3553c8c4-a654-46e1-b7ac-5fb98d178088",
-   "ts": "2026-11-23T20:13:27.933116Z",
+   "seq": 41,
+   "event_id": "6f93d246-2993-4d27-a68b-6ae44154d216",
+   "ts": "2026-11-25T21:07:38.782489Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2140,9 +2096,9 @@
    "view": null
   },
   {
-   "seq": 44,
-   "event_id": "e8c2337d-e455-4af5-a719-b205be65c376",
-   "ts": "2026-11-23T20:13:27.934253Z",
+   "seq": 42,
+   "event_id": "599dd91b-eb0b-4c81-8cff-4f8dd7ae99d4",
+   "ts": "2026-11-25T21:07:38.783637Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2172,9 +2128,9 @@
    "view": null
   },
   {
-   "seq": 45,
-   "event_id": "f3bc0db6-07a6-443c-b9db-0442aba3cd25",
-   "ts": "2026-11-23T20:13:27.935557Z",
+   "seq": 43,
+   "event_id": "e1896cb0-bc37-46be-967d-657374853e5c",
+   "ts": "2026-11-25T21:07:38.784738Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2204,9 +2160,9 @@
    "view": null
   },
   {
-   "seq": 46,
-   "event_id": "d12faef0-c33a-41ff-9c3b-7d86a18beec5",
-   "ts": "2026-11-23T20:13:27.936458Z",
+   "seq": 44,
+   "event_id": "fb4e0594-5513-4a75-9ec4-0275de651990",
+   "ts": "2026-11-25T21:07:38.785686Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2236,9 +2192,9 @@
    "view": null
   },
   {
-   "seq": 47,
-   "event_id": "194d1753-84fd-4fb9-8b53-0e7fae7b19e4",
-   "ts": "2026-11-23T20:13:27.937824Z",
+   "seq": 45,
+   "event_id": "ced4fefc-d3d0-43fa-a11a-9f6f85a31908",
+   "ts": "2026-11-25T21:07:38.786597Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2268,9 +2224,9 @@
    "view": null
   },
   {
-   "seq": 48,
-   "event_id": "49217a7b-4b86-455b-8f4b-efba93265a5c",
-   "ts": "2026-11-23T20:13:27.938783Z",
+   "seq": 46,
+   "event_id": "eb349156-bbd6-4082-93c5-5b75bd09aebc",
+   "ts": "2026-11-25T21:07:38.787571Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2300,9 +2256,9 @@
    "view": null
   },
   {
-   "seq": 49,
-   "event_id": "627a4732-e6a8-478b-8d21-6895e6446f9e",
-   "ts": "2026-11-23T20:13:27.939833Z",
+   "seq": 47,
+   "event_id": "f6813e58-aa9a-4c9f-84d2-fc43b07f53d3",
+   "ts": "2026-11-25T21:07:38.788658Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2332,9 +2288,9 @@
    "view": null
   },
   {
-   "seq": 50,
-   "event_id": "83d9761a-f56b-4bc5-89a3-9da32ac4cd28",
-   "ts": "2026-11-23T20:13:27.940764Z",
+   "seq": 48,
+   "event_id": "68007480-4e8d-4094-8d22-2d61e7d70786",
+   "ts": "2026-11-25T21:07:38.789578Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2364,9 +2320,9 @@
    "view": null
   },
   {
-   "seq": 51,
-   "event_id": "a080e283-c801-44fe-82a2-14d4bc833acd",
-   "ts": "2026-11-23T20:13:27.941805Z",
+   "seq": 49,
+   "event_id": "720f6969-8fe9-4574-aad3-3771077f3214",
+   "ts": "2026-11-25T21:07:38.790743Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2396,9 +2352,9 @@
    "view": null
   },
   {
-   "seq": 52,
-   "event_id": "5badad3d-44c5-427d-99d8-c414088dd802",
-   "ts": "2026-11-23T20:13:27.943416Z",
+   "seq": 50,
+   "event_id": "715b2a7b-9e8b-4bcb-b90e-7c171ed8ac11",
+   "ts": "2026-11-25T21:07:38.793826Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2428,9 +2384,9 @@
    "view": null
   },
   {
-   "seq": 53,
-   "event_id": "e9b63821-aa76-4182-811f-84c9e0119234",
-   "ts": "2026-11-23T20:13:27.945337Z",
+   "seq": 51,
+   "event_id": "95d3e67f-cd58-42a3-a249-7ccf229ed840",
+   "ts": "2026-11-25T21:07:38.795652Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2459,9 +2415,9 @@
    "view": null
   },
   {
-   "seq": 54,
-   "event_id": "744ff06d-faa1-429e-80f6-85ce21d138ee",
-   "ts": "2026-11-23T20:13:27.946123Z",
+   "seq": 52,
+   "event_id": "6566d6cb-5acb-4e82-92f6-9831e4044b73",
+   "ts": "2026-11-25T21:07:38.796696Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2491,9 +2447,9 @@
    "view": null
   },
   {
-   "seq": 55,
-   "event_id": "f4d9fabe-3a2f-4324-9f73-d476f73f0af9",
-   "ts": "2026-11-23T20:13:27.946896Z",
+   "seq": 53,
+   "event_id": "7b79ddd8-94f1-462d-bb0d-ca3a5629af3b",
+   "ts": "2026-11-25T21:07:38.797538Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2520,9 +2476,9 @@
    "view": null
   },
   {
-   "seq": 56,
-   "event_id": "d49a7ce4-763f-467d-ae55-a28ae75dde11",
-   "ts": "2026-11-23T20:13:27.947582Z",
+   "seq": 54,
+   "event_id": "52d5d0a2-60fd-464a-876c-bcd02e35052d",
+   "ts": "2026-11-25T21:07:38.798184Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2549,9 +2505,9 @@
    "view": null
   },
   {
-   "seq": 57,
-   "event_id": "ffd30d4e-540c-4307-9edd-43bf44c75d1a",
-   "ts": "2026-11-23T20:13:27.948305Z",
+   "seq": 55,
+   "event_id": "34728078-5305-493c-94b1-c09cb6ae1bfb",
+   "ts": "2026-11-25T21:07:38.798800Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2578,9 +2534,9 @@
    "view": null
   },
   {
-   "seq": 58,
-   "event_id": "e25a6bd1-ecbe-4dff-858f-a7385c166e66",
-   "ts": "2026-11-23T20:13:27.948930Z",
+   "seq": 56,
+   "event_id": "11955376-e47b-4b53-adad-27c26ed4b669",
+   "ts": "2026-11-25T21:07:38.799428Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2607,9 +2563,9 @@
    "view": null
   },
   {
-   "seq": 59,
-   "event_id": "e195ca09-2208-4a37-9f1a-8159c7f0bccf",
-   "ts": "2026-11-23T20:13:27.949548Z",
+   "seq": 57,
+   "event_id": "9f31b01a-13fd-4c73-81f0-ea35f3f030c1",
+   "ts": "2026-11-25T21:07:38.800271Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2636,9 +2592,9 @@
    "view": null
   },
   {
-   "seq": 60,
-   "event_id": "274063d5-006d-4f76-b787-b50d570775b8",
-   "ts": "2026-11-23T20:13:27.950198Z",
+   "seq": 58,
+   "event_id": "fe233b03-4f1d-4a3c-9d1f-b090d5789f00",
+   "ts": "2026-11-25T21:07:38.800834Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2665,9 +2621,9 @@
    "view": null
   },
   {
-   "seq": 61,
-   "event_id": "2d547d87-c873-4997-bd41-c300bd85603b",
-   "ts": "2026-11-23T20:13:27.950925Z",
+   "seq": 59,
+   "event_id": "8bbf70b9-cbc5-4db2-9ff2-43f6193ffe26",
+   "ts": "2026-11-25T21:07:38.801344Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2694,9 +2650,9 @@
    "view": null
   },
   {
-   "seq": 62,
-   "event_id": "bce554e1-c9b5-4520-b267-19e975f080ba",
-   "ts": "2026-11-23T20:13:27.951608Z",
+   "seq": 60,
+   "event_id": "adb204c7-7693-415e-95c0-3e8a54310848",
+   "ts": "2026-11-25T21:07:38.801866Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2723,9 +2679,9 @@
    "view": null
   },
   {
-   "seq": 63,
-   "event_id": "45a3b977-e888-4d5b-9114-0cdf2336a823",
-   "ts": "2026-11-23T20:13:27.952253Z",
+   "seq": 61,
+   "event_id": "84ef3e61-c254-460d-b182-d17106dd5471",
+   "ts": "2026-11-25T21:07:38.802673Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2752,9 +2708,9 @@
    "view": null
   },
   {
-   "seq": 64,
-   "event_id": "efe7e74c-94d8-4314-b61c-a4c515b18e19",
-   "ts": "2026-11-23T20:13:27.952871Z",
+   "seq": 62,
+   "event_id": "0c0aeca3-533f-4d70-9474-97485454e3da",
+   "ts": "2026-11-25T21:07:38.803837Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2781,9 +2737,9 @@
    "view": null
   },
   {
-   "seq": 65,
-   "event_id": "93ef39ee-2031-456a-b1c7-48866a5bb994",
-   "ts": "2026-11-23T20:13:27.953479Z",
+   "seq": 63,
+   "event_id": "5525298a-5b20-48de-8614-7a0da7338841",
+   "ts": "2026-11-25T21:07:38.805062Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2810,9 +2766,9 @@
    "view": null
   },
   {
-   "seq": 66,
-   "event_id": "8c6a55be-f92c-4079-9efe-54dead28a819",
-   "ts": "2026-11-23T20:13:27.954150Z",
+   "seq": 64,
+   "event_id": "829e1c1d-200b-4b06-9156-937ceaba2fbd",
+   "ts": "2026-11-25T21:07:38.806006Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2839,9 +2795,9 @@
    "view": null
   },
   {
-   "seq": 67,
-   "event_id": "e8b5f95f-485c-4e9a-8bfc-657e2085cfbf",
-   "ts": "2026-11-23T20:13:27.954848Z",
+   "seq": 65,
+   "event_id": "524dd71f-540a-4743-9cfd-c9c3b2e30c36",
+   "ts": "2026-11-25T21:07:38.807148Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2868,9 +2824,9 @@
    "view": null
   },
   {
-   "seq": 68,
-   "event_id": "a8cb7f4b-e228-4458-a9e0-c2dce5ddf278",
-   "ts": "2026-11-23T20:13:27.955515Z",
+   "seq": 66,
+   "event_id": "eb25343f-a15b-4ff8-9786-3882f529e4a3",
+   "ts": "2026-11-25T21:07:38.808010Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2897,9 +2853,9 @@
    "view": null
   },
   {
-   "seq": 69,
-   "event_id": "28d23af3-482a-406b-92d7-c38e5f8883f8",
-   "ts": "2026-11-23T20:13:27.956171Z",
+   "seq": 67,
+   "event_id": "5f4d6585-60dc-41d3-bdb9-996d0acbb2f8",
+   "ts": "2026-11-25T21:07:38.808750Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2926,9 +2882,9 @@
    "view": null
   },
   {
-   "seq": 70,
-   "event_id": "a16ae7d9-664f-4e11-8a67-76a411bfe020",
-   "ts": "2026-11-23T20:13:27.956829Z",
+   "seq": 68,
+   "event_id": "8f45f752-34d5-4e45-ae0c-9f54779484a0",
+   "ts": "2026-11-25T21:07:38.809648Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2955,9 +2911,9 @@
    "view": null
   },
   {
-   "seq": 71,
-   "event_id": "316d764e-dcf4-413a-bfec-d09131b562a8",
-   "ts": "2026-11-23T20:13:27.957391Z",
+   "seq": 69,
+   "event_id": "bf1861f7-469f-4977-bdca-7d9e8e76ebcd",
+   "ts": "2026-11-25T21:07:38.810712Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -2984,9 +2940,32 @@
    "view": null
   },
   {
-   "seq": 72,
-   "event_id": "4d31899f-f1e1-40e8-ab09-2eb6d16f0478",
-   "ts": "2026-11-23T20:13:27.958068Z",
+   "seq": 70,
+   "event_id": "7e2d0b68-7880-4626-82b9-57618fca7afb",
+   "ts": "2026-11-25T21:07:38.810863Z",
+   "schema_version": 1,
+   "type": "task.started",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T14",
+   "run_id": null,
+   "actor": {
+    "role": "FORMALIZER",
+    "worker_id": "w-alpha"
+   },
+   "artifacts": [],
+   "summary": "Formalizer started: Lean check: Centre vanishing for odd functional equations (integer analogue)",
+   "provenance": {
+    "attempt": 1
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 71,
+   "event_id": "3b9111ee-fd12-4fb5-808b-6ca16a487840",
+   "ts": "2026-11-25T21:07:38.811345Z",
    "schema_version": 1,
    "type": "source.ingested",
    "project_id": "noether",
@@ -3013,9 +2992,30 @@
    "view": null
   },
   {
+   "seq": 72,
+   "event_id": "425a5b6c-06fe-485d-bd5b-204b67a9c747",
+   "ts": "2026-11-25T21:07:38.812813Z",
+   "schema_version": 1,
+   "type": "proof.check.started",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T14",
+   "run_id": null,
+   "actor": {
+    "role": "FORMALIZER",
+    "worker_id": "w-alpha"
+   },
+   "artifacts": [],
+   "summary": "Lean check of center_zero (lean/NoetherLemmas/CenterZero.lean)",
+   "provenance": {},
+   "verification": null,
+   "view": null
+  },
+  {
    "seq": 73,
-   "event_id": "d0c22df7-9bd0-4475-b2b0-b1bf88771d80",
-   "ts": "2026-11-23T20:13:27.958995Z",
+   "event_id": "61462514-3e14-4c2d-8055-2e24ad82ed2f",
+   "ts": "2026-11-25T21:07:38.812866Z",
    "schema_version": 1,
    "type": "task.completed",
    "project_id": "noether",
@@ -3037,8 +3037,8 @@
   },
   {
    "seq": 74,
-   "event_id": "fd7c2913-82b1-4da5-badf-7f71e16d714d",
-   "ts": "2026-11-23T20:13:27.964186Z",
+   "event_id": "1d79bd13-f754-4e90-aec3-683892eb81b1",
+   "ts": "2026-11-25T21:07:38.815206Z",
    "schema_version": 1,
    "type": "task.started",
    "project_id": "noether",
@@ -3060,8 +3060,1409 @@
   },
   {
    "seq": 75,
-   "event_id": "ec551044-2078-4b70-98ee-bcde022811d5",
-   "ts": "2026-11-23T20:13:28.187929Z",
+   "event_id": "6b5aa1bc-a043-401f-83da-176772cb86b9",
+   "ts": "2026-11-25T21:07:40.912378Z",
+   "schema_version": 1,
+   "type": "capability.unavailable",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T02",
+   "run_id": null,
+   "actor": {
+    "role": "SCOUT",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "arXiv API unreachable from this host (<urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>); queries recorded for retry: ['abs:\"Gross-Zagier\" AND abs:\"higher derivative\"', 'abs:\"analytic rank\" AND abs:\"four\" AND cat:math.NT', 'abs:\"Kolyvagin\" AND abs:\"Euler system\"', 'abs:\"Selmer\" AND abs:\"descent\" AND abs:\"rank\"', 'abs:\"Iwasawa main conjecture\" AND abs:\"elliptic\"']",
+   "provenance": {
+    "capability": "network:export.arxiv.org"
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 76,
+   "event_id": "f93cdf30-1436-41d5-acf6-0523c34153cf",
+   "ts": "2026-11-25T21:07:41.137856Z",
+   "schema_version": 1,
+   "type": "task.started",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T03",
+   "run_id": null,
+   "actor": {
+    "role": "LIBRARIAN",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "Librarian started: Extract the exact hypotheses of the rank-0/1 theorems from the passages",
+   "provenance": {
+    "attempt": 1
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 77,
+   "event_id": "488ffec0-acdd-4732-844d-6e4d97f1b6dc",
+   "ts": "2026-11-25T21:07:41.184344Z",
+   "schema_version": 1,
+   "type": "capability.unavailable",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T03",
+   "run_id": null,
+   "actor": {
+    "role": "LIBRARIAN",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "Librarian needs a model: provider unconfigured (set ANTHROPIC_API_KEY, ANTHROPIC_MODEL=claude-opus-5-5)",
+   "provenance": {
+    "capability": "model:anthropic"
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 78,
+   "event_id": "33f9520a-af6f-4dfa-94df-ac9e5ee0c3d4",
+   "ts": "2026-11-25T21:07:41.537271Z",
+   "schema_version": 1,
+   "type": "task.started",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T04",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "Arithmetic started: Reproduce 11a1: rank bounds, generators, L-derivatives",
+   "provenance": {
+    "attempt": 1
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 79,
+   "event_id": "23db34cd-75a4-4071-a340-9a7a14438f63",
+   "ts": "2026-11-25T21:07:41.538882Z",
+   "schema_version": 1,
+   "type": "experiment.started",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T04",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "PARI computation for 11a1: descent, saturation, heights, L-derivatives",
+   "provenance": {},
+   "verification": null,
+   "view": {
+    "view": "curve",
+    "curve": "11a1"
+   }
+  },
+  {
+   "seq": 80,
+   "event_id": "a3d5217f-529e-4d08-b38c-81618033d778",
+   "ts": "2026-11-25T21:07:42.567891Z",
+   "schema_version": 1,
+   "type": "experiment.completed",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T04",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [
+    {
+     "id": "art-ec1687a5b0588cd3",
+     "sha256": "ec1687a5b0588cd37de5542198f51d091907f7519959aabbd06b9bacb6fa1a97"
+    }
+   ],
+   "summary": "11a1: rank 0..0 by descent; numerical analytic order 0; root number +1",
+   "provenance": {
+    "pari": "2.19.1",
+    "seconds": 0.939,
+    "functions": [
+     "ellinit",
+     "ellglobalred",
+     "elltors",
+     "ellrank",
+     "ellsaturation",
+     "ellheightmatrix",
+     "ellrootno",
+     "ellanalyticrank",
+     "lfun"
+    ],
+    "realprecision": 38,
+    "conditional_flags": []
+   },
+   "verification": null,
+   "view": {
+    "view": "lfunction",
+    "curve": "11a1"
+   }
+  },
+  {
+   "seq": 81,
+   "event_id": "230a4214-0284-4f7b-9e9e-5ebb8cbd828a",
+   "ts": "2026-11-25T21:07:42.569548Z",
+   "schema_version": 1,
+   "type": "claim.proposed",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T04",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": null
+   },
+   "artifacts": [
+    {
+     "id": "art-ec1687a5b0588cd3",
+     "sha256": "ec1687a5b0588cd37de5542198f51d091907f7519959aabbd06b9bacb6fa1a97"
+    }
+   ],
+   "summary": "Claim proposed: Rank equality for 11a1",
+   "provenance": {
+    "claim": "bsd:rank-eq:11a1",
+    "statement_sha256": "4049564f1b8e73ced7719c9e2b736fbd707b5fae3c811741b4c3362c1fed4be3"
+   },
+   "verification": null,
+   "view": {
+    "view": "lfunction",
+    "curve": "11a1"
+   }
+  },
+  {
+   "seq": 82,
+   "event_id": "b311d019-3c2a-4022-b7ea-e07fad5aaec7",
+   "ts": "2026-11-25T21:07:42.576667Z",
+   "schema_version": 1,
+   "type": "claim.promoted",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T04",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": null
+   },
+   "artifacts": [
+    {
+     "id": "art-ec1687a5b0588cd3",
+     "sha256": "ec1687a5b0588cd37de5542198f51d091907f7519959aabbd06b9bacb6fa1a97"
+    }
+   ],
+   "summary": "Rank equality for 11a1: candidate \u2192 verified-instance (computation with exact components and no conditional flags; assumption recorded: numerical nonvanishing of L^(0)(E,1) at 38 digits (PARI floating point, not interval arithmetic))",
+   "provenance": {
+    "claim": "bsd:rank-eq:11a1",
+    "policy": "verify/promotion.py",
+    "reasons": [
+     "computation with exact components and no conditional flags; assumption recorded: numerical nonvanishing of L^(0)(E,1) at 38 digits (PARI floating point, not interval arithmetic)"
+    ]
+   },
+   "verification": {
+    "status": "verified-instance"
+   },
+   "view": {
+    "view": "lfunction",
+    "curve": "11a1"
+   }
+  },
+  {
+   "seq": 83,
+   "event_id": "4ea6957f-2d45-4eda-a48c-48f4679a7e48",
+   "ts": "2026-11-25T21:07:42.578685Z",
+   "schema_version": 1,
+   "type": "task.completed",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T04",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "11a1: rank 0 by descent, numerical analytic order 0; rank-equality claim now 'verified-instance'",
+   "provenance": {
+    "result_sha256": "736da930a405ffe145b0682a54e489af3167e4da66ecbe73c677d4e11f7095e6"
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 84,
+   "event_id": "50eff1f6-1975-4711-8e06-6409775058c7",
+   "ts": "2026-11-25T21:07:42.585367Z",
+   "schema_version": 1,
+   "type": "task.started",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T05",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "Arithmetic started: Reproduce 37a1: rank bounds, generators, L-derivatives",
+   "provenance": {
+    "attempt": 1
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 85,
+   "event_id": "cb4bca59-a171-4ebe-a954-5ff9a204e90a",
+   "ts": "2026-11-25T21:07:42.588315Z",
+   "schema_version": 1,
+   "type": "experiment.started",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T05",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "PARI computation for 37a1: descent, saturation, heights, L-derivatives",
+   "provenance": {},
+   "verification": null,
+   "view": {
+    "view": "curve",
+    "curve": "37a1"
+   }
+  },
+  {
+   "seq": 86,
+   "event_id": "727ac33f-003a-43d0-be11-f683236a8b82",
+   "ts": "2026-11-25T21:07:42.929075Z",
+   "schema_version": 1,
+   "type": "experiment.completed",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T05",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [
+    {
+     "id": "art-7f546d0087f528bd",
+     "sha256": "7f546d0087f528bd8d9b6306be71c4c45f667501223f8fcb1cc69ddf4c64d97c"
+    }
+   ],
+   "summary": "37a1: rank 1..1 by descent; numerical analytic order 1; root number -1",
+   "provenance": {
+    "pari": "2.19.1",
+    "seconds": 0.178,
+    "functions": [
+     "ellinit",
+     "ellglobalred",
+     "elltors",
+     "ellrank",
+     "ellsaturation",
+     "ellheightmatrix",
+     "ellrootno",
+     "ellanalyticrank",
+     "lfun"
+    ],
+    "realprecision": 38,
+    "conditional_flags": []
+   },
+   "verification": null,
+   "view": {
+    "view": "lfunction",
+    "curve": "37a1"
+   }
+  },
+  {
+   "seq": 87,
+   "event_id": "87a73a01-479b-40fe-a977-236b0aaec397",
+   "ts": "2026-11-25T21:07:42.932254Z",
+   "schema_version": 1,
+   "type": "claim.proposed",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T05",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": null
+   },
+   "artifacts": [
+    {
+     "id": "art-7f546d0087f528bd",
+     "sha256": "7f546d0087f528bd8d9b6306be71c4c45f667501223f8fcb1cc69ddf4c64d97c"
+    }
+   ],
+   "summary": "Claim proposed: Rank equality for 37a1",
+   "provenance": {
+    "claim": "bsd:rank-eq:37a1",
+    "statement_sha256": "350be5c0ceca9c0bf01b6cc6a365d5613aa763045273344463f4469a5657a842"
+   },
+   "verification": null,
+   "view": {
+    "view": "lfunction",
+    "curve": "37a1"
+   }
+  },
+  {
+   "seq": 88,
+   "event_id": "d01ab53b-f6d6-425f-bfcc-2c2c252a80c4",
+   "ts": "2026-11-25T21:07:42.935988Z",
+   "schema_version": 1,
+   "type": "claim.promoted",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T05",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": null
+   },
+   "artifacts": [
+    {
+     "id": "art-7f546d0087f528bd",
+     "sha256": "7f546d0087f528bd8d9b6306be71c4c45f667501223f8fcb1cc69ddf4c64d97c"
+    }
+   ],
+   "summary": "Rank equality for 37a1: candidate \u2192 verified-instance (computation with exact components and no conditional flags; assumption recorded: numerical nonvanishing of L^(1)(E,1) at 38 digits (PARI floating point, not interval arithmetic))",
+   "provenance": {
+    "claim": "bsd:rank-eq:37a1",
+    "policy": "verify/promotion.py",
+    "reasons": [
+     "computation with exact components and no conditional flags; assumption recorded: numerical nonvanishing of L^(1)(E,1) at 38 digits (PARI floating point, not interval arithmetic)"
+    ]
+   },
+   "verification": {
+    "status": "verified-instance"
+   },
+   "view": {
+    "view": "lfunction",
+    "curve": "37a1"
+   }
+  },
+  {
+   "seq": 89,
+   "event_id": "f18b4899-1986-40eb-b255-1c1dbe3d0a88",
+   "ts": "2026-11-25T21:07:42.939900Z",
+   "schema_version": 1,
+   "type": "task.completed",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T05",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "37a1: rank 1 by descent, numerical analytic order 1; rank-equality claim now 'verified-instance'",
+   "provenance": {
+    "result_sha256": "ab12f88b2fe6718b99ed7432995b81ee2e22d5ebba851d45c10cc8d83f85ad04"
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 90,
+   "event_id": "b8516af1-5323-404d-89ea-73b0bb7c75f1",
+   "ts": "2026-11-25T21:07:42.945375Z",
+   "schema_version": 1,
+   "type": "task.started",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T06",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "Arithmetic started: Reproduce 389a1: rank bounds, generators, L-derivatives",
+   "provenance": {
+    "attempt": 1
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 91,
+   "event_id": "16c118ad-3fee-4f8f-b1b3-9b2b814f7b44",
+   "ts": "2026-11-25T21:07:42.950829Z",
+   "schema_version": 1,
+   "type": "experiment.started",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T06",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "PARI computation for 389a1: descent, saturation, heights, L-derivatives",
+   "provenance": {},
+   "verification": null,
+   "view": {
+    "view": "curve",
+    "curve": "389a1"
+   }
+  },
+  {
+   "seq": 92,
+   "event_id": "822a9780-815b-4f5d-94c3-36a67573907f",
+   "ts": "2026-11-25T21:07:43.309638Z",
+   "schema_version": 1,
+   "type": "experiment.completed",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T06",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [
+    {
+     "id": "art-506cef63dd37f5c5",
+     "sha256": "506cef63dd37f5c56314648efb551d7de42eb3293157a3b3bde437a1107b4c39"
+    }
+   ],
+   "summary": "389a1: rank 2..2 by descent; numerical analytic order 2; root number +1",
+   "provenance": {
+    "pari": "2.19.1",
+    "seconds": 0.046,
+    "functions": [
+     "ellinit",
+     "ellglobalred",
+     "elltors",
+     "ellrank",
+     "ellsaturation",
+     "ellheightmatrix",
+     "ellrootno",
+     "ellanalyticrank",
+     "lfun"
+    ],
+    "realprecision": 38,
+    "conditional_flags": []
+   },
+   "verification": null,
+   "view": {
+    "view": "lfunction",
+    "curve": "389a1"
+   }
+  },
+  {
+   "seq": 93,
+   "event_id": "75508ee3-bd43-4c00-b570-4fda7b670cfb",
+   "ts": "2026-11-25T21:07:43.313802Z",
+   "schema_version": 1,
+   "type": "claim.proposed",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T06",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": null
+   },
+   "artifacts": [
+    {
+     "id": "art-506cef63dd37f5c5",
+     "sha256": "506cef63dd37f5c56314648efb551d7de42eb3293157a3b3bde437a1107b4c39"
+    }
+   ],
+   "summary": "Claim proposed: Rank equality for 389a1",
+   "provenance": {
+    "claim": "bsd:rank-eq:389a1",
+    "statement_sha256": "c2e0356124c2a3b75f053647a6dafcd359e424fba456544db89613ece2ca8634"
+   },
+   "verification": null,
+   "view": {
+    "view": "lfunction",
+    "curve": "389a1"
+   }
+  },
+  {
+   "seq": 94,
+   "event_id": "a989d8eb-7391-4d93-a9fe-cf4d2c98e52a",
+   "ts": "2026-11-25T21:07:43.581007Z",
+   "schema_version": 1,
+   "type": "claim.promoted",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T06",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": null
+   },
+   "artifacts": [
+    {
+     "id": "art-506cef63dd37f5c5",
+     "sha256": "506cef63dd37f5c56314648efb551d7de42eb3293157a3b3bde437a1107b4c39"
+    }
+   ],
+   "summary": "Rank equality for 389a1: candidate \u2192 verified-instance (computation with exact components and no conditional flags; assumption recorded: numerical nonvanishing of L^(2)(E,1) at 38 digits (PARI floating point, not interval arithmetic))",
+   "provenance": {
+    "claim": "bsd:rank-eq:389a1",
+    "policy": "verify/promotion.py",
+    "reasons": [
+     "computation with exact components and no conditional flags; assumption recorded: numerical nonvanishing of L^(2)(E,1) at 38 digits (PARI floating point, not interval arithmetic)"
+    ]
+   },
+   "verification": {
+    "status": "verified-instance"
+   },
+   "view": {
+    "view": "lfunction",
+    "curve": "389a1"
+   }
+  },
+  {
+   "seq": 95,
+   "event_id": "e0df0a9d-56d4-482d-8f4b-0ec32f86f4d9",
+   "ts": "2026-11-25T21:07:43.583236Z",
+   "schema_version": 1,
+   "type": "task.completed",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T06",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "389a1: rank 2 by descent, numerical analytic order 2; rank-equality claim now 'verified-instance'",
+   "provenance": {
+    "result_sha256": "808896d8f4dc51371e9b5ad4d0d658d78c00751c25c1d5855dd59b66d35f9da4"
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 96,
+   "event_id": "4e7940ac-1f83-46aa-9e02-1a0c3c0b023d",
+   "ts": "2026-11-25T21:07:43.587153Z",
+   "schema_version": 1,
+   "type": "task.started",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T07",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "Arithmetic started: Reproduce 5077a1: rank bounds, generators, L-derivatives",
+   "provenance": {
+    "attempt": 1
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 97,
+   "event_id": "bf3cf9b0-1e5a-4691-8448-c49ca36575d3",
+   "ts": "2026-11-25T21:07:43.588837Z",
+   "schema_version": 1,
+   "type": "experiment.started",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T07",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "PARI computation for 5077a1: descent, saturation, heights, L-derivatives",
+   "provenance": {},
+   "verification": null,
+   "view": {
+    "view": "curve",
+    "curve": "5077a1"
+   }
+  },
+  {
+   "seq": 98,
+   "event_id": "2ea2e52f-b384-4827-9b0d-342d127aaaac",
+   "ts": "2026-11-25T21:07:43.981335Z",
+   "schema_version": 1,
+   "type": "experiment.completed",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T07",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [
+    {
+     "id": "art-97f4976d2536040a",
+     "sha256": "97f4976d2536040a527dddad3b301d6cde9ac392bd147bb5ccb18d10f58c8d7a"
+    }
+   ],
+   "summary": "5077a1: rank 3..3 by descent; numerical analytic order 3; root number -1",
+   "provenance": {
+    "pari": "2.19.1",
+    "seconds": 0.078,
+    "functions": [
+     "ellinit",
+     "ellglobalred",
+     "elltors",
+     "ellrank",
+     "ellsaturation",
+     "ellheightmatrix",
+     "ellrootno",
+     "ellanalyticrank",
+     "lfun"
+    ],
+    "realprecision": 38,
+    "conditional_flags": []
+   },
+   "verification": null,
+   "view": {
+    "view": "lfunction",
+    "curve": "5077a1"
+   }
+  },
+  {
+   "seq": 99,
+   "event_id": "ba721144-d78e-46f8-9a72-bade90f5e1b2",
+   "ts": "2026-11-25T21:07:43.984998Z",
+   "schema_version": 1,
+   "type": "claim.proposed",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T07",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": null
+   },
+   "artifacts": [
+    {
+     "id": "art-97f4976d2536040a",
+     "sha256": "97f4976d2536040a527dddad3b301d6cde9ac392bd147bb5ccb18d10f58c8d7a"
+    }
+   ],
+   "summary": "Claim proposed: Rank equality for 5077a1",
+   "provenance": {
+    "claim": "bsd:rank-eq:5077a1",
+    "statement_sha256": "fcb826f1761f08a5b635a96b0100ff41a22711336b1d44701de2dd22331256fe"
+   },
+   "verification": null,
+   "view": {
+    "view": "lfunction",
+    "curve": "5077a1"
+   }
+  },
+  {
+   "seq": 100,
+   "event_id": "1f17c583-f776-405a-8141-a810827b8cfa",
+   "ts": "2026-11-25T21:07:43.987896Z",
+   "schema_version": 1,
+   "type": "claim.promoted",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T07",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": null
+   },
+   "artifacts": [
+    {
+     "id": "art-97f4976d2536040a",
+     "sha256": "97f4976d2536040a527dddad3b301d6cde9ac392bd147bb5ccb18d10f58c8d7a"
+    }
+   ],
+   "summary": "Rank equality for 5077a1: candidate \u2192 verified-instance (computation with exact components and no conditional flags; assumption recorded: numerical nonvanishing of L^(3)(E,1) at 38 digits (PARI floating point, not interval arithmetic))",
+   "provenance": {
+    "claim": "bsd:rank-eq:5077a1",
+    "policy": "verify/promotion.py",
+    "reasons": [
+     "computation with exact components and no conditional flags; assumption recorded: numerical nonvanishing of L^(3)(E,1) at 38 digits (PARI floating point, not interval arithmetic)"
+    ]
+   },
+   "verification": {
+    "status": "verified-instance"
+   },
+   "view": {
+    "view": "lfunction",
+    "curve": "5077a1"
+   }
+  },
+  {
+   "seq": 101,
+   "event_id": "2e1d7389-6cc8-44c5-85a7-1452b6a503a7",
+   "ts": "2026-11-25T21:07:44.040706Z",
+   "schema_version": 1,
+   "type": "task.completed",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T07",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "5077a1: rank 3 by descent, numerical analytic order 3; rank-equality claim now 'verified-instance'",
+   "provenance": {
+    "result_sha256": "5b54c205b955805b5c32bc77667d19472f6fd7691de3a289b4aec2e768714822"
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 102,
+   "event_id": "d097cea1-ddb0-45d2-9eec-915899a505e8",
+   "ts": "2026-11-25T21:07:44.046143Z",
+   "schema_version": 1,
+   "type": "task.started",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T08",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "Arithmetic started: Reproduce 234446a1: rank bounds, generators, L-derivatives",
+   "provenance": {
+    "attempt": 1
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 103,
+   "event_id": "270a20be-de57-4b98-afa4-1015103cc5d6",
+   "ts": "2026-11-25T21:07:44.048466Z",
+   "schema_version": 1,
+   "type": "experiment.started",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T08",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "PARI computation for 234446a1: descent, saturation, heights, L-derivatives",
+   "provenance": {},
+   "verification": null,
+   "view": {
+    "view": "curve",
+    "curve": "234446a1"
+   }
+  },
+  {
+   "seq": 104,
+   "event_id": "3ac68483-a4fc-47c0-b7bf-ae2c58fa290a",
+   "ts": "2026-11-25T21:07:44.460131Z",
+   "schema_version": 1,
+   "type": "experiment.completed",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T08",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [
+    {
+     "id": "art-2a8c531896436358",
+     "sha256": "2a8c5318964363581f8063d855cf997127e85ab4812b8003c8a72a03c537f7fc"
+    }
+   ],
+   "summary": "234446a1: rank 4..4 by descent; numerical analytic order 4; root number +1",
+   "provenance": {
+    "pari": "2.19.1",
+    "seconds": 0.261,
+    "functions": [
+     "ellinit",
+     "ellglobalred",
+     "elltors",
+     "ellrank",
+     "ellsaturation",
+     "ellheightmatrix",
+     "ellrootno",
+     "ellanalyticrank",
+     "lfun"
+    ],
+    "realprecision": 38,
+    "conditional_flags": [
+     "numerical-threshold"
+    ]
+   },
+   "verification": null,
+   "view": {
+    "view": "lfunction",
+    "curve": "234446a1"
+   }
+  },
+  {
+   "seq": 105,
+   "event_id": "61df3c59-5078-47c5-9115-fbc623992e14",
+   "ts": "2026-11-25T21:07:44.516718Z",
+   "schema_version": 1,
+   "type": "claim.proposed",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T08",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": null
+   },
+   "artifacts": [
+    {
+     "id": "art-2a8c531896436358",
+     "sha256": "2a8c5318964363581f8063d855cf997127e85ab4812b8003c8a72a03c537f7fc"
+    }
+   ],
+   "summary": "Claim proposed: Rank equality for 234446a1",
+   "provenance": {
+    "claim": "bsd:rank-eq:234446a1",
+    "statement_sha256": "074c2d6c8d9a9a0f8c88aade57a7f92efe506c2129fb60320d44b39ce254c61c"
+   },
+   "verification": null,
+   "view": {
+    "view": "lfunction",
+    "curve": "234446a1"
+   }
+  },
+  {
+   "seq": 106,
+   "event_id": "5ebbd833-7db6-4a00-bf53-df1a89e5044a",
+   "ts": "2026-11-25T21:07:44.520454Z",
+   "schema_version": 1,
+   "type": "dependency.blocked",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T08",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "234446a1: ord L(E,s) not determined: L'' is numerically zero but no theorem forces it",
+   "provenance": {},
+   "verification": null,
+   "view": {
+    "view": "lfunction",
+    "curve": "234446a1",
+    "object": "L''"
+   }
+  },
+  {
+   "seq": 107,
+   "event_id": "459ad8f9-1a90-48bd-8bfb-0aa6e5890419",
+   "ts": "2026-11-25T21:07:44.576571Z",
+   "schema_version": 1,
+   "type": "task.completed",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T08",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "234446a1: rank 4 by descent, numerical analytic order 4; rank-equality claim now 'candidate' (L'' undetermined)",
+   "provenance": {
+    "result_sha256": "b4deb6ee3f2d12e738c2b183dd3f1c07068dc2d61643adf01d729c2f30d8fd66"
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 108,
+   "event_id": "d31d4794-1243-46c8-bca1-4d2ac1c15e6c",
+   "ts": "2026-11-25T21:07:44.579779Z",
+   "schema_version": 1,
+   "type": "task.started",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T09",
+   "run_id": null,
+   "actor": {
+    "role": "AUDITOR",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "Auditor started: Re-run 11a1 in a fresh process and compare hashes",
+   "provenance": {
+    "attempt": 1
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 109,
+   "event_id": "9ad2ee8a-ee75-4306-bef1-02d512ecca14",
+   "ts": "2026-11-25T21:07:45.217557Z",
+   "schema_version": 1,
+   "type": "claim.promoted",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T09",
+   "run_id": null,
+   "actor": {
+    "role": "AUDITOR",
+    "worker_id": null
+   },
+   "artifacts": [
+    {
+     "id": "art-e95bdeb7d6f56b71",
+     "sha256": "e95bdeb7d6f56b71862edcb94d7843e5bc0092ca4bc834676e6f67c0cc6d12fe"
+    }
+   ],
+   "summary": "Rank equality for 11a1: verified-instance \u2192 independently-reproduced (fresh-process re-run matched)",
+   "provenance": {
+    "claim": "bsd:rank-eq:11a1",
+    "policy": "verify/promotion.py",
+    "reasons": [
+     "fresh-process re-run matched"
+    ]
+   },
+   "verification": {
+    "status": "independently-reproduced"
+   },
+   "view": {
+    "view": "lfunction",
+    "curve": "11a1"
+   }
+  },
+  {
+   "seq": 110,
+   "event_id": "d296411b-0699-4251-8cc5-456a7a4fa9ff",
+   "ts": "2026-11-25T21:07:45.723300Z",
+   "schema_version": 1,
+   "type": "task.completed",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T09",
+   "run_id": null,
+   "actor": {
+    "role": "AUDITOR",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "11a1: fresh-process re-run reproduced the result hash exactly",
+   "provenance": {
+    "result_sha256": "2e0bb64f689fcf712e938833a7697c17ce88ebbf7fe6c2fa5d7ab30ec119e01e"
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 111,
+   "event_id": "4d0f7901-0cae-4a7f-9985-fe507fd564d2",
+   "ts": "2026-11-25T21:07:45.911368Z",
+   "schema_version": 1,
+   "type": "task.started",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T10",
+   "run_id": null,
+   "actor": {
+    "role": "AUDITOR",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "Auditor started: Re-run 37a1 in a fresh process and compare hashes",
+   "provenance": {
+    "attempt": 1
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 112,
+   "event_id": "1f83b542-cbe4-4eb1-808f-043ed3c1151f",
+   "ts": "2026-11-25T21:07:46.465564Z",
+   "schema_version": 1,
+   "type": "claim.promoted",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T10",
+   "run_id": null,
+   "actor": {
+    "role": "AUDITOR",
+    "worker_id": null
+   },
+   "artifacts": [
+    {
+     "id": "art-620fc20e222407ff",
+     "sha256": "620fc20e222407ffe43599a062aeb63e5d7e8772954a14dece049dc3dacfe6df"
+    }
+   ],
+   "summary": "Rank equality for 37a1: verified-instance \u2192 independently-reproduced (fresh-process re-run matched)",
+   "provenance": {
+    "claim": "bsd:rank-eq:37a1",
+    "policy": "verify/promotion.py",
+    "reasons": [
+     "fresh-process re-run matched"
+    ]
+   },
+   "verification": {
+    "status": "independently-reproduced"
+   },
+   "view": {
+    "view": "lfunction",
+    "curve": "37a1"
+   }
+  },
+  {
+   "seq": 113,
+   "event_id": "1bea1416-6110-4b77-bcea-2994257e026b",
+   "ts": "2026-11-25T21:07:46.592159Z",
+   "schema_version": 1,
+   "type": "task.completed",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T10",
+   "run_id": null,
+   "actor": {
+    "role": "AUDITOR",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "37a1: fresh-process re-run reproduced the result hash exactly",
+   "provenance": {
+    "result_sha256": "1c04321b4d5e0bf9ab9b55860d6912fb98cda06b8fc299d116bdf3614c682674"
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 114,
+   "event_id": "71672c64-fa59-471b-9ef6-f2b6fe032d4f",
+   "ts": "2026-11-25T21:07:46.748438Z",
+   "schema_version": 1,
+   "type": "task.started",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T11",
+   "run_id": null,
+   "actor": {
+    "role": "AUDITOR",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "Auditor started: Re-run 389a1 in a fresh process and compare hashes",
+   "provenance": {
+    "attempt": 1
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 115,
+   "event_id": "6660f17a-163a-4e5c-bc8b-8b63663215aa",
+   "ts": "2026-11-25T21:07:47.502790Z",
+   "schema_version": 1,
+   "type": "claim.promoted",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T11",
+   "run_id": null,
+   "actor": {
+    "role": "AUDITOR",
+    "worker_id": null
+   },
+   "artifacts": [
+    {
+     "id": "art-df25be14e873858d",
+     "sha256": "df25be14e873858d27aaee498d860669b99550f64eb8365137173703968e3f29"
+    }
+   ],
+   "summary": "Rank equality for 389a1: verified-instance \u2192 independently-reproduced (fresh-process re-run matched)",
+   "provenance": {
+    "claim": "bsd:rank-eq:389a1",
+    "policy": "verify/promotion.py",
+    "reasons": [
+     "fresh-process re-run matched"
+    ]
+   },
+   "verification": {
+    "status": "independently-reproduced"
+   },
+   "view": {
+    "view": "lfunction",
+    "curve": "389a1"
+   }
+  },
+  {
+   "seq": 116,
+   "event_id": "495937d2-7295-4205-9ba2-52b70ea8bace",
+   "ts": "2026-11-25T21:07:47.887489Z",
+   "schema_version": 1,
+   "type": "task.completed",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T11",
+   "run_id": null,
+   "actor": {
+    "role": "AUDITOR",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "389a1: fresh-process re-run reproduced the result hash exactly",
+   "provenance": {
+    "result_sha256": "79d041e7d796b3caa97e310cf064c97a76c01cb5c49b5fc29e88799f37bf5fa4"
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 117,
+   "event_id": "8622d70a-816b-4e42-a4f2-65ce9004ff87",
+   "ts": "2026-11-25T21:07:47.954979Z",
+   "schema_version": 1,
+   "type": "task.started",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T12",
+   "run_id": null,
+   "actor": {
+    "role": "AUDITOR",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "Auditor started: Re-run 5077a1 in a fresh process and compare hashes",
+   "provenance": {
+    "attempt": 1
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 118,
+   "event_id": "1fb63358-a5b1-4940-a378-75f2856684cf",
+   "ts": "2026-11-25T21:07:48.677152Z",
+   "schema_version": 1,
+   "type": "claim.promoted",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T12",
+   "run_id": null,
+   "actor": {
+    "role": "AUDITOR",
+    "worker_id": null
+   },
+   "artifacts": [
+    {
+     "id": "art-b446060a3e633051",
+     "sha256": "b446060a3e63305178b9bfb519d2ddf43fe5510b1d467326e838c3ff3282881e"
+    }
+   ],
+   "summary": "Rank equality for 5077a1: verified-instance \u2192 independently-reproduced (fresh-process re-run matched)",
+   "provenance": {
+    "claim": "bsd:rank-eq:5077a1",
+    "policy": "verify/promotion.py",
+    "reasons": [
+     "fresh-process re-run matched"
+    ]
+   },
+   "verification": {
+    "status": "independently-reproduced"
+   },
+   "view": {
+    "view": "lfunction",
+    "curve": "5077a1"
+   }
+  },
+  {
+   "seq": 119,
+   "event_id": "d43f198d-ad71-4657-abc7-a4209b429079",
+   "ts": "2026-11-25T21:07:48.758588Z",
+   "schema_version": 1,
+   "type": "task.completed",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T12",
+   "run_id": null,
+   "actor": {
+    "role": "AUDITOR",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "5077a1: fresh-process re-run reproduced the result hash exactly",
+   "provenance": {
+    "result_sha256": "bea990831fcaeb03fd72f668a90ae3cc14d6b863889e2c345c02f3c9f2734f97"
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 120,
+   "event_id": "f3a40140-13cb-4001-ab96-a21e7335e547",
+   "ts": "2026-11-25T21:07:49.011207Z",
+   "schema_version": 1,
+   "type": "task.started",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T13",
+   "run_id": null,
+   "actor": {
+    "role": "AUDITOR",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "Auditor started: Re-run 234446a1 in a fresh process and compare hashes",
+   "provenance": {
+    "attempt": 1
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 121,
+   "event_id": "75d128b7-6cbc-460c-8faa-100b407eb6ae",
+   "ts": "2026-11-25T21:07:49.998476Z",
+   "schema_version": 1,
+   "type": "task.completed",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T13",
+   "run_id": null,
+   "actor": {
+    "role": "AUDITOR",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "234446a1: fresh-process re-run reproduced the result hash exactly",
+   "provenance": {
+    "result_sha256": "f7f1d20e18fe8901012d5b1690e192b7337054dddf2ebd00464e3f0334c73f73"
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 122,
+   "event_id": "0d15c6da-b6ed-4df5-b477-4b7c8ae3145b",
+   "ts": "2026-11-25T21:07:50.049248Z",
+   "schema_version": 1,
+   "type": "task.started",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T15",
+   "run_id": null,
+   "actor": {
+    "role": "FORMALIZER",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "Formalizer started: Lean check: (\u22125/9, 8/27) lies on 37a1 (cleared denominators)",
+   "provenance": {
+    "attempt": 1
+   },
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 123,
+   "event_id": "1910e161-fdc2-4a6e-87a1-29bb2679202c",
+   "ts": "2026-11-25T21:07:50.345814Z",
+   "schema_version": 1,
+   "type": "proof.check.started",
+   "project_id": "noether",
+   "problem_id": "bsd",
+   "campaign_id": "bsd-campaign-1",
+   "task_id": "T15",
+   "run_id": null,
+   "actor": {
+    "role": "FORMALIZER",
+    "worker_id": "w-beta"
+   },
+   "artifacts": [],
+   "summary": "Lean check of p_rational_on_37a1 (lean/NoetherLemmas/PointsOn37a1.lean)",
+   "provenance": {},
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 124,
+   "event_id": "1bb37388-03ae-46c4-81ee-783f5419c4cf",
+   "ts": "2026-11-25T21:08:00.412898Z",
    "schema_version": 1,
    "type": "proof.check.passed",
    "project_id": "noether",
@@ -3100,9 +4501,9 @@
    "view": null
   },
   {
-   "seq": 76,
-   "event_id": "2756939e-fa36-4717-b442-41fd5ec36f1c",
-   "ts": "2026-11-23T20:13:28.190240Z",
+   "seq": 125,
+   "event_id": "bbb8ecd4-9f30-4da3-a924-995250e932bd",
+   "ts": "2026-11-25T21:08:00.414368Z",
    "schema_version": 1,
    "type": "claim.proposed",
    "project_id": "noether",
@@ -3129,9 +4530,9 @@
    "view": null
   },
   {
-   "seq": 77,
-   "event_id": "545c295c-0488-45b7-b764-cea64d6280e8",
-   "ts": "2026-11-23T20:13:28.191249Z",
+   "seq": 126,
+   "event_id": "8b02accc-bcef-405e-998f-bd4f70cef3c2",
+   "ts": "2026-11-25T21:08:00.415428Z",
    "schema_version": 1,
    "type": "claim.promoted",
    "project_id": "noether",
@@ -3163,9 +4564,9 @@
    "view": null
   },
   {
-   "seq": 78,
-   "event_id": "b83f1fd8-867e-40e7-a92d-19a82e737883",
-   "ts": "2026-11-23T20:13:28.193288Z",
+   "seq": 127,
+   "event_id": "305ce4f1-9f0f-4a12-bbe7-579c02aca41c",
+   "ts": "2026-11-25T21:08:00.417337Z",
    "schema_version": 1,
    "type": "task.completed",
    "project_id": "noether",
@@ -3186,1410 +4587,9 @@
    "view": null
   },
   {
-   "seq": 79,
-   "event_id": "ec531dc3-1bcd-4384-9dae-589ea350572a",
-   "ts": "2026-11-23T20:13:28.196041Z",
-   "schema_version": 1,
-   "type": "task.started",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T03",
-   "run_id": null,
-   "actor": {
-    "role": "LIBRARIAN",
-    "worker_id": "w-alpha"
-   },
-   "artifacts": [],
-   "summary": "Librarian started: Extract the exact hypotheses of the rank-0/1 theorems from the passages",
-   "provenance": {
-    "attempt": 1
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 80,
-   "event_id": "db02c748-5d6b-4020-9ca9-c3d1dc08e4fe",
-   "ts": "2026-11-23T20:13:28.197612Z",
-   "schema_version": 1,
-   "type": "capability.unavailable",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T03",
-   "run_id": null,
-   "actor": {
-    "role": "LIBRARIAN",
-    "worker_id": "w-alpha"
-   },
-   "artifacts": [],
-   "summary": "Librarian needs a model: provider unconfigured (set ANTHROPIC_API_KEY, ANTHROPIC_MODEL=claude-opus-5-5)",
-   "provenance": {
-    "capability": "model:anthropic"
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 81,
-   "event_id": "3ade87fb-9cdd-4a7a-a39a-77fc14367702",
-   "ts": "2026-11-23T20:13:28.199685Z",
-   "schema_version": 1,
-   "type": "task.started",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T04",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": "w-alpha"
-   },
-   "artifacts": [],
-   "summary": "Arithmetic started: Reproduce 11a1: rank bounds, generators, L-derivatives",
-   "provenance": {
-    "attempt": 1
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 82,
-   "event_id": "5900f16f-6338-42c4-894c-2a2bc71895b0",
-   "ts": "2026-11-23T20:13:28.200437Z",
-   "schema_version": 1,
-   "type": "experiment.started",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T04",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": "w-alpha"
-   },
-   "artifacts": [],
-   "summary": "PARI computation for 11a1: descent, saturation, heights, L-derivatives",
-   "provenance": {},
-   "verification": null,
-   "view": {
-    "view": "curve",
-    "curve": "11a1"
-   }
-  },
-  {
-   "seq": 83,
-   "event_id": "8014c1c8-8bc2-40d5-9dab-200981d8e935",
-   "ts": "2026-11-23T20:13:28.243550Z",
-   "schema_version": 1,
-   "type": "capability.unavailable",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T02",
-   "run_id": null,
-   "actor": {
-    "role": "SCOUT",
-    "worker_id": "w-beta"
-   },
-   "artifacts": [],
-   "summary": "arXiv API unreachable from this host (<urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>); queries recorded for retry: ['abs:\"Gross-Zagier\" AND abs:\"higher derivative\"', 'abs:\"analytic rank\" AND abs:\"four\" AND cat:math.NT', 'abs:\"Kolyvagin\" AND abs:\"Euler system\"', 'abs:\"Selmer\" AND abs:\"descent\" AND abs:\"rank\"', 'abs:\"Iwasawa main conjecture\" AND abs:\"elliptic\"']",
-   "provenance": {
-    "capability": "network:export.arxiv.org"
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 84,
-   "event_id": "51459683-3330-453b-a838-91f72980aac8",
-   "ts": "2026-11-23T20:13:28.245828Z",
-   "schema_version": 1,
-   "type": "task.started",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T05",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": "w-beta"
-   },
-   "artifacts": [],
-   "summary": "Arithmetic started: Reproduce 37a1: rank bounds, generators, L-derivatives",
-   "provenance": {
-    "attempt": 1
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 85,
-   "event_id": "86204a2c-76db-45dc-be47-2a33e9fc92fb",
-   "ts": "2026-11-23T20:13:28.246492Z",
-   "schema_version": 1,
-   "type": "experiment.started",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T05",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": "w-beta"
-   },
-   "artifacts": [],
-   "summary": "PARI computation for 37a1: descent, saturation, heights, L-derivatives",
-   "provenance": {},
-   "verification": null,
-   "view": {
-    "view": "curve",
-    "curve": "37a1"
-   }
-  },
-  {
-   "seq": 86,
-   "event_id": "f0c82df2-10d8-4777-b60d-3ec70bd9b4e8",
-   "ts": "2026-11-23T20:13:28.286837Z",
-   "schema_version": 1,
-   "type": "experiment.completed",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T04",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": "w-alpha"
-   },
-   "artifacts": [
-    {
-     "id": "art-ec1687a5b0588cd3",
-     "sha256": "ec1687a5b0588cd37de5542198f51d091907f7519959aabbd06b9bacb6fa1a97"
-    }
-   ],
-   "summary": "11a1: rank 0..0 by descent; numerical analytic order 0; root number +1",
-   "provenance": {
-    "pari": "2.19.1",
-    "seconds": 0.017,
-    "functions": [
-     "ellinit",
-     "ellglobalred",
-     "elltors",
-     "ellrank",
-     "ellsaturation",
-     "ellheightmatrix",
-     "ellrootno",
-     "ellanalyticrank",
-     "lfun"
-    ],
-    "realprecision": 38,
-    "conditional_flags": []
-   },
-   "verification": null,
-   "view": {
-    "view": "lfunction",
-    "curve": "11a1"
-   }
-  },
-  {
-   "seq": 87,
-   "event_id": "668c0b8c-b04e-4059-87b6-db17861384d3",
-   "ts": "2026-11-23T20:13:28.287964Z",
-   "schema_version": 1,
-   "type": "claim.proposed",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T04",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": null
-   },
-   "artifacts": [
-    {
-     "id": "art-ec1687a5b0588cd3",
-     "sha256": "ec1687a5b0588cd37de5542198f51d091907f7519959aabbd06b9bacb6fa1a97"
-    }
-   ],
-   "summary": "Claim proposed: Rank equality for 11a1",
-   "provenance": {
-    "claim": "bsd:rank-eq:11a1",
-    "statement_sha256": "4049564f1b8e73ced7719c9e2b736fbd707b5fae3c811741b4c3362c1fed4be3"
-   },
-   "verification": null,
-   "view": {
-    "view": "lfunction",
-    "curve": "11a1"
-   }
-  },
-  {
-   "seq": 88,
-   "event_id": "553c0f6a-c12a-4471-ace4-45c97a1df897",
-   "ts": "2026-11-23T20:13:28.289523Z",
-   "schema_version": 1,
-   "type": "claim.promoted",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T04",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": null
-   },
-   "artifacts": [
-    {
-     "id": "art-ec1687a5b0588cd3",
-     "sha256": "ec1687a5b0588cd37de5542198f51d091907f7519959aabbd06b9bacb6fa1a97"
-    }
-   ],
-   "summary": "Rank equality for 11a1: candidate \u2192 verified-instance (computation with exact components and no conditional flags; assumption recorded: numerical nonvanishing of L^(0)(E,1) at 38 digits (PARI floating point, not interval arithmetic))",
-   "provenance": {
-    "claim": "bsd:rank-eq:11a1",
-    "policy": "verify/promotion.py",
-    "reasons": [
-     "computation with exact components and no conditional flags; assumption recorded: numerical nonvanishing of L^(0)(E,1) at 38 digits (PARI floating point, not interval arithmetic)"
-    ]
-   },
-   "verification": {
-    "status": "verified-instance"
-   },
-   "view": {
-    "view": "lfunction",
-    "curve": "11a1"
-   }
-  },
-  {
-   "seq": 89,
-   "event_id": "ea411a02-f7a6-4ed6-b797-eaf2b1026974",
-   "ts": "2026-11-23T20:13:28.290915Z",
-   "schema_version": 1,
-   "type": "task.completed",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T04",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": "w-alpha"
-   },
-   "artifacts": [],
-   "summary": "11a1: rank 0 by descent, numerical analytic order 0; rank-equality claim now 'verified-instance'",
-   "provenance": {
-    "result_sha256": "736da930a405ffe145b0682a54e489af3167e4da66ecbe73c677d4e11f7095e6"
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 90,
-   "event_id": "6b6fc024-1364-495a-8afc-78259df2976a",
-   "ts": "2026-11-23T20:13:28.292804Z",
-   "schema_version": 1,
-   "type": "task.started",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T06",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": "w-alpha"
-   },
-   "artifacts": [],
-   "summary": "Arithmetic started: Reproduce 389a1: rank bounds, generators, L-derivatives",
-   "provenance": {
-    "attempt": 1
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 91,
-   "event_id": "9b45d84e-2311-4354-a80e-54f5ebed9194",
-   "ts": "2026-11-23T20:13:28.294209Z",
-   "schema_version": 1,
-   "type": "experiment.started",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T06",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": "w-alpha"
-   },
-   "artifacts": [],
-   "summary": "PARI computation for 389a1: descent, saturation, heights, L-derivatives",
-   "provenance": {},
-   "verification": null,
-   "view": {
-    "view": "curve",
-    "curve": "389a1"
-   }
-  },
-  {
-   "seq": 92,
-   "event_id": "21b95136-e3bb-45b5-a9ba-11b3dc1ef51e",
-   "ts": "2026-11-23T20:13:28.365737Z",
-   "schema_version": 1,
-   "type": "experiment.completed",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T05",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": "w-beta"
-   },
-   "artifacts": [
-    {
-     "id": "art-7f546d0087f528bd",
-     "sha256": "7f546d0087f528bd8d9b6306be71c4c45f667501223f8fcb1cc69ddf4c64d97c"
-    }
-   ],
-   "summary": "37a1: rank 1..1 by descent; numerical analytic order 1; root number -1",
-   "provenance": {
-    "pari": "2.19.1",
-    "seconds": 0.048,
-    "functions": [
-     "ellinit",
-     "ellglobalred",
-     "elltors",
-     "ellrank",
-     "ellsaturation",
-     "ellheightmatrix",
-     "ellrootno",
-     "ellanalyticrank",
-     "lfun"
-    ],
-    "realprecision": 38,
-    "conditional_flags": []
-   },
-   "verification": null,
-   "view": {
-    "view": "lfunction",
-    "curve": "37a1"
-   }
-  },
-  {
-   "seq": 93,
-   "event_id": "7c1610d5-5635-438b-be8c-6c5b1fa51cfd",
-   "ts": "2026-11-23T20:13:28.367884Z",
-   "schema_version": 1,
-   "type": "claim.proposed",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T05",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": null
-   },
-   "artifacts": [
-    {
-     "id": "art-7f546d0087f528bd",
-     "sha256": "7f546d0087f528bd8d9b6306be71c4c45f667501223f8fcb1cc69ddf4c64d97c"
-    }
-   ],
-   "summary": "Claim proposed: Rank equality for 37a1",
-   "provenance": {
-    "claim": "bsd:rank-eq:37a1",
-    "statement_sha256": "350be5c0ceca9c0bf01b6cc6a365d5613aa763045273344463f4469a5657a842"
-   },
-   "verification": null,
-   "view": {
-    "view": "lfunction",
-    "curve": "37a1"
-   }
-  },
-  {
-   "seq": 94,
-   "event_id": "730191b1-1308-4d1e-8af7-45a31703cf90",
-   "ts": "2026-11-23T20:13:28.370304Z",
-   "schema_version": 1,
-   "type": "claim.promoted",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T05",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": null
-   },
-   "artifacts": [
-    {
-     "id": "art-7f546d0087f528bd",
-     "sha256": "7f546d0087f528bd8d9b6306be71c4c45f667501223f8fcb1cc69ddf4c64d97c"
-    }
-   ],
-   "summary": "Rank equality for 37a1: candidate \u2192 verified-instance (computation with exact components and no conditional flags; assumption recorded: numerical nonvanishing of L^(1)(E,1) at 38 digits (PARI floating point, not interval arithmetic))",
-   "provenance": {
-    "claim": "bsd:rank-eq:37a1",
-    "policy": "verify/promotion.py",
-    "reasons": [
-     "computation with exact components and no conditional flags; assumption recorded: numerical nonvanishing of L^(1)(E,1) at 38 digits (PARI floating point, not interval arithmetic)"
-    ]
-   },
-   "verification": {
-    "status": "verified-instance"
-   },
-   "view": {
-    "view": "lfunction",
-    "curve": "37a1"
-   }
-  },
-  {
-   "seq": 95,
-   "event_id": "0749e6bd-c906-4e0c-9fb3-1be903ad5a22",
-   "ts": "2026-11-23T20:13:28.372414Z",
-   "schema_version": 1,
-   "type": "task.completed",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T05",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": "w-beta"
-   },
-   "artifacts": [],
-   "summary": "37a1: rank 1 by descent, numerical analytic order 1; rank-equality claim now 'verified-instance'",
-   "provenance": {
-    "result_sha256": "ab12f88b2fe6718b99ed7432995b81ee2e22d5ebba851d45c10cc8d83f85ad04"
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 96,
-   "event_id": "47676528-00bc-4896-9dcb-9f1c3b627d3b",
-   "ts": "2026-11-23T20:13:28.374832Z",
-   "schema_version": 1,
-   "type": "task.started",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T07",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": "w-beta"
-   },
-   "artifacts": [],
-   "summary": "Arithmetic started: Reproduce 5077a1: rank bounds, generators, L-derivatives",
-   "provenance": {
-    "attempt": 1
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 97,
-   "event_id": "46d50213-fd47-492c-83d0-e2ee86ccd55b",
-   "ts": "2026-11-23T20:13:28.375847Z",
-   "schema_version": 1,
-   "type": "experiment.started",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T07",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": "w-beta"
-   },
-   "artifacts": [],
-   "summary": "PARI computation for 5077a1: descent, saturation, heights, L-derivatives",
-   "provenance": {},
-   "verification": null,
-   "view": {
-    "view": "curve",
-    "curve": "5077a1"
-   }
-  },
-  {
-   "seq": 98,
-   "event_id": "e83a2023-42f3-435f-856c-114ba967e777",
-   "ts": "2026-11-23T20:13:28.444345Z",
-   "schema_version": 1,
-   "type": "experiment.completed",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T06",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": "w-alpha"
-   },
-   "artifacts": [
-    {
-     "id": "art-506cef63dd37f5c5",
-     "sha256": "506cef63dd37f5c56314648efb551d7de42eb3293157a3b3bde437a1107b4c39"
-    }
-   ],
-   "summary": "389a1: rank 2..2 by descent; numerical analytic order 2; root number +1",
-   "provenance": {
-    "pari": "2.19.1",
-    "seconds": 0.071,
-    "functions": [
-     "ellinit",
-     "ellglobalred",
-     "elltors",
-     "ellrank",
-     "ellsaturation",
-     "ellheightmatrix",
-     "ellrootno",
-     "ellanalyticrank",
-     "lfun"
-    ],
-    "realprecision": 38,
-    "conditional_flags": []
-   },
-   "verification": null,
-   "view": {
-    "view": "lfunction",
-    "curve": "389a1"
-   }
-  },
-  {
-   "seq": 99,
-   "event_id": "b35cd3f6-052e-40bb-8785-2091fa9f934d",
-   "ts": "2026-11-23T20:13:28.445880Z",
-   "schema_version": 1,
-   "type": "claim.proposed",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T06",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": null
-   },
-   "artifacts": [
-    {
-     "id": "art-506cef63dd37f5c5",
-     "sha256": "506cef63dd37f5c56314648efb551d7de42eb3293157a3b3bde437a1107b4c39"
-    }
-   ],
-   "summary": "Claim proposed: Rank equality for 389a1",
-   "provenance": {
-    "claim": "bsd:rank-eq:389a1",
-    "statement_sha256": "c2e0356124c2a3b75f053647a6dafcd359e424fba456544db89613ece2ca8634"
-   },
-   "verification": null,
-   "view": {
-    "view": "lfunction",
-    "curve": "389a1"
-   }
-  },
-  {
-   "seq": 100,
-   "event_id": "86f71e0d-8830-4d7d-8fb5-45c6549cdcf8",
-   "ts": "2026-11-23T20:13:28.448116Z",
-   "schema_version": 1,
-   "type": "claim.promoted",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T06",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": null
-   },
-   "artifacts": [
-    {
-     "id": "art-506cef63dd37f5c5",
-     "sha256": "506cef63dd37f5c56314648efb551d7de42eb3293157a3b3bde437a1107b4c39"
-    }
-   ],
-   "summary": "Rank equality for 389a1: candidate \u2192 verified-instance (computation with exact components and no conditional flags; assumption recorded: numerical nonvanishing of L^(2)(E,1) at 38 digits (PARI floating point, not interval arithmetic))",
-   "provenance": {
-    "claim": "bsd:rank-eq:389a1",
-    "policy": "verify/promotion.py",
-    "reasons": [
-     "computation with exact components and no conditional flags; assumption recorded: numerical nonvanishing of L^(2)(E,1) at 38 digits (PARI floating point, not interval arithmetic)"
-    ]
-   },
-   "verification": {
-    "status": "verified-instance"
-   },
-   "view": {
-    "view": "lfunction",
-    "curve": "389a1"
-   }
-  },
-  {
-   "seq": 101,
-   "event_id": "da676864-307b-4a25-8005-2b5ec730f5c1",
-   "ts": "2026-11-23T20:13:28.455680Z",
-   "schema_version": 1,
-   "type": "task.completed",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T06",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": "w-alpha"
-   },
-   "artifacts": [],
-   "summary": "389a1: rank 2 by descent, numerical analytic order 2; rank-equality claim now 'verified-instance'",
-   "provenance": {
-    "result_sha256": "808896d8f4dc51371e9b5ad4d0d658d78c00751c25c1d5855dd59b66d35f9da4"
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 102,
-   "event_id": "e426ac4e-6d90-4f37-be13-0cf4cf899387",
-   "ts": "2026-11-23T20:13:28.462382Z",
-   "schema_version": 1,
-   "type": "task.started",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T08",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": "w-alpha"
-   },
-   "artifacts": [],
-   "summary": "Arithmetic started: Reproduce 234446a1: rank bounds, generators, L-derivatives",
-   "provenance": {
-    "attempt": 1
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 103,
-   "event_id": "aa1253f2-9ac3-43c6-be4c-38eb43e7995c",
-   "ts": "2026-11-23T20:13:28.463770Z",
-   "schema_version": 1,
-   "type": "experiment.started",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T08",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": "w-alpha"
-   },
-   "artifacts": [],
-   "summary": "PARI computation for 234446a1: descent, saturation, heights, L-derivatives",
-   "provenance": {},
-   "verification": null,
-   "view": {
-    "view": "curve",
-    "curve": "234446a1"
-   }
-  },
-  {
-   "seq": 104,
-   "event_id": "0149e8fa-13d2-4a15-a123-c23700fb52eb",
-   "ts": "2026-11-23T20:13:28.529143Z",
-   "schema_version": 1,
-   "type": "experiment.completed",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T07",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": "w-beta"
-   },
-   "artifacts": [
-    {
-     "id": "art-97f4976d2536040a",
-     "sha256": "97f4976d2536040a527dddad3b301d6cde9ac392bd147bb5ccb18d10f58c8d7a"
-    }
-   ],
-   "summary": "5077a1: rank 3..3 by descent; numerical analytic order 3; root number -1",
-   "provenance": {
-    "pari": "2.19.1",
-    "seconds": 0.082,
-    "functions": [
-     "ellinit",
-     "ellglobalred",
-     "elltors",
-     "ellrank",
-     "ellsaturation",
-     "ellheightmatrix",
-     "ellrootno",
-     "ellanalyticrank",
-     "lfun"
-    ],
-    "realprecision": 38,
-    "conditional_flags": []
-   },
-   "verification": null,
-   "view": {
-    "view": "lfunction",
-    "curve": "5077a1"
-   }
-  },
-  {
-   "seq": 105,
-   "event_id": "2305a9a7-1794-4c5b-9476-43063a05efa6",
-   "ts": "2026-11-23T20:13:28.531524Z",
-   "schema_version": 1,
-   "type": "claim.proposed",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T07",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": null
-   },
-   "artifacts": [
-    {
-     "id": "art-97f4976d2536040a",
-     "sha256": "97f4976d2536040a527dddad3b301d6cde9ac392bd147bb5ccb18d10f58c8d7a"
-    }
-   ],
-   "summary": "Claim proposed: Rank equality for 5077a1",
-   "provenance": {
-    "claim": "bsd:rank-eq:5077a1",
-    "statement_sha256": "fcb826f1761f08a5b635a96b0100ff41a22711336b1d44701de2dd22331256fe"
-   },
-   "verification": null,
-   "view": {
-    "view": "lfunction",
-    "curve": "5077a1"
-   }
-  },
-  {
-   "seq": 106,
-   "event_id": "e6fc47d0-6cf9-4ccc-8876-33877b175bcd",
-   "ts": "2026-11-23T20:13:28.533725Z",
-   "schema_version": 1,
-   "type": "claim.promoted",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T07",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": null
-   },
-   "artifacts": [
-    {
-     "id": "art-97f4976d2536040a",
-     "sha256": "97f4976d2536040a527dddad3b301d6cde9ac392bd147bb5ccb18d10f58c8d7a"
-    }
-   ],
-   "summary": "Rank equality for 5077a1: candidate \u2192 verified-instance (computation with exact components and no conditional flags; assumption recorded: numerical nonvanishing of L^(3)(E,1) at 38 digits (PARI floating point, not interval arithmetic))",
-   "provenance": {
-    "claim": "bsd:rank-eq:5077a1",
-    "policy": "verify/promotion.py",
-    "reasons": [
-     "computation with exact components and no conditional flags; assumption recorded: numerical nonvanishing of L^(3)(E,1) at 38 digits (PARI floating point, not interval arithmetic)"
-    ]
-   },
-   "verification": {
-    "status": "verified-instance"
-   },
-   "view": {
-    "view": "lfunction",
-    "curve": "5077a1"
-   }
-  },
-  {
-   "seq": 107,
-   "event_id": "9d6fa813-49de-464d-a66a-5486285188d7",
-   "ts": "2026-11-23T20:13:28.536220Z",
-   "schema_version": 1,
-   "type": "task.completed",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T07",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": "w-beta"
-   },
-   "artifacts": [],
-   "summary": "5077a1: rank 3 by descent, numerical analytic order 3; rank-equality claim now 'verified-instance'",
-   "provenance": {
-    "result_sha256": "5b54c205b955805b5c32bc77667d19472f6fd7691de3a289b4aec2e768714822"
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 108,
-   "event_id": "bb0a5906-14a9-4216-8f99-34a5c548636c",
-   "ts": "2026-11-23T20:13:28.539562Z",
-   "schema_version": 1,
-   "type": "task.started",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T09",
-   "run_id": null,
-   "actor": {
-    "role": "AUDITOR",
-    "worker_id": "w-beta"
-   },
-   "artifacts": [],
-   "summary": "Auditor started: Re-run 11a1 in a fresh process and compare hashes",
-   "provenance": {
-    "attempt": 1
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 109,
-   "event_id": "7c7e2b1e-3695-41f6-9145-9f3128e923d3",
-   "ts": "2026-11-23T20:13:28.633886Z",
-   "schema_version": 1,
-   "type": "claim.promoted",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T09",
-   "run_id": null,
-   "actor": {
-    "role": "AUDITOR",
-    "worker_id": null
-   },
-   "artifacts": [
-    {
-     "id": "art-e95bdeb7d6f56b71",
-     "sha256": "e95bdeb7d6f56b71862edcb94d7843e5bc0092ca4bc834676e6f67c0cc6d12fe"
-    }
-   ],
-   "summary": "Rank equality for 11a1: verified-instance \u2192 independently-reproduced (fresh-process re-run matched)",
-   "provenance": {
-    "claim": "bsd:rank-eq:11a1",
-    "policy": "verify/promotion.py",
-    "reasons": [
-     "fresh-process re-run matched"
-    ]
-   },
-   "verification": {
-    "status": "independently-reproduced"
-   },
-   "view": {
-    "view": "lfunction",
-    "curve": "11a1"
-   }
-  },
-  {
-   "seq": 110,
-   "event_id": "bdef2774-806d-4ec2-918d-36e1b13491e9",
-   "ts": "2026-11-23T20:13:28.635687Z",
-   "schema_version": 1,
-   "type": "task.completed",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T09",
-   "run_id": null,
-   "actor": {
-    "role": "AUDITOR",
-    "worker_id": "w-beta"
-   },
-   "artifacts": [],
-   "summary": "11a1: fresh-process re-run reproduced the result hash exactly",
-   "provenance": {
-    "result_sha256": "2e0bb64f689fcf712e938833a7697c17ce88ebbf7fe6c2fa5d7ab30ec119e01e"
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 111,
-   "event_id": "14caabd5-4870-400e-8e1a-8917af8f384d",
-   "ts": "2026-11-23T20:13:28.643791Z",
-   "schema_version": 1,
-   "type": "task.started",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T10",
-   "run_id": null,
-   "actor": {
-    "role": "AUDITOR",
-    "worker_id": "w-beta"
-   },
-   "artifacts": [],
-   "summary": "Auditor started: Re-run 37a1 in a fresh process and compare hashes",
-   "provenance": {
-    "attempt": 1
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 112,
-   "event_id": "ccd21a5e-b0d4-4c6f-8665-534582e6cf2f",
-   "ts": "2026-11-23T20:13:28.696154Z",
-   "schema_version": 1,
-   "type": "experiment.completed",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T08",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": "w-alpha"
-   },
-   "artifacts": [
-    {
-     "id": "art-2a8c531896436358",
-     "sha256": "2a8c5318964363581f8063d855cf997127e85ab4812b8003c8a72a03c537f7fc"
-    }
-   ],
-   "summary": "234446a1: rank 4..4 by descent; numerical analytic order 4; root number +1",
-   "provenance": {
-    "pari": "2.19.1",
-    "seconds": 0.141,
-    "functions": [
-     "ellinit",
-     "ellglobalred",
-     "elltors",
-     "ellrank",
-     "ellsaturation",
-     "ellheightmatrix",
-     "ellrootno",
-     "ellanalyticrank",
-     "lfun"
-    ],
-    "realprecision": 38,
-    "conditional_flags": [
-     "numerical-threshold"
-    ]
-   },
-   "verification": null,
-   "view": {
-    "view": "lfunction",
-    "curve": "234446a1"
-   }
-  },
-  {
-   "seq": 113,
-   "event_id": "f3ee7dff-9176-43b1-a925-c9e3ff3ed82d",
-   "ts": "2026-11-23T20:13:28.701248Z",
-   "schema_version": 1,
-   "type": "claim.proposed",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T08",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": null
-   },
-   "artifacts": [
-    {
-     "id": "art-2a8c531896436358",
-     "sha256": "2a8c5318964363581f8063d855cf997127e85ab4812b8003c8a72a03c537f7fc"
-    }
-   ],
-   "summary": "Claim proposed: Rank equality for 234446a1",
-   "provenance": {
-    "claim": "bsd:rank-eq:234446a1",
-    "statement_sha256": "074c2d6c8d9a9a0f8c88aade57a7f92efe506c2129fb60320d44b39ce254c61c"
-   },
-   "verification": null,
-   "view": {
-    "view": "lfunction",
-    "curve": "234446a1"
-   }
-  },
-  {
-   "seq": 114,
-   "event_id": "d3cdbedf-05b6-4933-bd7f-39f907224bb2",
-   "ts": "2026-11-23T20:13:28.705518Z",
-   "schema_version": 1,
-   "type": "dependency.blocked",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T08",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": "w-alpha"
-   },
-   "artifacts": [],
-   "summary": "234446a1: ord L(E,s) not determined: L'' is numerically zero but no theorem forces it",
-   "provenance": {},
-   "verification": null,
-   "view": {
-    "view": "lfunction",
-    "curve": "234446a1",
-    "object": "L''"
-   }
-  },
-  {
-   "seq": 115,
-   "event_id": "4afd698b-e8f7-4c65-9638-bf0431daf800",
-   "ts": "2026-11-23T20:13:28.706588Z",
-   "schema_version": 1,
-   "type": "task.completed",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T08",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": "w-alpha"
-   },
-   "artifacts": [],
-   "summary": "234446a1: rank 4 by descent, numerical analytic order 4; rank-equality claim now 'candidate' (L'' undetermined)",
-   "provenance": {
-    "result_sha256": "b4deb6ee3f2d12e738c2b183dd3f1c07068dc2d61643adf01d729c2f30d8fd66"
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 116,
-   "event_id": "bbaf112a-a46a-443e-b390-52c170a9162d",
-   "ts": "2026-11-23T20:13:28.708832Z",
-   "schema_version": 1,
-   "type": "task.started",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T11",
-   "run_id": null,
-   "actor": {
-    "role": "AUDITOR",
-    "worker_id": "w-alpha"
-   },
-   "artifacts": [],
-   "summary": "Auditor started: Re-run 389a1 in a fresh process and compare hashes",
-   "provenance": {
-    "attempt": 1
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 117,
-   "event_id": "676060b2-3323-4986-87cf-8dd94bed1057",
-   "ts": "2026-11-23T20:13:28.779958Z",
-   "schema_version": 1,
-   "type": "claim.promoted",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T10",
-   "run_id": null,
-   "actor": {
-    "role": "AUDITOR",
-    "worker_id": null
-   },
-   "artifacts": [
-    {
-     "id": "art-620fc20e222407ff",
-     "sha256": "620fc20e222407ffe43599a062aeb63e5d7e8772954a14dece049dc3dacfe6df"
-    }
-   ],
-   "summary": "Rank equality for 37a1: verified-instance \u2192 independently-reproduced (fresh-process re-run matched)",
-   "provenance": {
-    "claim": "bsd:rank-eq:37a1",
-    "policy": "verify/promotion.py",
-    "reasons": [
-     "fresh-process re-run matched"
-    ]
-   },
-   "verification": {
-    "status": "independently-reproduced"
-   },
-   "view": {
-    "view": "lfunction",
-    "curve": "37a1"
-   }
-  },
-  {
-   "seq": 118,
-   "event_id": "165b7497-f2be-4377-b33f-54d5dfd205b8",
-   "ts": "2026-11-23T20:13:28.781332Z",
-   "schema_version": 1,
-   "type": "task.completed",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T10",
-   "run_id": null,
-   "actor": {
-    "role": "AUDITOR",
-    "worker_id": "w-beta"
-   },
-   "artifacts": [],
-   "summary": "37a1: fresh-process re-run reproduced the result hash exactly",
-   "provenance": {
-    "result_sha256": "1c04321b4d5e0bf9ab9b55860d6912fb98cda06b8fc299d116bdf3614c682674"
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 119,
-   "event_id": "2df04110-c803-4ca5-9e33-fe5ffeb87d8e",
-   "ts": "2026-11-23T20:13:28.783006Z",
-   "schema_version": 1,
-   "type": "task.started",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T12",
-   "run_id": null,
-   "actor": {
-    "role": "AUDITOR",
-    "worker_id": "w-beta"
-   },
-   "artifacts": [],
-   "summary": "Auditor started: Re-run 5077a1 in a fresh process and compare hashes",
-   "provenance": {
-    "attempt": 1
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 120,
-   "event_id": "491dd75f-d410-46af-9c53-f1a8e910685d",
-   "ts": "2026-11-23T20:13:28.829051Z",
-   "schema_version": 1,
-   "type": "claim.promoted",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T11",
-   "run_id": null,
-   "actor": {
-    "role": "AUDITOR",
-    "worker_id": null
-   },
-   "artifacts": [
-    {
-     "id": "art-df25be14e873858d",
-     "sha256": "df25be14e873858d27aaee498d860669b99550f64eb8365137173703968e3f29"
-    }
-   ],
-   "summary": "Rank equality for 389a1: verified-instance \u2192 independently-reproduced (fresh-process re-run matched)",
-   "provenance": {
-    "claim": "bsd:rank-eq:389a1",
-    "policy": "verify/promotion.py",
-    "reasons": [
-     "fresh-process re-run matched"
-    ]
-   },
-   "verification": {
-    "status": "independently-reproduced"
-   },
-   "view": {
-    "view": "lfunction",
-    "curve": "389a1"
-   }
-  },
-  {
-   "seq": 121,
-   "event_id": "f94f93a5-3512-49b3-8921-149a150980a1",
-   "ts": "2026-11-23T20:13:28.830315Z",
-   "schema_version": 1,
-   "type": "task.completed",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T11",
-   "run_id": null,
-   "actor": {
-    "role": "AUDITOR",
-    "worker_id": "w-alpha"
-   },
-   "artifacts": [],
-   "summary": "389a1: fresh-process re-run reproduced the result hash exactly",
-   "provenance": {
-    "result_sha256": "79d041e7d796b3caa97e310cf064c97a76c01cb5c49b5fc29e88799f37bf5fa4"
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 122,
-   "event_id": "896e28ea-cf01-4a55-8549-f052ae60a563",
-   "ts": "2026-11-23T20:13:28.836085Z",
-   "schema_version": 1,
-   "type": "task.started",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T13",
-   "run_id": null,
-   "actor": {
-    "role": "AUDITOR",
-    "worker_id": "w-alpha"
-   },
-   "artifacts": [],
-   "summary": "Auditor started: Re-run 234446a1 in a fresh process and compare hashes",
-   "provenance": {
-    "attempt": 1
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 123,
-   "event_id": "e9080f01-a95b-44bd-b33f-b66f11e4ad6a",
-   "ts": "2026-11-23T20:13:28.922181Z",
-   "schema_version": 1,
-   "type": "claim.promoted",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T12",
-   "run_id": null,
-   "actor": {
-    "role": "AUDITOR",
-    "worker_id": null
-   },
-   "artifacts": [
-    {
-     "id": "art-b446060a3e633051",
-     "sha256": "b446060a3e63305178b9bfb519d2ddf43fe5510b1d467326e838c3ff3282881e"
-    }
-   ],
-   "summary": "Rank equality for 5077a1: verified-instance \u2192 independently-reproduced (fresh-process re-run matched)",
-   "provenance": {
-    "claim": "bsd:rank-eq:5077a1",
-    "policy": "verify/promotion.py",
-    "reasons": [
-     "fresh-process re-run matched"
-    ]
-   },
-   "verification": {
-    "status": "independently-reproduced"
-   },
-   "view": {
-    "view": "lfunction",
-    "curve": "5077a1"
-   }
-  },
-  {
-   "seq": 124,
-   "event_id": "634c359a-a119-4797-b56a-b095488409d2",
-   "ts": "2026-11-23T20:13:28.930762Z",
-   "schema_version": 1,
-   "type": "task.completed",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T12",
-   "run_id": null,
-   "actor": {
-    "role": "AUDITOR",
-    "worker_id": "w-beta"
-   },
-   "artifacts": [],
-   "summary": "5077a1: fresh-process re-run reproduced the result hash exactly",
-   "provenance": {
-    "result_sha256": "bea990831fcaeb03fd72f668a90ae3cc14d6b863889e2c345c02f3c9f2734f97"
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 125,
-   "event_id": "821501e7-cf38-46e2-a18f-abfcbc553fd9",
-   "ts": "2026-11-23T20:13:28.933888Z",
-   "schema_version": 1,
-   "type": "task.started",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T15",
-   "run_id": null,
-   "actor": {
-    "role": "FORMALIZER",
-    "worker_id": "w-beta"
-   },
-   "artifacts": [],
-   "summary": "Formalizer started: Lean check: (\u22125/9, 8/27) lies on 37a1 (cleared denominators)",
-   "provenance": {
-    "attempt": 1
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 126,
-   "event_id": "1e13523f-00ec-42be-abac-3442c224d129",
-   "ts": "2026-11-23T20:13:28.935636Z",
-   "schema_version": 1,
-   "type": "proof.check.started",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T15",
-   "run_id": null,
-   "actor": {
-    "role": "FORMALIZER",
-    "worker_id": "w-beta"
-   },
-   "artifacts": [],
-   "summary": "Lean check of p_rational_on_37a1 (lean/NoetherLemmas/PointsOn37a1.lean)",
-   "provenance": {},
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 127,
-   "event_id": "ffba5ade-75a1-436c-b689-e18aa47f99de",
-   "ts": "2026-11-23T20:13:29.034378Z",
-   "schema_version": 1,
-   "type": "task.completed",
-   "project_id": "noether",
-   "problem_id": "bsd",
-   "campaign_id": "bsd-campaign-1",
-   "task_id": "T13",
-   "run_id": null,
-   "actor": {
-    "role": "AUDITOR",
-    "worker_id": "w-alpha"
-   },
-   "artifacts": [],
-   "summary": "234446a1: fresh-process re-run reproduced the result hash exactly",
-   "provenance": {
-    "result_sha256": "f7f1d20e18fe8901012d5b1690e192b7337054dddf2ebd00464e3f0334c73f73"
-   },
-   "verification": null,
-   "view": null
-  },
-  {
    "seq": 128,
-   "event_id": "2bd1cb0c-d46c-40a4-bdae-a09d2236a694",
-   "ts": "2026-11-23T20:13:29.036075Z",
+   "event_id": "eb3d1ac9-ded6-4b41-ba15-794bd4d4d72b",
+   "ts": "2026-11-25T21:08:00.419807Z",
    "schema_version": 1,
    "type": "task.started",
    "project_id": "noether",
@@ -4611,8 +4611,8 @@
   },
   {
    "seq": 129,
-   "event_id": "78c7c0ad-cbd5-45e0-8947-ea6432f33e82",
-   "ts": "2026-11-23T20:13:29.036870Z",
+   "event_id": "793f1f11-cac3-4181-95d7-bc1b748447dc",
+   "ts": "2026-11-25T21:08:00.420864Z",
    "schema_version": 1,
    "type": "proof.check.started",
    "project_id": "noether",
@@ -4632,8 +4632,8 @@
   },
   {
    "seq": 130,
-   "event_id": "c5b1f1d5-3f53-47ff-91c3-804b9e9da397",
-   "ts": "2026-11-23T20:13:29.224614Z",
+   "event_id": "e25a3115-09ef-4206-bd4a-0e122f875a22",
+   "ts": "2026-11-25T21:08:00.500135Z",
    "schema_version": 1,
    "type": "proof.check.passed",
    "project_id": "noether",
@@ -4670,8 +4670,8 @@
   },
   {
    "seq": 131,
-   "event_id": "d53e9c93-6c53-4f93-b1e1-1c0133cf4578",
-   "ts": "2026-11-23T20:13:29.225810Z",
+   "event_id": "db7d6d2c-f4c5-4eed-a212-4d95426601c0",
+   "ts": "2026-11-25T21:08:00.503913Z",
    "schema_version": 1,
    "type": "claim.proposed",
    "project_id": "noether",
@@ -4699,8 +4699,8 @@
   },
   {
    "seq": 132,
-   "event_id": "51f99869-2899-428a-bf97-33d9635d2b51",
-   "ts": "2026-11-23T20:13:29.226784Z",
+   "event_id": "1b98837e-6d42-40b3-9b46-6a96495c749b",
+   "ts": "2026-11-25T21:08:00.508032Z",
    "schema_version": 1,
    "type": "claim.promoted",
    "project_id": "noether",
@@ -4733,8 +4733,8 @@
   },
   {
    "seq": 133,
-   "event_id": "31a7acc7-2b0f-4e3c-9092-0e79b8278275",
-   "ts": "2026-11-23T20:13:29.228049Z",
+   "event_id": "5eeb51d4-854b-4460-aa19-5f43e8bacbbf",
+   "ts": "2026-11-25T21:08:00.510369Z",
    "schema_version": 1,
    "type": "task.completed",
    "project_id": "noether",
@@ -4756,8 +4756,8 @@
   },
   {
    "seq": 134,
-   "event_id": "861d28ec-7755-4040-abdd-e2dae61c3252",
-   "ts": "2026-11-23T20:13:29.229642Z",
+   "event_id": "c9a4da82-12d2-4c27-b7fc-d229f12225fa",
+   "ts": "2026-11-25T21:08:00.516990Z",
    "schema_version": 1,
    "type": "task.started",
    "project_id": "noether",
@@ -4779,8 +4779,8 @@
   },
   {
    "seq": 135,
-   "event_id": "db9a504f-4a19-43fa-af91-bce6cc9b4522",
-   "ts": "2026-11-23T20:13:29.230374Z",
+   "event_id": "25f39d6c-0d83-4e30-bc63-5549ae3785c1",
+   "ts": "2026-11-25T21:08:00.519960Z",
    "schema_version": 1,
    "type": "proof.check.started",
    "project_id": "noether",
@@ -4800,8 +4800,8 @@
   },
   {
    "seq": 136,
-   "event_id": "8bfda4ff-ee1d-4701-bcc2-938edffc8f04",
-   "ts": "2026-11-23T20:13:29.299885Z",
+   "event_id": "df1526a9-f6dc-4346-8800-6c68bcb5e3c5",
+   "ts": "2026-11-25T21:08:00.712344Z",
    "schema_version": 1,
    "type": "proof.check.failed",
    "project_id": "noether",
@@ -4819,8 +4819,8 @@
      "sha256": "7da51962b27cfb5e18b580edb49cc58a1dd78f9bd46ea474ad74789430b3966a"
     },
     {
-     "id": "art-73a126406f14d318",
-     "sha256": "73a126406f14d3182c434bc5508408e4a235a4083788e8273bcc4f64822405aa"
+     "id": "art-4f60cd258fbedcc3",
+     "sha256": "4f60cd258fbedcc37e88f52c24d3dba174575d6f4f4dffda7fd0eb832cb24a35"
     }
    ],
    "summary": "rank_four_vanishing_placeholder: rejected \u2014 uses sorryAx: incomplete proof, cannot receive complete-proof status",
@@ -4842,8 +4842,8 @@
   },
   {
    "seq": 137,
-   "event_id": "ddd517b2-cef8-4b26-94b4-7df099756950",
-   "ts": "2026-11-23T20:13:29.301182Z",
+   "event_id": "121fa05b-fc8b-4534-87f9-fedf6ec8b7d7",
+   "ts": "2026-11-25T21:08:00.713680Z",
    "schema_version": 1,
    "type": "task.completed",
    "project_id": "noether",
@@ -4858,15 +4858,15 @@
    "artifacts": [],
    "summary": "rank_four_vanishing_placeholder: rejected (uses sorryAx: incomplete proof, cannot receive complete-proof status)",
    "provenance": {
-    "result_sha256": "37794c0100ae422cdb16978334b07161001e5a82046c2e8c05870b5691991763"
+    "result_sha256": "56bdd8820749e0f3ddcbd61e5b8a4e85847500f81420c4a48bc688bb79b78992"
    },
    "verification": null,
    "view": null
   },
   {
    "seq": 138,
-   "event_id": "22ef867b-e5f7-4c41-84e2-85f43f5cbd5f",
-   "ts": "2026-11-23T20:13:29.303642Z",
+   "event_id": "f4221bd3-54ed-4db3-b467-85224cc1cfe9",
+   "ts": "2026-11-25T21:08:00.716016Z",
    "schema_version": 1,
    "type": "task.started",
    "project_id": "noether",
@@ -4888,8 +4888,8 @@
   },
   {
    "seq": 139,
-   "event_id": "997f2e60-4c93-4985-8342-4850588b8897",
-   "ts": "2026-11-23T20:13:29.304975Z",
+   "event_id": "782d3fb4-53d2-4fb0-8acd-92d9b66857e1",
+   "ts": "2026-11-25T21:08:00.716961Z",
    "schema_version": 1,
    "type": "proof.check.started",
    "project_id": "noether",
@@ -4909,8 +4909,8 @@
   },
   {
    "seq": 140,
-   "event_id": "7eec21cd-3430-4c7e-a89b-b57816caeedd",
-   "ts": "2026-11-23T20:13:29.471855Z",
+   "event_id": "3cab7b78-bbc8-48cc-8769-3c764fbf3f48",
+   "ts": "2026-11-25T21:08:00.854286Z",
    "schema_version": 1,
    "type": "proof.check.failed",
    "project_id": "noether",
@@ -4928,8 +4928,8 @@
      "sha256": "bed172e69229be6af04ce476ff7f5069d8e4065c41f74f80d00b2250788f9a6f"
     },
     {
-     "id": "art-56a999ddb4519b6a",
-     "sha256": "56a999ddb4519b6a3e6e210af1a64f2e192b2e1027b3241635fb4237b003687a"
+     "id": "art-ac26a652d7973ebc",
+     "sha256": "ac26a652d7973ebc406da4de68840afcb4ca49b3551357d87288c5c59dd7fdb8"
     }
    ],
    "summary": "target_by_assumption: failed \u2014 assumes its own conclusion: a hypothesis has the same type as the conclusion",
@@ -4951,8 +4951,8 @@
   },
   {
    "seq": 141,
-   "event_id": "aaa6b32e-0836-45f0-a29e-51e39d1e80b5",
-   "ts": "2026-11-23T20:13:29.475333Z",
+   "event_id": "40f619cb-db42-403c-a7f2-d83cfd34a14b",
+   "ts": "2026-11-25T21:08:00.855136Z",
    "schema_version": 1,
    "type": "task.completed",
    "project_id": "noether",
@@ -4967,15 +4967,15 @@
    "artifacts": [],
    "summary": "target_by_assumption: failed (assumes its own conclusion: a hypothesis has the same type as the conclusion)",
    "provenance": {
-    "result_sha256": "6639541bd52feadb5008df7dfd023771c9fa3ea67902825c4ecf91d4970e96f4"
+    "result_sha256": "304fad9b9fe27a7012cb868e564a7156e64b8ed2abe892bfffad5eb8fb13dc53"
    },
    "verification": null,
    "view": null
   },
   {
    "seq": 142,
-   "event_id": "e5bf96a5-bb80-41e9-8a36-5791b98151fa",
-   "ts": "2026-11-23T20:13:29.484031Z",
+   "event_id": "41a700d6-e57d-47ab-885e-31e3c2bfe18b",
+   "ts": "2026-11-25T21:08:00.856818Z",
    "schema_version": 1,
    "type": "task.started",
    "project_id": "noether",
@@ -4997,8 +4997,8 @@
   },
   {
    "seq": 143,
-   "event_id": "86b7ab5b-13b8-4068-a257-551a089743b7",
-   "ts": "2026-11-23T20:13:29.572910Z",
+   "event_id": "d329b683-5c8b-427f-9f3e-9b9f7ae2b1bb",
+   "ts": "2026-11-25T21:08:01.031050Z",
    "schema_version": 1,
    "type": "proof.check.failed",
    "project_id": "noether",
@@ -5041,8 +5041,8 @@
   },
   {
    "seq": 144,
-   "event_id": "cbfab519-5b95-4780-a316-81828783763f",
-   "ts": "2026-11-23T20:13:29.574049Z",
+   "event_id": "f760aa63-1b2e-4c84-8ebe-07afa17821b7",
+   "ts": "2026-11-25T21:08:01.035680Z",
    "schema_version": 1,
    "type": "task.completed",
    "project_id": "noether",
@@ -5064,8 +5064,8 @@
   },
   {
    "seq": 145,
-   "event_id": "2f7832aa-79d2-442d-89ab-e05556e14ea1",
-   "ts": "2026-11-23T20:13:29.579967Z",
+   "event_id": "28fcfc34-af7a-4e87-92d9-8299d0460004",
+   "ts": "2026-11-25T21:08:01.040855Z",
    "schema_version": 1,
    "type": "task.started",
    "project_id": "noether",
@@ -5087,8 +5087,8 @@
   },
   {
    "seq": 146,
-   "event_id": "4414cc91-ae38-45e6-8d5a-3a4cd638caeb",
-   "ts": "2026-11-23T20:13:31.011287Z",
+   "event_id": "de01c623-27fc-4aa6-adfd-01d0adebfb0c",
+   "ts": "2026-11-25T21:08:02.447273Z",
    "schema_version": 1,
    "type": "task.started",
    "project_id": "noether",
@@ -5110,8 +5110,8 @@
   },
   {
    "seq": 147,
-   "event_id": "85ff9c93-a55d-4535-a272-c15271743e9e",
-   "ts": "2026-11-23T20:13:31.015892Z",
+   "event_id": "9a8c03b5-c269-4e6f-bb7b-073874306a84",
+   "ts": "2026-11-25T21:08:02.455656Z",
    "schema_version": 1,
    "type": "capability.unavailable",
    "project_id": "noether",
@@ -5133,8 +5133,8 @@
   },
   {
    "seq": 148,
-   "event_id": "bb51405c-37c1-4f3b-90ab-b382ba160edc",
-   "ts": "2026-11-23T20:13:31.025528Z",
+   "event_id": "378f539b-0d50-49a7-aec0-65816e546c5a",
+   "ts": "2026-11-25T21:08:02.461497Z",
    "schema_version": 1,
    "type": "task.started",
    "project_id": "noether",
@@ -5156,8 +5156,8 @@
   },
   {
    "seq": 149,
-   "event_id": "01fecfd7-c349-4b48-ad1b-ea2087b71c94",
-   "ts": "2026-11-23T20:13:32.036462Z",
+   "event_id": "5fb455b3-4048-480a-b488-c7f1c374fc2b",
+   "ts": "2026-11-25T21:08:05.264613Z",
    "schema_version": 1,
    "type": "experiment.completed",
    "project_id": "noether",
@@ -5182,8 +5182,8 @@
   },
   {
    "seq": 150,
-   "event_id": "e562478a-4702-471b-90cb-da857c537bbd",
-   "ts": "2026-11-23T20:13:32.043071Z",
+   "event_id": "99212dfb-99c4-423b-b286-ec4fa65cb3fd",
+   "ts": "2026-11-25T21:08:05.271843Z",
    "schema_version": 1,
    "type": "claim.proposed",
    "project_id": "noether",
@@ -5211,8 +5211,8 @@
   },
   {
    "seq": 151,
-   "event_id": "41ba4e0e-90d5-45f1-ae55-e573496d8ec2",
-   "ts": "2026-11-23T20:13:32.047132Z",
+   "event_id": "c568d4dd-3cbb-4d96-9e8c-f779d5d8fceb",
+   "ts": "2026-11-25T21:08:05.275913Z",
    "schema_version": 1,
    "type": "claim.promoted",
    "project_id": "noether",
@@ -5245,8 +5245,8 @@
   },
   {
    "seq": 152,
-   "event_id": "7755ac3a-196e-4410-9315-f23c419cba88",
-   "ts": "2026-11-23T20:13:32.055471Z",
+   "event_id": "32145d77-01d4-45d3-a69f-dcce74ca22db",
+   "ts": "2026-11-25T21:08:05.284407Z",
    "schema_version": 1,
    "type": "task.completed",
    "project_id": "noether",
@@ -5261,15 +5261,15 @@
    "artifacts": [],
    "summary": "Arithmetic: Recompute the first 60 zeros in a fresh process",
    "provenance": {
-    "result_sha256": "f2a9bf217437eedfdc1b8d4d62645125094cfaf0d85b0e6b607933e25adb2622"
+    "result_sha256": "0771e72b1bb182cae93f403a4cd0591f882cc84362ed2da1769c30e5a04c34fb"
    },
    "verification": null,
    "view": null
   },
   {
    "seq": 153,
-   "event_id": "a3251b4f-1ed6-4e5a-9722-9a17b100b54b",
-   "ts": "2026-11-23T20:13:32.060386Z",
+   "event_id": "edfc06d4-cda8-4b92-83d2-98f5ea953f3d",
+   "ts": "2026-11-25T21:08:05.289532Z",
    "schema_version": 1,
    "type": "task.started",
    "project_id": "noether",
@@ -5291,8 +5291,8 @@
   },
   {
    "seq": 154,
-   "event_id": "6827b307-b0b9-443a-9354-f6fa4d4455d9",
-   "ts": "2026-11-23T20:13:35.214340Z",
+   "event_id": "ec018a07-593a-4f06-aa39-43c3af634480",
+   "ts": "2026-11-25T21:08:09.000654Z",
    "schema_version": 1,
    "type": "experiment.completed",
    "project_id": "noether",
@@ -5306,21 +5306,21 @@
    },
    "artifacts": [
     {
-     "id": "art-1b22fbc97b1cc149",
-     "sha256": "1b22fbc97b1cc149a99214ffe4ec233f87ce4471f873f992cfae9a9445477eb0"
+     "id": "art-5e53e132740755dc",
+     "sha256": "5e53e132740755dcd90d71c9de080e52d0b556f5cdd3c0d87cbd8b36e6e6506f"
     }
    ],
    "summary": "27 lines recomputed exactly; intersection matrix rank 7, signature [1, 6], 45 tritangent planes",
    "provenance": {
-    "stdout": "seed golden line found after 1 starts\nS5-orbit of the golden seed: 12\nlines 27 rank 7 signature (1, 6) tritangent planes 45 H^2 3 double-six True sha 9207f8844162 3.4 s\nexample golden line: ['1', '0', '1/2 + \u221a5/2', '-\u221a5/2 - 1/2'] ['0', '1', '1/2 + \u221a5/2', '-1']\n"
+    "stdout": "seed golden line found after 1 starts\nS5-orbit of the golden seed: 12\nlines 27 rank 7 signature (1, 6) tritangent planes 45 H^2 3 double-six True sha 010f6e37c79e 5.4 s\nexample golden line: ['1', '0', '1/2 + \u221a5/2', '-\u221a5/2 - 1/2'] ['0', '1', '1/2 + \u221a5/2', '-1']\n"
    },
    "verification": null,
    "view": null
   },
   {
    "seq": 155,
-   "event_id": "3e44e11a-582d-4196-9040-3fe663cd478e",
-   "ts": "2026-11-23T20:13:35.223079Z",
+   "event_id": "a9fc8adb-76e9-4c49-9cb5-d38d843713b5",
+   "ts": "2026-11-25T21:08:09.007311Z",
    "schema_version": 1,
    "type": "claim.proposed",
    "project_id": "noether",
@@ -5334,8 +5334,8 @@
    },
    "artifacts": [
     {
-     "id": "art-1b22fbc97b1cc149",
-     "sha256": "1b22fbc97b1cc149a99214ffe4ec233f87ce4471f873f992cfae9a9445477eb0"
+     "id": "art-5e53e132740755dc",
+     "sha256": "5e53e132740755dcd90d71c9de080e52d0b556f5cdd3c0d87cbd8b36e6e6506f"
     }
    ],
    "summary": "Claim proposed: Line classes span H^2 of the Clebsch cubic",
@@ -5348,8 +5348,8 @@
   },
   {
    "seq": 156,
-   "event_id": "faf81bac-e586-4a7f-8864-5f05c8175de5",
-   "ts": "2026-11-23T20:13:35.224957Z",
+   "event_id": "cdbfc8e6-df28-4e79-83a3-565dada2fee1",
+   "ts": "2026-11-25T21:08:09.015877Z",
    "schema_version": 1,
    "type": "claim.promoted",
    "project_id": "noether",
@@ -5363,8 +5363,8 @@
    },
    "artifacts": [
     {
-     "id": "art-1b22fbc97b1cc149",
-     "sha256": "1b22fbc97b1cc149a99214ffe4ec233f87ce4471f873f992cfae9a9445477eb0"
+     "id": "art-5e53e132740755dc",
+     "sha256": "5e53e132740755dcd90d71c9de080e52d0b556f5cdd3c0d87cbd8b36e6e6506f"
     }
    ],
    "summary": "Line classes span H^2 of the Clebsch cubic: candidate \u2192 verified-instance (computation with exact components and no conditional flags)",
@@ -5382,8 +5382,8 @@
   },
   {
    "seq": 157,
-   "event_id": "abb11b2d-ef0b-4ad3-a3d6-3d7dcc8a91fe",
-   "ts": "2026-11-23T20:13:35.235131Z",
+   "event_id": "4c201a0e-c84c-4eed-be3a-1f1c0c4c0ab8",
+   "ts": "2026-11-25T21:08:09.021935Z",
    "schema_version": 1,
    "type": "task.completed",
    "project_id": "noether",
@@ -5398,15 +5398,15 @@
    "artifacts": [],
    "summary": "Arithmetic: Recompute the 27 lines of the Clebsch cubic exactly",
    "provenance": {
-    "result_sha256": "2f7dc606940abc696fdbe347a051b3a6dd08779ab776afb8f9dd5a28d479a7f7"
+    "result_sha256": "6523d30a980a419a4b6a80dbd1533ef9adfe522a3cc1453772e62c989d7e8016"
    },
    "verification": null,
    "view": null
   },
   {
    "seq": 158,
-   "event_id": "8be7a075-3678-44dc-b408-42876acca31b",
-   "ts": "2026-11-23T20:13:35.240596Z",
+   "event_id": "c86c3981-f22f-4157-8673-ae8900bfce37",
+   "ts": "2026-11-25T21:08:09.025789Z",
    "schema_version": 1,
    "type": "task.started",
    "project_id": "noether",
@@ -5428,8 +5428,8 @@
   },
   {
    "seq": 159,
-   "event_id": "f26d2814-ad3a-4f6e-bfed-2ed54ef504e5",
-   "ts": "2026-11-23T20:13:35.244805Z",
+   "event_id": "fd83f3ab-1c25-47cb-ab91-c64beba02727",
+   "ts": "2026-11-25T21:08:09.036211Z",
    "schema_version": 1,
    "type": "capability.unavailable",
    "project_id": "noether",
@@ -5451,8 +5451,8 @@
   },
   {
    "seq": 160,
-   "event_id": "470aaa86-7bf7-41b4-8c6d-4fd8ad01b62d",
-   "ts": "2026-11-23T20:13:35.248506Z",
+   "event_id": "078455c7-292a-47a8-83da-2771634e849f",
+   "ts": "2026-11-25T21:08:09.041030Z",
    "schema_version": 1,
    "type": "task.started",
    "project_id": "noether",
@@ -5474,8 +5474,8 @@
   },
   {
    "seq": 161,
-   "event_id": "2d261997-5263-4fd4-9818-843b66b5d999",
-   "ts": "2026-11-23T20:13:35.255129Z",
+   "event_id": "d0512bef-726b-417f-895d-b10b4538040c",
+   "ts": "2026-11-25T21:08:09.042883Z",
    "schema_version": 1,
    "type": "capability.unavailable",
    "project_id": "noether",
@@ -5497,8 +5497,8 @@
   },
   {
    "seq": 162,
-   "event_id": "b279dc4c-f888-4545-9870-17c5e8b5c6da",
-   "ts": "2026-11-23T20:13:35.260291Z",
+   "event_id": "377923d2-5071-428f-a8c0-5e55180bed9c",
+   "ts": "2026-11-25T21:08:09.044968Z",
    "schema_version": 1,
    "type": "task.started",
    "project_id": "noether",
@@ -5520,8 +5520,8 @@
   },
   {
    "seq": 163,
-   "event_id": "a216bda4-0b21-4b73-bb27-baac9e335907",
-   "ts": "2026-11-23T20:13:35.265096Z",
+   "event_id": "f9841957-d192-4cf8-820c-3d1e272d27de",
+   "ts": "2026-11-25T21:08:09.052257Z",
    "schema_version": 1,
    "type": "capability.unavailable",
    "project_id": "noether",
@@ -5543,8 +5543,8 @@
   },
   {
    "seq": 164,
-   "event_id": "60bed39c-5886-4824-8463-59c36083a50b",
-   "ts": "2026-11-23T20:13:42.294438Z",
+   "event_id": "654000ef-4a4e-4713-a90b-63d3374c8403",
+   "ts": "2026-11-25T21:08:13.090379Z",
    "schema_version": 1,
    "type": "worker.recovered",
    "project_id": "noether",
@@ -5567,8 +5567,8 @@
   },
   {
    "seq": 165,
-   "event_id": "307e3880-7f96-4737-b889-ef9951ff190a",
-   "ts": "2026-11-23T20:13:42.295064Z",
+   "event_id": "ac6aa155-bbfe-448d-bb27-4042ef4f25ab",
+   "ts": "2026-11-25T21:08:13.090649Z",
    "schema_version": 1,
    "type": "task.started",
    "project_id": "noether",
@@ -5590,57 +5590,8 @@
   },
   {
    "seq": 166,
-   "event_id": "793da674-8afe-4c34-9880-58c6754b5700",
-   "ts": "2026-11-23T20:13:43.367299Z",
-   "schema_version": 1,
-   "type": "experiment.completed",
-   "project_id": "noether",
-   "problem_id": "ym",
-   "campaign_id": null,
-   "task_id": "Y01",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": "w-alpha"
-   },
-   "artifacts": [
-    {
-     "id": "art-96ce6e21bd24e4c1",
-     "sha256": "96ce6e21bd24e4c10c44cb3dee4bc41b287652c1eefea80d7b069ecf895e8c91"
-    }
-   ],
-   "summary": "Exact 2D U(1) plaquette (character expansion): \u03b2=0.5: 0.2424996, \u03b2=1: 0.4463899, \u03b2=2: 0.6977746, \u03b2=3: 0.8099852, \u03b2=4: 0.8635226",
-   "provenance": {},
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 167,
-   "event_id": "1d06f7e5-9ad4-45bc-a215-f1e2648685af",
-   "ts": "2026-11-23T20:13:43.368326Z",
-   "schema_version": 1,
-   "type": "task.completed",
-   "project_id": "noether",
-   "problem_id": "ym",
-   "campaign_id": null,
-   "task_id": "Y01",
-   "run_id": null,
-   "actor": {
-    "role": "ARITHMETIC",
-    "worker_id": "w-alpha"
-   },
-   "artifacts": [],
-   "summary": "Arithmetic: Exact 2D U(1) plaquette table for the browser checks",
-   "provenance": {
-    "result_sha256": "7972cd2ad66a892b1493b433a82731600b0662f3108846ca53b7f93903bac2c6"
-   },
-   "verification": null,
-   "view": null
-  },
-  {
-   "seq": 168,
-   "event_id": "2053b58e-1814-43a3-8c62-94dca60b839e",
-   "ts": "2026-11-23T20:13:46.219332Z",
+   "event_id": "d4ce4b91-1f3c-4d50-a922-cba45ac54b41",
+   "ts": "2026-11-25T21:08:19.324865Z",
    "schema_version": 1,
    "type": "experiment.completed",
    "project_id": "noether",
@@ -5667,9 +5618,9 @@
    }
   },
   {
-   "seq": 169,
-   "event_id": "6e4ccff7-b916-4161-9fe7-4db0284dcbdb",
-   "ts": "2026-11-23T20:13:46.220551Z",
+   "seq": 167,
+   "event_id": "3a1d3ea5-a608-473e-979a-622db15b6112",
+   "ts": "2026-11-25T21:08:19.326029Z",
    "schema_version": 1,
    "type": "claim.proposed",
    "project_id": "noether",
@@ -5699,9 +5650,9 @@
    }
   },
   {
-   "seq": 170,
-   "event_id": "4649bdf5-8f39-47ae-b78e-f762f40f6fc2",
-   "ts": "2026-11-23T20:13:46.222211Z",
+   "seq": 168,
+   "event_id": "d1fb7b09-ced4-414b-a022-6205d546bd9e",
+   "ts": "2026-11-25T21:08:19.326852Z",
    "schema_version": 1,
    "type": "claim.promoted",
    "project_id": "noether",
@@ -5736,9 +5687,9 @@
    }
   },
   {
-   "seq": 171,
-   "event_id": "c206d28f-c97e-44a8-87ca-decac0ff4edb",
-   "ts": "2026-11-23T20:13:46.223654Z",
+   "seq": 169,
+   "event_id": "56c3813e-67e9-487d-915d-f69f53b70327",
+   "ts": "2026-11-25T21:08:19.328281Z",
    "schema_version": 1,
    "type": "task.completed",
    "project_id": "noether",
@@ -5759,9 +5710,9 @@
    "view": null
   },
   {
-   "seq": 172,
-   "event_id": "04df9043-74fe-4f36-b94a-55ac42611477",
-   "ts": "2026-11-23T20:13:46.225678Z",
+   "seq": 170,
+   "event_id": "5c86fde6-6979-475c-9fc4-373bea72b9b6",
+   "ts": "2026-11-25T21:08:19.330098Z",
    "schema_version": 1,
    "type": "task.started",
    "project_id": "noether",
@@ -5782,9 +5733,9 @@
    "view": null
   },
   {
-   "seq": 173,
-   "event_id": "5d40497f-a807-45ed-a239-384825bacf40",
-   "ts": "2026-11-23T20:13:46.227389Z",
+   "seq": 171,
+   "event_id": "f2bc5824-45fb-4543-8243-54510d1265d7",
+   "ts": "2026-11-25T21:08:19.331887Z",
    "schema_version": 1,
    "type": "statement.extracted",
    "project_id": "noether",
@@ -5806,9 +5757,9 @@
    "view": null
   },
   {
-   "seq": 174,
-   "event_id": "1847c54e-63b3-4176-8db9-fc144174a2e2",
-   "ts": "2026-11-23T20:13:46.228161Z",
+   "seq": 172,
+   "event_id": "e66db731-03ee-4591-9cc6-c76e205287f3",
+   "ts": "2026-11-25T21:08:19.333082Z",
    "schema_version": 1,
    "type": "statement.extracted",
    "project_id": "noether",
@@ -5830,9 +5781,9 @@
    "view": null
   },
   {
-   "seq": 175,
-   "event_id": "3c1c7d21-0b22-44fc-8978-eaa4bda6f705",
-   "ts": "2026-11-23T20:13:46.229279Z",
+   "seq": 173,
+   "event_id": "8d97b470-291e-4644-bfc1-83787f14125a",
+   "ts": "2026-11-25T21:08:19.334033Z",
    "schema_version": 1,
    "type": "statement.extracted",
    "project_id": "noether",
@@ -5854,9 +5805,9 @@
    "view": null
   },
   {
-   "seq": 176,
-   "event_id": "d252cce5-8a90-42e9-bf73-bb3291beede8",
-   "ts": "2026-11-23T20:13:46.231360Z",
+   "seq": 174,
+   "event_id": "a3c8fe2c-f64d-49db-9944-3f33d3329db5",
+   "ts": "2026-11-25T21:08:19.334764Z",
    "schema_version": 1,
    "type": "task.completed",
    "project_id": "noether",
@@ -5877,9 +5828,9 @@
    "view": null
   },
   {
-   "seq": 177,
-   "event_id": "0958782e-521b-485e-91ec-dd19a5216e69",
-   "ts": "2026-11-23T20:13:46.232625Z",
+   "seq": 175,
+   "event_id": "462d6dc0-c952-4470-879c-5829e7b2561f",
+   "ts": "2026-11-25T21:08:19.336060Z",
    "schema_version": 1,
    "type": "task.started",
    "project_id": "noether",
@@ -5900,9 +5851,9 @@
    "view": null
   },
   {
-   "seq": 178,
-   "event_id": "873d4383-e107-4396-a35e-d115523b75c9",
-   "ts": "2026-11-23T20:13:46.366246Z",
+   "seq": 176,
+   "event_id": "abd420b8-a306-4541-bbe3-a01cf39217b0",
+   "ts": "2026-11-25T21:08:19.592038Z",
    "schema_version": 1,
    "type": "experiment.completed",
    "project_id": "noether",
@@ -5930,9 +5881,9 @@
    }
   },
   {
-   "seq": 179,
-   "event_id": "ab3f5120-2418-4154-8988-a4f021cb8034",
-   "ts": "2026-11-23T20:13:46.367362Z",
+   "seq": 177,
+   "event_id": "eedac9f9-33ca-4315-940d-c6eb0a5c0233",
+   "ts": "2026-11-25T21:08:19.593146Z",
    "schema_version": 1,
    "type": "task.completed",
    "project_id": "noether",
@@ -5953,9 +5904,9 @@
    "view": null
   },
   {
-   "seq": 180,
-   "event_id": "d0d7b635-b26e-49bf-bf90-7f301f8929b2",
-   "ts": "2026-11-23T20:13:46.369525Z",
+   "seq": 178,
+   "event_id": "678c58bb-52f4-4cda-8310-8713a69d2eaf",
+   "ts": "2026-11-25T21:08:19.594809Z",
    "schema_version": 1,
    "type": "task.started",
    "project_id": "noether",
@@ -5976,9 +5927,9 @@
    "view": null
   },
   {
-   "seq": 181,
-   "event_id": "4511d02c-d87b-482a-ab88-dfbefecc7015",
-   "ts": "2026-11-23T20:13:46.372122Z",
+   "seq": 179,
+   "event_id": "7b996ecf-64a2-462c-b5ac-0f2030f7aa7a",
+   "ts": "2026-11-25T21:08:19.597386Z",
    "schema_version": 1,
    "type": "claim.proposed",
    "project_id": "noether",
@@ -6003,9 +5954,9 @@
    }
   },
   {
-   "seq": 182,
-   "event_id": "891cc479-c2f5-4a52-8551-22d60bdbf438",
-   "ts": "2026-11-23T20:13:46.373005Z",
+   "seq": 180,
+   "event_id": "895c6583-1b25-4979-bdbf-194592e872d7",
+   "ts": "2026-11-25T21:08:19.598271Z",
    "schema_version": 1,
    "type": "claim.refuted",
    "project_id": "noether",
@@ -6031,9 +5982,9 @@
    }
   },
   {
-   "seq": 183,
-   "event_id": "83dd8d4b-ab37-4127-9f51-847643de2795",
-   "ts": "2026-11-23T20:13:46.374393Z",
+   "seq": 181,
+   "event_id": "ee433d21-3ce9-4bc2-a163-97de147469d6",
+   "ts": "2026-11-25T21:08:19.599738Z",
    "schema_version": 1,
    "type": "task.completed",
    "project_id": "noether",
@@ -6054,9 +6005,9 @@
    "view": null
   },
   {
-   "seq": 184,
-   "event_id": "d79bebbf-fc88-48d9-955e-17691807c919",
-   "ts": "2026-11-23T20:13:46.375976Z",
+   "seq": 182,
+   "event_id": "28d77704-cd53-4ca7-9336-92cb0e8c2712",
+   "ts": "2026-11-25T21:08:19.601094Z",
    "schema_version": 1,
    "type": "task.started",
    "project_id": "noether",
@@ -6077,9 +6028,9 @@
    "view": null
   },
   {
-   "seq": 185,
-   "event_id": "8c141e6e-8953-4b37-ae14-a1d92d36bfa0",
-   "ts": "2026-11-23T20:13:46.377060Z",
+   "seq": 183,
+   "event_id": "caed852e-ec58-4d9f-9ecb-a0d6a349f7f5",
+   "ts": "2026-11-25T21:08:19.602215Z",
    "schema_version": 1,
    "type": "capability.unavailable",
    "project_id": "noether",
@@ -6100,9 +6051,9 @@
    "view": null
   },
   {
-   "seq": 186,
-   "event_id": "40a6feb7-42ec-4dba-850d-e59ab9e01e9f",
-   "ts": "2026-11-23T20:13:46.378558Z",
+   "seq": 184,
+   "event_id": "b99dd0db-fbee-4828-9a13-a36f9f4c96d9",
+   "ts": "2026-11-25T21:08:19.604087Z",
    "schema_version": 1,
    "type": "task.started",
    "project_id": "noether",
@@ -6123,9 +6074,9 @@
    "view": null
   },
   {
-   "seq": 187,
-   "event_id": "fbd83eb1-4cde-492b-8720-56b40cc8124c",
-   "ts": "2026-11-23T20:13:46.383395Z",
+   "seq": 185,
+   "event_id": "c3815e21-ca9b-4eb0-9916-f3e01ccdaafd",
+   "ts": "2026-11-25T21:08:19.607380Z",
    "schema_version": 1,
    "type": "report.published",
    "project_id": "noether",
@@ -6153,9 +6104,9 @@
    }
   },
   {
-   "seq": 188,
-   "event_id": "f58d9824-ddeb-47b1-a9f5-029edff36962",
-   "ts": "2026-11-23T20:13:46.384898Z",
+   "seq": 186,
+   "event_id": "ba3cc192-9bf8-401e-aa63-329f4c029a90",
+   "ts": "2026-11-25T21:08:19.608634Z",
    "schema_version": 1,
    "type": "task.completed",
    "project_id": "noether",
@@ -6174,35 +6125,58 @@
    },
    "verification": null,
    "view": null
+  },
+  {
+   "seq": 187,
+   "event_id": "530d264e-4091-49d3-95a8-3e45862e77f3",
+   "ts": "2026-11-25T21:08:19.731705Z",
+   "schema_version": 1,
+   "type": "experiment.completed",
+   "project_id": "noether",
+   "problem_id": "ym",
+   "campaign_id": null,
+   "task_id": "Y01",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": "w-alpha"
+   },
+   "artifacts": [
+    {
+     "id": "art-96ce6e21bd24e4c1",
+     "sha256": "96ce6e21bd24e4c10c44cb3dee4bc41b287652c1eefea80d7b069ecf895e8c91"
+    }
+   ],
+   "summary": "Exact 2D U(1) plaquette (character expansion): \u03b2=0.5: 0.2424996, \u03b2=1: 0.4463899, \u03b2=2: 0.6977746, \u03b2=3: 0.8099852, \u03b2=4: 0.8635226",
+   "provenance": {},
+   "verification": null,
+   "view": null
+  },
+  {
+   "seq": 188,
+   "event_id": "d41a276e-ec28-415a-b9ae-e5db787f6f55",
+   "ts": "2026-11-25T21:08:19.732749Z",
+   "schema_version": 1,
+   "type": "task.completed",
+   "project_id": "noether",
+   "problem_id": "ym",
+   "campaign_id": null,
+   "task_id": "Y01",
+   "run_id": null,
+   "actor": {
+    "role": "ARITHMETIC",
+    "worker_id": "w-alpha"
+   },
+   "artifacts": [],
+   "summary": "Arithmetic: Exact 2D U(1) plaquette table for the browser checks",
+   "provenance": {
+    "result_sha256": "3b9e0143c3402bf754abe7e3c43173d2e763ced82486c98a4797fb6a28498678"
+   },
+   "verification": null,
+   "view": null
   }
  ],
  "artifacts": [
-  {
-   "id": "art-a44799da1b89f0ce",
-   "sha256": "a44799da1b89f0ce905b09c00a6a2e80eb44317e5a2ef6547d57e15999c8e0be",
-   "kind": "lean.log",
-   "title": "Lean log for center_zero",
-   "task_id": "T14",
-   "exactness": "text",
-   "conditional_flags": [],
-   "reproducer": null,
-   "bytes": 137,
-   "created_at": "2026-11-23T20:13:28.184606Z",
-   "data": null
-  },
-  {
-   "id": "art-33f4ebad29ff9126",
-   "sha256": "33f4ebad29ff91264c0e19e81e69251f68f2e7012916171b47986faee5a475c6",
-   "kind": "lean.source",
-   "title": "lean/NoetherLemmas/CenterZero.lean",
-   "task_id": "T14",
-   "exactness": "exact",
-   "conditional_flags": [],
-   "reproducer": null,
-   "bytes": 416,
-   "created_at": "2026-11-23T20:13:28.186376Z",
-   "data": null
-  },
   {
    "id": "art-ec1687a5b0588cd3",
    "sha256": "ec1687a5b0588cd37de5542198f51d091907f7519959aabbd06b9bacb6fa1a97",
@@ -6213,7 +6187,7 @@
    "conditional_flags": [],
    "reproducer": "echo '{\"op\":\"invariants\",\"args\":{\"ainvs\":[0, -1, 1, -10, -20]}}' | PYTHONPATH=research python3 -m noether_engine.domains.bsd",
    "bytes": 798,
-   "created_at": "2026-11-23T20:13:28.284747Z",
+   "created_at": "2026-11-25T21:07:42.565515Z",
    "data": null
   },
   {
@@ -6226,7 +6200,7 @@
    "conditional_flags": [],
    "reproducer": "echo '{\"op\":\"invariants\",\"args\":{\"ainvs\":[0, 0, 1, -1, 0]}}' | PYTHONPATH=research python3 -m noether_engine.domains.bsd",
    "bytes": 878,
-   "created_at": "2026-11-23T20:13:28.362362Z",
+   "created_at": "2026-11-25T21:07:42.867330Z",
    "data": null
   },
   {
@@ -6239,7 +6213,7 @@
    "conditional_flags": [],
    "reproducer": "echo '{\"op\":\"invariants\",\"args\":{\"ainvs\":[0, 1, 1, -2, 0]}}' | PYTHONPATH=research python3 -m noether_engine.domains.bsd",
    "bytes": 1004,
-   "created_at": "2026-11-23T20:13:28.439238Z",
+   "created_at": "2026-11-25T21:07:43.085827Z",
    "data": null
   },
   {
@@ -6252,25 +6226,8 @@
    "conditional_flags": [],
    "reproducer": "echo '{\"op\":\"invariants\",\"args\":{\"ainvs\":[0, 0, 1, -7, 6]}}' | PYTHONPATH=research python3 -m noether_engine.domains.bsd",
    "bytes": 1095,
-   "created_at": "2026-11-23T20:13:28.526685Z",
+   "created_at": "2026-11-25T21:07:43.916805Z",
    "data": null
-  },
-  {
-   "id": "art-e95bdeb7d6f56b71",
-   "sha256": "e95bdeb7d6f56b71862edcb94d7843e5bc0092ca4bc834676e6f67c0cc6d12fe",
-   "kind": "audit.rerun",
-   "title": "Fresh-process re-run for 11a1",
-   "task_id": "T09",
-   "exactness": "text",
-   "conditional_flags": [],
-   "reproducer": null,
-   "bytes": 167,
-   "created_at": "2026-11-23T20:13:28.630998Z",
-   "data": {
-    "match": true,
-    "rerun": "e46550b735032352828d7705f18ac13492f277bb5c8a46b076382109625b6821",
-    "original": "e46550b735032352828d7705f18ac13492f277bb5c8a46b076382109625b6821"
-   }
   },
   {
    "id": "art-2a8c531896436358",
@@ -6284,8 +6241,25 @@
    ],
    "reproducer": "echo '{\"op\":\"invariants\",\"args\":{\"ainvs\":[1, -1, 0, -79, 289]}}' | PYTHONPATH=research python3 -m noether_engine.domains.bsd",
    "bytes": 1230,
-   "created_at": "2026-11-23T20:13:28.686732Z",
+   "created_at": "2026-11-25T21:07:44.443393Z",
    "data": null
+  },
+  {
+   "id": "art-e95bdeb7d6f56b71",
+   "sha256": "e95bdeb7d6f56b71862edcb94d7843e5bc0092ca4bc834676e6f67c0cc6d12fe",
+   "kind": "audit.rerun",
+   "title": "Fresh-process re-run for 11a1",
+   "task_id": "T09",
+   "exactness": "text",
+   "conditional_flags": [],
+   "reproducer": null,
+   "bytes": 167,
+   "created_at": "2026-11-25T21:07:44.693527Z",
+   "data": {
+    "match": true,
+    "rerun": "e46550b735032352828d7705f18ac13492f277bb5c8a46b076382109625b6821",
+    "original": "e46550b735032352828d7705f18ac13492f277bb5c8a46b076382109625b6821"
+   }
   },
   {
    "id": "art-620fc20e222407ff",
@@ -6297,7 +6271,7 @@
    "conditional_flags": [],
    "reproducer": null,
    "bytes": 167,
-   "created_at": "2026-11-23T20:13:28.777083Z",
+   "created_at": "2026-11-25T21:07:46.185425Z",
    "data": {
     "match": true,
     "rerun": "d460d9f73fa520bfed9be967dc296c195c6aa0940372bba289c37f61b5401b83",
@@ -6314,7 +6288,7 @@
    "conditional_flags": [],
    "reproducer": null,
    "bytes": 167,
-   "created_at": "2026-11-23T20:13:28.826688Z",
+   "created_at": "2026-11-25T21:07:47.293816Z",
    "data": {
     "match": true,
     "rerun": "638339c7b425ae45f8b799736eaa396838f2021c08ebe192baa5428fe38a9490",
@@ -6331,7 +6305,7 @@
    "conditional_flags": [],
    "reproducer": null,
    "bytes": 167,
-   "created_at": "2026-11-23T20:13:28.907303Z",
+   "created_at": "2026-11-25T21:07:48.135984Z",
    "data": {
     "match": true,
     "rerun": "cae0136ecfa20d354407e72a87a2e266a62287468837cfd0ce07dfb6f54c60d5",
@@ -6348,12 +6322,38 @@
    "conditional_flags": [],
    "reproducer": null,
    "bytes": 167,
-   "created_at": "2026-11-23T20:13:29.032052Z",
+   "created_at": "2026-11-25T21:07:49.650586Z",
    "data": {
     "match": true,
     "rerun": "be2a437e29cb6d2b668fd1dc50412ffeebc4360a607a604ab392bb9af48346e6",
     "original": "be2a437e29cb6d2b668fd1dc50412ffeebc4360a607a604ab392bb9af48346e6"
    }
+  },
+  {
+   "id": "art-a44799da1b89f0ce",
+   "sha256": "a44799da1b89f0ce905b09c00a6a2e80eb44317e5a2ef6547d57e15999c8e0be",
+   "kind": "lean.log",
+   "title": "Lean log for center_zero",
+   "task_id": "T14",
+   "exactness": "text",
+   "conditional_flags": [],
+   "reproducer": null,
+   "bytes": 137,
+   "created_at": "2026-11-25T21:08:00.408934Z",
+   "data": null
+  },
+  {
+   "id": "art-33f4ebad29ff9126",
+   "sha256": "33f4ebad29ff91264c0e19e81e69251f68f2e7012916171b47986faee5a475c6",
+   "kind": "lean.source",
+   "title": "lean/NoetherLemmas/CenterZero.lean",
+   "task_id": "T14",
+   "exactness": "exact",
+   "conditional_flags": [],
+   "reproducer": null,
+   "bytes": 416,
+   "created_at": "2026-11-25T21:08:00.410407Z",
+   "data": null
   },
   {
    "id": "art-3d3dcbedf85beb9e",
@@ -6365,7 +6365,7 @@
    "conditional_flags": [],
    "reproducer": null,
    "bytes": 107,
-   "created_at": "2026-11-23T20:13:29.221828Z",
+   "created_at": "2026-11-25T21:08:00.489528Z",
    "data": null
   },
   {
@@ -6378,12 +6378,12 @@
    "conditional_flags": [],
    "reproducer": null,
    "bytes": 474,
-   "created_at": "2026-11-23T20:13:29.223072Z",
+   "created_at": "2026-11-25T21:08:00.495070Z",
    "data": null
   },
   {
-   "id": "art-73a126406f14d318",
-   "sha256": "73a126406f14d3182c434bc5508408e4a235a4083788e8273bcc4f64822405aa",
+   "id": "art-4f60cd258fbedcc3",
+   "sha256": "4f60cd258fbedcc37e88f52c24d3dba174575d6f4f4dffda7fd0eb832cb24a35",
    "kind": "lean.log",
    "title": "Lean log for rank_four_vanishing_placeholder",
    "task_id": "T16",
@@ -6391,7 +6391,7 @@
    "conditional_flags": [],
    "reproducer": null,
    "bytes": 198,
-   "created_at": "2026-11-23T20:13:29.296602Z",
+   "created_at": "2026-11-25T21:08:00.709199Z",
    "data": null
   },
   {
@@ -6404,12 +6404,12 @@
    "conditional_flags": [],
    "reproducer": null,
    "bytes": 170,
-   "created_at": "2026-11-23T20:13:29.298159Z",
+   "created_at": "2026-11-25T21:08:00.710572Z",
    "data": null
   },
   {
-   "id": "art-56a999ddb4519b6a",
-   "sha256": "56a999ddb4519b6a3e6e210af1a64f2e192b2e1027b3241635fb4237b003687a",
+   "id": "art-ac26a652d7973ebc",
+   "sha256": "ac26a652d7973ebc406da4de68840afcb4ca49b3551357d87288c5c59dd7fdb8",
    "kind": "lean.log",
    "title": "Lean log for target_by_assumption",
    "task_id": "T17",
@@ -6417,7 +6417,7 @@
    "conditional_flags": [],
    "reproducer": null,
    "bytes": 293,
-   "created_at": "2026-11-23T20:13:29.465471Z",
+   "created_at": "2026-11-25T21:08:00.851641Z",
    "data": null
   },
   {
@@ -6430,7 +6430,7 @@
    "conditional_flags": [],
    "reproducer": null,
    "bytes": 193,
-   "created_at": "2026-11-23T20:13:29.466945Z",
+   "created_at": "2026-11-25T21:08:00.852992Z",
    "data": null
   },
   {
@@ -6443,7 +6443,7 @@
    "conditional_flags": [],
    "reproducer": null,
    "bytes": 90,
-   "created_at": "2026-11-23T20:13:29.569528Z",
+   "created_at": "2026-11-25T21:08:01.023695Z",
    "data": null
   },
   {
@@ -6456,7 +6456,7 @@
    "conditional_flags": [],
    "reproducer": null,
    "bytes": 184,
-   "created_at": "2026-11-23T20:13:29.571368Z",
+   "created_at": "2026-11-25T21:08:01.028863Z",
    "data": null
   },
   {
@@ -6469,12 +6469,12 @@
    "conditional_flags": [],
    "reproducer": null,
    "bytes": 3594,
-   "created_at": "2026-11-23T20:13:32.035008Z",
+   "created_at": "2026-11-25T21:08:05.262218Z",
    "data": null
   },
   {
-   "id": "art-1b22fbc97b1cc149",
-   "sha256": "1b22fbc97b1cc149a99214ffe4ec233f87ce4471f873f992cfae9a9445477eb0",
+   "id": "art-5e53e132740755dc",
+   "sha256": "5e53e132740755dcd90d71c9de080e52d0b556f5cdd3c0d87cbd8b36e6e6506f",
    "kind": "hodge.script",
    "title": "clebsch.json",
    "task_id": "H01",
@@ -6482,57 +6482,8 @@
    "conditional_flags": [],
    "reproducer": "python3 -I research/scripts/gen_hodge.py <outdir>",
    "bytes": 11843,
-   "created_at": "2026-11-23T20:13:35.210720Z",
+   "created_at": "2026-11-25T21:08:08.997630Z",
    "data": null
-  },
-  {
-   "id": "art-96ce6e21bd24e4c1",
-   "sha256": "96ce6e21bd24e4c10c44cb3dee4bc41b287652c1eefea80d7b069ecf895e8c91",
-   "kind": "ym.u1_exact",
-   "title": "Exact 2D U(1) plaquette table for the browser checks",
-   "task_id": "Y01",
-   "exactness": "exact",
-   "conditional_flags": [],
-   "reproducer": null,
-   "bytes": 594,
-   "created_at": "2026-11-23T20:13:43.366219Z",
-   "data": {
-    "rows": [
-     {
-      "L": 16,
-      "beta": 0.5,
-      "infinite_volume": "0.242499612580802",
-      "plaquette_exact": "0.242499612580802"
-     },
-     {
-      "L": 16,
-      "beta": 1,
-      "infinite_volume": "0.446389965896535",
-      "plaquette_exact": "0.446389965896535"
-     },
-     {
-      "L": 16,
-      "beta": 2,
-      "infinite_volume": "0.697774657964008",
-      "plaquette_exact": "0.697774657964008"
-     },
-     {
-      "L": 16,
-      "beta": 3,
-      "infinite_volume": "0.809985293956505",
-      "plaquette_exact": "0.809985293956505"
-     },
-     {
-      "L": 16,
-      "beta": 4,
-      "infinite_volume": "0.863522611024551",
-      "plaquette_exact": "0.863522611024551"
-     }
-    ],
-    "scope": "2D U(1), finite periodic lattice",
-    "method": "character expansion, mpmath 30 digits",
-    "exactness": "exact"
-   }
   },
   {
    "id": "art-12229f73de60ff76",
@@ -6546,7 +6497,7 @@
    ],
    "reproducer": null,
    "bytes": 12470,
-   "created_at": "2026-11-23T20:13:46.216953Z",
+   "created_at": "2026-11-25T21:08:19.322566Z",
    "data": null
   },
   {
@@ -6561,7 +6512,7 @@
    ],
    "reproducer": null,
    "bytes": 594,
-   "created_at": "2026-11-23T20:13:46.364944Z",
+   "created_at": "2026-11-25T21:08:19.590681Z",
    "data": {
     "k": 2,
     "rows": [
@@ -6608,7 +6559,7 @@
    "conditional_flags": [],
    "reproducer": null,
    "bytes": 4740,
-   "created_at": "2026-11-23T20:13:46.380381Z",
+   "created_at": "2026-11-25T21:08:19.606382Z",
    "data": {
     "steps": [
      {
@@ -6788,31 +6739,58 @@
      }
     ]
    }
+  },
+  {
+   "id": "art-96ce6e21bd24e4c1",
+   "sha256": "96ce6e21bd24e4c10c44cb3dee4bc41b287652c1eefea80d7b069ecf895e8c91",
+   "kind": "ym.u1_exact",
+   "title": "Exact 2D U(1) plaquette table for the browser checks",
+   "task_id": "Y01",
+   "exactness": "exact",
+   "conditional_flags": [],
+   "reproducer": null,
+   "bytes": 594,
+   "created_at": "2026-11-25T21:08:19.730353Z",
+   "data": {
+    "rows": [
+     {
+      "L": 16,
+      "beta": 0.5,
+      "infinite_volume": "0.242499612580802",
+      "plaquette_exact": "0.242499612580802"
+     },
+     {
+      "L": 16,
+      "beta": 1,
+      "infinite_volume": "0.446389965896535",
+      "plaquette_exact": "0.446389965896535"
+     },
+     {
+      "L": 16,
+      "beta": 2,
+      "infinite_volume": "0.697774657964008",
+      "plaquette_exact": "0.697774657964008"
+     },
+     {
+      "L": 16,
+      "beta": 3,
+      "infinite_volume": "0.809985293956505",
+      "plaquette_exact": "0.809985293956505"
+     },
+     {
+      "L": 16,
+      "beta": 4,
+      "infinite_volume": "0.863522611024551",
+      "plaquette_exact": "0.863522611024551"
+     }
+    ],
+    "scope": "2D U(1), finite periodic lattice",
+    "method": "character expansion, mpmath 30 digits",
+    "exactness": "exact"
+   }
   }
  ],
  "verification": [
-  {
-   "id": "ver-a44799da1b89f0ce-center_zero",
-   "statement_id": "bsd:lean:center-zero",
-   "statement_hash": "a28b1de16b634c9dc23ff5aab2fb9a3814c9e0da1c2f44917b19bb9ad110dde5",
-   "kind": "lean",
-   "result": "passed",
-   "scope": "isolated lemma",
-   "toolchain": {
-    "toolchain": "leanprover/lean4:v4.36.0",
-    "lean --version": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
-   },
-   "axioms": [
-    "propext",
-    "Quot.sound"
-   ],
-   "findings": [],
-   "reproducer": "lean Check.lean  # file = submitted source + '#print axioms center_zero' + statement-correspondence example",
-   "log_artifact": "art-a44799da1b89f0ce",
-   "reviewer": "Lean kernel + NOETHER axiom audit",
-   "checked_at": "2026-11-23T20:13:28.187153Z",
-   "log_excerpt": ""
-  },
   {
    "id": "ver-e95bdeb7d6f56b71",
    "statement_id": "bsd:rank-eq:11a1",
@@ -6842,7 +6820,7 @@
    "reproducer": "PYTHONPATH=research python3 -m noether_engine.domains.bsd < request.json",
    "log_artifact": null,
    "reviewer": "Auditor (fresh process)",
-   "checked_at": "2026-11-23T20:13:28.632016Z",
+   "checked_at": "2026-11-25T21:07:44.728934Z",
    "log_excerpt": ""
   },
   {
@@ -6874,7 +6852,7 @@
    "reproducer": "PYTHONPATH=research python3 -m noether_engine.domains.bsd < request.json",
    "log_artifact": null,
    "reviewer": "Auditor (fresh process)",
-   "checked_at": "2026-11-23T20:13:28.778214Z",
+   "checked_at": "2026-11-25T21:07:46.240881Z",
    "log_excerpt": ""
   },
   {
@@ -6906,7 +6884,7 @@
    "reproducer": "PYTHONPATH=research python3 -m noether_engine.domains.bsd < request.json",
    "log_artifact": null,
    "reviewer": "Auditor (fresh process)",
-   "checked_at": "2026-11-23T20:13:28.827786Z",
+   "checked_at": "2026-11-25T21:07:47.500470Z",
    "log_excerpt": ""
   },
   {
@@ -6938,7 +6916,7 @@
    "reproducer": "PYTHONPATH=research python3 -m noether_engine.domains.bsd < request.json",
    "log_artifact": null,
    "reviewer": "Auditor (fresh process)",
-   "checked_at": "2026-11-23T20:13:28.911368Z",
+   "checked_at": "2026-11-25T21:07:48.547725Z",
    "log_excerpt": ""
   },
   {
@@ -6970,7 +6948,29 @@
    "reproducer": "PYTHONPATH=research python3 -m noether_engine.domains.bsd < request.json",
    "log_artifact": null,
    "reviewer": "Auditor (fresh process)",
-   "checked_at": "2026-11-23T20:13:29.033096Z",
+   "checked_at": "2026-11-25T21:07:49.839755Z",
+   "log_excerpt": ""
+  },
+  {
+   "id": "ver-a44799da1b89f0ce-center_zero",
+   "statement_id": "bsd:lean:center-zero",
+   "statement_hash": "a28b1de16b634c9dc23ff5aab2fb9a3814c9e0da1c2f44917b19bb9ad110dde5",
+   "kind": "lean",
+   "result": "passed",
+   "scope": "isolated lemma",
+   "toolchain": {
+    "toolchain": "leanprover/lean4:v4.36.0",
+    "lean --version": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+   },
+   "axioms": [
+    "propext",
+    "Quot.sound"
+   ],
+   "findings": [],
+   "reproducer": "lean Check.lean  # file = submitted source + '#print axioms center_zero' + statement-correspondence example",
+   "log_artifact": "art-a44799da1b89f0ce",
+   "reviewer": "Lean kernel + Lemma axiom audit",
+   "checked_at": "2026-11-25T21:08:00.412076Z",
    "log_excerpt": ""
   },
   {
@@ -6988,12 +6988,12 @@
    "findings": [],
    "reproducer": "lean Check.lean  # file = submitted source + '#print axioms p_rational_on_37a1' + statement-correspondence example",
    "log_artifact": "art-3d3dcbedf85beb9e",
-   "reviewer": "Lean kernel + NOETHER axiom audit",
-   "checked_at": "2026-11-23T20:13:29.223757Z",
+   "reviewer": "Lean kernel + Lemma axiom audit",
+   "checked_at": "2026-11-25T21:08:00.495954Z",
    "log_excerpt": ""
   },
   {
-   "id": "ver-73a126406f14d318-rank_four_vanishing_placeholder",
+   "id": "ver-4f60cd258fbedcc3-rank_four_vanishing_placeholder",
    "statement_id": "bsd:lean:seeded-sorry",
    "statement_hash": "02acfcc557b12920dbdbad920e29936a53ab3bfb1a48d8beded8597c25119ca2",
    "kind": "lean",
@@ -7010,13 +7010,13 @@
     "uses sorryAx: incomplete proof, cannot receive complete-proof status"
    ],
    "reproducer": "lean Check.lean  # file = submitted source + '#print axioms rank_four_vanishing_placeholder' + statement-correspondence example",
-   "log_artifact": "art-73a126406f14d318",
-   "reviewer": "Lean kernel + NOETHER axiom audit",
-   "checked_at": "2026-11-23T20:13:29.299005Z",
+   "log_artifact": "art-4f60cd258fbedcc3",
+   "reviewer": "Lean kernel + Lemma axiom audit",
+   "checked_at": "2026-11-25T21:08:00.711315Z",
    "log_excerpt": ""
   },
   {
-   "id": "ver-56a999ddb4519b6a-target_by_assumption",
+   "id": "ver-ac26a652d7973ebc-target_by_assumption",
    "statement_id": "bsd:lean:seeded-circular",
    "statement_hash": "8047d622312dffc4a95bb456afa1bcf652d49030f95e0cc27b95668c2a0f8273",
    "kind": "lean",
@@ -7033,9 +7033,9 @@
     "statement correspondence failed: the theorem does not prove the intended statement"
    ],
    "reproducer": "lean Check.lean  # file = submitted source + '#print axioms target_by_assumption' + statement-correspondence example",
-   "log_artifact": "art-56a999ddb4519b6a",
-   "reviewer": "Lean kernel + NOETHER axiom audit",
-   "checked_at": "2026-11-23T20:13:29.471101Z",
+   "log_artifact": "art-ac26a652d7973ebc",
+   "reviewer": "Lean kernel + Lemma axiom audit",
+   "checked_at": "2026-11-25T21:08:00.853644Z",
    "log_excerpt": ""
   },
   {
@@ -7059,8 +7059,8 @@
    ],
    "reproducer": "lean Check.lean  # file = submitted source + '#print axioms uses_axiom' + statement-correspondence example",
    "log_artifact": "art-b33d377589b3b1f1",
-   "reviewer": "Lean kernel + NOETHER axiom audit",
-   "checked_at": "2026-11-23T20:13:29.572162Z",
+   "reviewer": "Lean kernel + Lemma axiom audit",
+   "checked_at": "2026-11-25T21:08:01.029847Z",
    "log_excerpt": ""
   }
  ],
@@ -7194,44 +7194,36 @@
  ],
  "claim_history": [
   {
-   "statement_id": "bsd:lean:center-zero",
-   "old_status": "candidate",
-   "new_status": "formally-checked",
-   "reason": "Lean check passed (standard axioms, statement correspondence)",
-   "event_seq": 77,
-   "changed_at": "2026-11-23T20:13:28.191525Z"
-  },
-  {
    "statement_id": "bsd:rank-eq:11a1",
    "old_status": "candidate",
    "new_status": "verified-instance",
    "reason": "computation with exact components and no conditional flags; assumption recorded: numerical nonvanishing of L^(0)(E,1) at 38 digits (PARI floating point, not interval arithmetic)",
-   "event_seq": 88,
-   "changed_at": "2026-11-23T20:13:28.289865Z"
+   "event_seq": 82,
+   "changed_at": "2026-11-25T21:07:42.577109Z"
   },
   {
    "statement_id": "bsd:rank-eq:37a1",
    "old_status": "candidate",
    "new_status": "verified-instance",
    "reason": "computation with exact components and no conditional flags; assumption recorded: numerical nonvanishing of L^(1)(E,1) at 38 digits (PARI floating point, not interval arithmetic)",
-   "event_seq": 94,
-   "changed_at": "2026-11-23T20:13:28.370869Z"
+   "event_seq": 88,
+   "changed_at": "2026-11-25T21:07:42.937252Z"
   },
   {
    "statement_id": "bsd:rank-eq:389a1",
    "old_status": "candidate",
    "new_status": "verified-instance",
    "reason": "computation with exact components and no conditional flags; assumption recorded: numerical nonvanishing of L^(2)(E,1) at 38 digits (PARI floating point, not interval arithmetic)",
-   "event_seq": 100,
-   "changed_at": "2026-11-23T20:13:28.450993Z"
+   "event_seq": 94,
+   "changed_at": "2026-11-25T21:07:43.581609Z"
   },
   {
    "statement_id": "bsd:rank-eq:5077a1",
    "old_status": "candidate",
    "new_status": "verified-instance",
    "reason": "computation with exact components and no conditional flags; assumption recorded: numerical nonvanishing of L^(3)(E,1) at 38 digits (PARI floating point, not interval arithmetic)",
-   "event_seq": 106,
-   "changed_at": "2026-11-23T20:13:28.534305Z"
+   "event_seq": 100,
+   "changed_at": "2026-11-25T21:07:43.989380Z"
   },
   {
    "statement_id": "bsd:rank-eq:11a1",
@@ -7239,31 +7231,39 @@
    "new_status": "independently-reproduced",
    "reason": "fresh-process re-run matched",
    "event_seq": 109,
-   "changed_at": "2026-11-23T20:13:28.634345Z"
+   "changed_at": "2026-11-25T21:07:45.332969Z"
   },
   {
    "statement_id": "bsd:rank-eq:37a1",
    "old_status": "verified-instance",
    "new_status": "independently-reproduced",
    "reason": "fresh-process re-run matched",
-   "event_seq": 117,
-   "changed_at": "2026-11-23T20:13:28.780314Z"
+   "event_seq": 112,
+   "changed_at": "2026-11-25T21:07:46.466575Z"
   },
   {
    "statement_id": "bsd:rank-eq:389a1",
    "old_status": "verified-instance",
    "new_status": "independently-reproduced",
    "reason": "fresh-process re-run matched",
-   "event_seq": 120,
-   "changed_at": "2026-11-23T20:13:28.829438Z"
+   "event_seq": 115,
+   "changed_at": "2026-11-25T21:07:47.646529Z"
   },
   {
    "statement_id": "bsd:rank-eq:5077a1",
    "old_status": "verified-instance",
    "new_status": "independently-reproduced",
    "reason": "fresh-process re-run matched",
-   "event_seq": 123,
-   "changed_at": "2026-11-23T20:13:28.922866Z"
+   "event_seq": 118,
+   "changed_at": "2026-11-25T21:07:48.756606Z"
+  },
+  {
+   "statement_id": "bsd:lean:center-zero",
+   "old_status": "candidate",
+   "new_status": "formally-checked",
+   "reason": "Lean check passed (standard axioms, statement correspondence)",
+   "event_seq": 126,
+   "changed_at": "2026-11-25T21:08:00.415861Z"
   },
   {
    "statement_id": "bsd:lean:point-37a1",
@@ -7271,7 +7271,7 @@
    "new_status": "formally-checked",
    "reason": "Lean check passed (standard axioms, statement correspondence)",
    "event_seq": 132,
-   "changed_at": "2026-11-23T20:13:29.227230Z"
+   "changed_at": "2026-11-25T21:08:00.508741Z"
   },
   {
    "statement_id": "riemann:evidence-60",
@@ -7279,7 +7279,7 @@
    "new_status": "numerically-supported",
    "reason": "computation artifact present",
    "event_seq": 151,
-   "changed_at": "2026-11-23T20:13:32.050939Z"
+   "changed_at": "2026-11-25T21:08:05.279751Z"
   },
   {
    "statement_id": "hodge:clebsch-lines",
@@ -7287,23 +7287,23 @@
    "new_status": "verified-instance",
    "reason": "computation with exact components and no conditional flags",
    "event_seq": 156,
-   "changed_at": "2026-11-23T20:13:35.230939Z"
+   "changed_at": "2026-11-25T21:08:09.019708Z"
   },
   {
    "statement_id": "bsd:family-question",
    "old_status": "candidate",
    "new_status": "numerically-supported",
    "reason": "computation artifact present",
-   "event_seq": 170,
-   "changed_at": "2026-11-23T20:13:46.222501Z"
+   "event_seq": 168,
+   "changed_at": "2026-11-25T21:08:19.327235Z"
   },
   {
    "statement_id": "bsd:arg:numerical-zero",
    "old_status": "candidate",
    "new_status": "refuted",
    "reason": "cannot label unconditional: evidence carries ['numerical-threshold']",
-   "event_seq": 182,
-   "changed_at": "2026-11-23T20:13:46.373386Z"
+   "event_seq": 180,
+   "changed_at": "2026-11-25T21:08:19.598740Z"
   }
  ],
  "reviews": [
@@ -7319,7 +7319,7 @@
     ],
     "argument": "Since |L''(E,1)| < 10\u207b\u2074\u2070 at 38-digit precision, L''(E,1) = 0 and the analytic rank of 234446a1 is 4."
    },
-   "created_at": "2026-11-23T20:13:46.370485Z"
+   "created_at": "2026-11-25T21:08:19.595628Z"
   }
  ],
  "failed_approaches": [
@@ -7333,7 +7333,7 @@
    "failure_kind": "numerical",
    "retry_conditions": "Only with a theorem forcing vanishing, or a certified method for exact zeros",
    "related": [],
-   "created_at": "2026-11-23T20:13:28.703779Z"
+   "created_at": "2026-11-25T21:07:44.518759Z"
   }
  ],
  "report": {

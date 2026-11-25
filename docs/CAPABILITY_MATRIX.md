@@ -67,7 +67,7 @@ Official status: Unsolved (verified 2026-11-23). Community: Open. This app: Exac
 | Area | Capability | State | Detail |
 |---|---|---|---|
 | Computation | Exact lines on cubic surfaces | Implemented, runs on a research host | sympy/mpmath script with symbolic verification. |
-| Computation | Higher-dimensional Hodge computations | Not implemented | No adapter for periods or Noether-Lefschetz loci. |
+| Computation | Higher-dimensional Hodge computations | Not implemented | No adapter for periods or Noether–Lefschetz loci. |
 | Model reasoning | Claude provider | Needs credentials |  |
 
 ## Shared infrastructure

@@ -8,7 +8,7 @@ import "katex/dist/katex.min.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "NOETHER — The Mathematics Observatory",
+  title: "Lemma: the mathematics observatory",
   description: "Watch the argument take shape: real mathematical problems, inspectable evidence, and an honest research record.",
   robots: { index: true, follow: true },
 };

@@ -318,7 +318,7 @@ export const PROBLEMS: ProblemDefinition[] = [
     },
     capabilities: [
       { area: "Computation", name: "Exact lines on cubic surfaces", state: "available", detail: "sympy/mpmath script with symbolic verification." },
-      { area: "Computation", name: "Higher-dimensional Hodge computations", state: "not-implemented", detail: "No adapter for periods or Noether-Lefschetz loci." },
+      { area: "Computation", name: "Higher-dimensional Hodge computations", state: "not-implemented", detail: "No adapter for periods or Noether–Lefschetz loci." },
       { area: "Model reasoning", name: "Claude provider", state: "needs-credentials", detail: "" },
     ],
   },

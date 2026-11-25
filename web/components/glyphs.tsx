@@ -166,7 +166,7 @@ export function Icon({ name, className, title }: P & { name: string }) {
   }
 }
 
-/** The NOETHER aperture: a reticle with an elliptic arc and one rational point. */
+/** The Lemma aperture: a reticle with an elliptic arc and one rational point. */
 export function Aperture({ className }: { className?: string }) {
   return (
     <svg className={className} viewBox="0 0 28 28" fill="none" aria-hidden>

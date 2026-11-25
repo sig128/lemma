@@ -1,5 +1,5 @@
 {
- "exported_at": "2026-11-23T20:10:11.184Z",
+ "exported_at": "2026-11-25T21:06:56.135Z",
  "problems": [
   {
    "id": "bsd",
@@ -1243,7 +1243,7 @@
      "area": "Computation",
      "name": "Higher-dimensional Hodge computations",
      "state": "not-implemented",
-     "detail": "No adapter for periods or Noether-Lefschetz loci."
+     "detail": "No adapter for periods or Noether–Lefschetz loci."
     },
     {
      "area": "Model reasoning",

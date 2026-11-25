@@ -11,7 +11,7 @@ This bundle is evidence about one statement. It is not a proof of any Millennium
 
 ## Label history
 
-- 2026-11-23T20:13:29.227230Z: candidate → formally-checked. Lean check passed (standard axioms, statement correspondence)
+- 2026-11-25T21:08:00.508741Z: candidate → formally-checked. Lean check passed (standard axioms, statement correspondence)
 
 ## Assumptions
 

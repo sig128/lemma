@@ -1,6 +1,6 @@
 # Research model
 
-How NOETHER turns research into records that can be checked. The code is the authority; file references
+How Lemma turns research into records that can be checked. The code is the authority; file references
 point to it.
 
 ## Units of work
